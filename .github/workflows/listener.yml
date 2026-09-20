@@ -1,0 +1,29 @@
+name: listener
+# Each run listens for ~5h50m. Runs every 5h so consecutive runs overlap by
+# ~50min and cron jitter never leaves a gap; duplicates are de-duplicated on read.
+on:
+  schedule:
+    - cron: "0 */5 * * *"
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  listen:
+    runs-on: ubuntu-latest
+    timeout-minutes: 358
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: collector/requirements.txt
+      - run: pip install -q -r collector/requirements.txt
+      - run: bash .github/workflows/_checkout_data.sh
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - run: python collector/listener.py --seconds 21000
+        env:
+          DATA_DIR: ${{ github.workspace }}/data
+          WHALE_USD: "25000"
+          COMMIT_EVERY: "600"

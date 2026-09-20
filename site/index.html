@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PopDex Minor Insights</title>
+    <link rel="stylesheet" href="/src/style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>PopDex <span>Minor Insights</span></h1>
+      <nav id="nav">
+        <a href="#live" data-page="live">Live</a>
+        <a href="#markets" data-page="markets">Markets</a>
+        <a href="#weekend" data-page="weekend">Weekend Oracle</a>
+        <a href="#vault" data-page="vault">Protocol Vault</a>
+        <a href="#history" data-page="history">History</a>
+      </nav>
+      <div id="status" class="muted">connecting…</div>
+    </header>
+    <main id="app"></main>
+    <footer class="muted">
+      Data: PopDex public REST/WS, Morph Tachyon RPC, Arbitrum/Morph bridge logs.
+      History collected by <a href="https://github.com/eferbarn/PopDex_Minor_Insights">GitHub Actions</a> into the <code>data</code> branch. No backend.
+    </footer>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
