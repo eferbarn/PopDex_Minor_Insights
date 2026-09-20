@@ -7,3 +7,4 @@ site/dist/
 .env.local
 site/public/data-local
 data_local/
+.claude/
