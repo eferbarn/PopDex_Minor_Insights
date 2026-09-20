@@ -3,6 +3,7 @@
 // the real reopen?  All from 1H candles — no external data needed.
 import { symbols, candles, fmtPct, fmtUsd } from "../api.js";
 import { chart, tile, card, pageHead, C } from "../main.js";
+import { skelTiles, skelTable, chartLoading } from "../loading.js";
 
 const H = 3600e3;
 // reopen (UTC hour of the first candle after the underlying market reopens)
@@ -38,18 +39,21 @@ export default async function weekend(root) {
   const $ = (id) => root.querySelector("#" + id);
   root.innerHTML = pageHead("02 / WEEKEND ORACLE", "When the real market sleeps, <em class='tint'>who sets the price?</em>",
     "RWA futures keep trading while the underlying market is closed, priced only by the PopDex order book. Each point is one symbol-weekend: x = where the weekend book moved the price, y = where the underlying actually reopened. Points on the diagonal mean the weekend market was right.") +
-    `<div class="tiles" id="tiles"></div>
+    `<div class="tiles" id="tiles">${skelTiles(4)}</div>
      <div class="grid">
        ${card("Weekend move vs realized reopen move", `<div class="chart" id="sc" style="height:400px"></div>`, { wide: true, hint: "one dot per symbol-weekend · size = weekend volume" })}
-       ${card("Per symbol-weekend", `<div class="tbl" id="tbl"></div>`, { wide: true })}
+       ${card("Per symbol-weekend", `<div class="tbl" id="tbl">${skelTable(8, 10)}</div>`, { wide: true })}
      </div>`;
+  const ld = chartLoading($("sc"), "Loading hourly candles");
   const rwa = (await symbols()).filter((s) => s.assetClass === "Rwa" && s.status === "Trading");
   const rows = [];
+  let done = 0;
   for (let i = 0; i < rwa.length; i += 10) {
-    await Promise.all(rwa.slice(i, i + 10).map(async (s) => rows.push(...weekends(await candles(s.symbol, "1H", 1000), s.symbol))));
+    await Promise.all(rwa.slice(i, i + 10).map(async (s) => { rows.push(...weekends(await candles(s.symbol, "1H", 1000), s.symbol)); ld.progress(++done, rwa.length); }));
   }
+  ld.done();
   rows.sort((a, b) => b.week.localeCompare(a.week) || b.vol - a.vol);
-  if (!rows.length) { $("tbl").innerHTML = '<div class="empty">No complete weekends in the candle window yet.</div>'; return; }
+  if (!rows.length) { $("tiles").innerHTML = ""; $("tbl").innerHTML = '<div class="empty">No complete weekends in the candle window yet.</div>'; return; }
 
   const agree = rows.filter((r) => Math.sign(r.move) === Math.sign(r.realized) && Math.abs(r.move) > 0.0005).length;
   const moved = rows.filter((r) => Math.abs(r.move) > 0.0005).length;

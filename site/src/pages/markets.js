@@ -1,17 +1,19 @@
 // Markets: daily volume crypto vs RWA (1D candles for every symbol), current OI / funding table.
 import { symbols, paginate, candles, fmtUsd, fmtPct, fmtNum } from "../api.js";
 import { chart, tile, card, pageHead, C } from "../main.js";
+import { skelTiles, skelTable, chartLoading } from "../loading.js";
 
 export default async function markets(root) {
   const $ = (id) => root.querySelector("#" + id);
   root.innerHTML = pageHead("01 / MARKETS", "Volume, open interest and <em class='tint'>funding</em>", "Every futures market on PopDex since launch, from the public candle and ticker endpoints.") +
-    `<div class="tiles" id="tiles"></div>
+    `<div class="tiles" id="tiles">${skelTiles(4)}</div>
      <div class="grid">
        ${card("Daily volume — crypto vs RWA", `<div class="chart" id="vol"></div>`, { wide: true, hint: "USDT turnover" })}
        ${card("Share of volume by symbol", `<div class="chart" id="share"></div>`, { hint: "last 7 days" })}
        ${card("RWA share of daily volume", `<div class="chart" id="rwa"></div>`, { hint: "%" })}
-       ${card("Open interest & funding", `<div class="tbl" id="oi"></div>`, { wide: true, hint: "now" })}
+       ${card("Open interest & funding", `<div class="tbl" id="oi">${skelTable(8, 7)}</div>`, { wide: true, hint: "now" })}
      </div>`;
+  const ld = { vol: chartLoading($("vol"), "Loading daily candles"), share: chartLoading($("share"), "Loading"), rwa: chartLoading($("rwa"), "Loading") };
 
   const syms = (await symbols()).filter((s) => s.status === "Trading");
   const tickers = await paginate("/public/market/tickers", { category: "Futures" });
@@ -24,9 +26,11 @@ export default async function markets(root) {
     tile("24h volume", fmtUsd(tot24)) + tile("RWA share", fmtPct(rwa24 / tot24, 1), "of 24h volume") + tile("Open interest", fmtUsd(oiUsd), "mark value");
 
   const daily = {};
+  let done = 0;
   for (let i = 0; i < syms.length; i += 12) {
-    await Promise.all(syms.slice(i, i + 12).map(async (s) => (daily[s.symbol] = await candles(s.symbol, "1D", 200))));
+    await Promise.all(syms.slice(i, i + 12).map(async (s) => { daily[s.symbol] = await candles(s.symbol, "1D", 200); ld.vol.progress(++done, syms.length); }));
   }
+  ld.vol.done(); ld.share.done(); ld.rwa.done();
   const days = [...new Set(Object.values(daily).flat().map((c) => c.ts))].sort((a, b) => a - b);
   const sum = (cl) => days.map((d) => Object.entries(daily).filter(([s]) => cls[s] === cl).reduce((a, [, cs]) => a + (cs.find((c) => c.ts === d)?.q || 0), 0));
   const crypto = sum("Crypto"), rwa = sum("Rwa");

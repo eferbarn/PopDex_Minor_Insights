@@ -3,25 +3,28 @@
 import { rest, paginate, PROTOCOL_VAULT, PROTOCOL_MM, fmtUsd, fmtNum, fmtPct, short, fmtTime } from "../api.js";
 import { live, onLive } from "../live.js";
 import { chart, tile, card, pageHead, C } from "../main.js";
+import { skelTiles, skelTable, chartLoading } from "../loading.js";
 
 export default async function vault(root) {
   const $ = (id) => root.querySelector("#" + id);
   root.innerHTML = pageHead("03 / PROTOCOL VAULT", "The pool on the <em class='tint'>other side</em> of your trades",
     "The protocol vault market-makes, absorbs liquidations and backs the insurance funds. Its positions, fills and depositors are public.") +
-    `<div class="tiles" id="tiles"></div>
+    `<div class="tiles" id="tiles">${skelTiles(6)}</div>
      <div class="grid">
        ${card("Week PnL", `<div class="chart" id="pnl"></div>`, { hint: "from the vault list" })}
        ${card("Depositor concentration", `<div class="chart" id="dep"></div>`)}
-       ${card("Open positions", `<div class="tbl" id="pos"></div>`, { wide: true, hint: "inventory the LPs hold right now" })}
+       ${card("Open positions", `<div class="tbl" id="pos">${skelTable(8, 9)}</div>`, { wide: true, hint: "inventory the LPs hold right now" })}
        ${card("Live fills — market-making sub-account & insurance funds", `<div class="tiles" id="ftiles"></div><div class="feed" id="fills"></div>`, { wide: true, hint: short(PROTOCOL_MM) })}
      </div>`;
 
+  const ld = { pnl: chartLoading($("pnl"), "Loading"), dep: chartLoading($("dep"), "Loading depositors") };
   const v = (await rest("/vaults", { limit: 100 })).data.find((x) => x.vaultWalletId.toLowerCase() === PROTOCOL_VAULT);
   const ins = (await rest("/public/insurance-fund")).data;
   const insTot = ins.reduce((a, x) => a + +x.accountEquity, 0);
   $("tiles").innerHTML = tile("TVL", fmtUsd(v.totalEquity)) + tile("NAV", fmtNum(v.nav, 4), "USDT per share") + tile("APR", fmtPct(+v.apr, 2)) +
     tile("All-time PnL", fmtUsd(v.allTimePnl)) + tile("Lock-up", `${(+v.lockPeriodSeconds / 86400).toFixed(0)} <span class="unit">days</span>`, `leader shares ${fmtNum(v.leaderShares, 0)}`) + tile("Insurance funds", fmtUsd(insTot), `${ins.length} accounts`);
 
+  ld.pnl.done();
   chart($("pnl"), {
     xAxis: { type: "category", data: (v.weekPnl || []).map((p) => new Date(+p[0]).toISOString().slice(5, 16)) },
     yAxis: { type: "value" },
@@ -33,6 +36,7 @@ export default async function vault(root) {
   const buckets = [["top 1", 1], ["top 2-10", 10], ["top 11-50", 50], ["rest", Infinity]];
   let prev = 0;
   const data = buckets.map(([n, k]) => { const s = deps.slice(prev, k === Infinity ? undefined : k).reduce((a, d) => a + d.eq, 0); prev = k; return { name: n, value: s }; });
+  ld.dep.done();
   chart($("dep"), {
     tooltip: { trigger: "item", formatter: (p) => `${p.name}: ${fmtUsd(p.value)} (${p.percent}%)` },
     title: { text: `${deps.length} depositors`, left: "center", top: "middle", textStyle: { color: "#a0a3a7", fontSize: 12, fontWeight: 500 } },

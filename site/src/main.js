@@ -5,6 +5,7 @@ import weekend from "./pages/weekend.js";
 import vault from "./pages/vault.js";
 import history from "./pages/history.js";
 import { startLive, onStatus, onLive, live as liveStore } from "./live.js";
+import { spinner } from "./loading.js";
 
 const pages = { live, markets, weekend, vault, history };
 const app = document.getElementById("app");
@@ -57,7 +58,7 @@ async function route() {
   // navigated away writes into a detached element instead of the new page
   const root = document.createElement("div");
   root.className = "pd-rise";
-  root.innerHTML = '<div class="empty">loading…</div>';
+  root.innerHTML = spinner("Loading " + (name === "live" ? "the live view" : name));
   app.replaceChildren(root);
   try {
     const t = await page(root);

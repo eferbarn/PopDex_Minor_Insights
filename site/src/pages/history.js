@@ -2,6 +2,7 @@
 // the GitHub Actions collectors append to.
 import { dataDays, dataCsv, dataJson, fmtUsd, fmtNum, fmtPct } from "../api.js";
 import { chart, card, pageHead, C } from "../main.js";
+import { chartLoading } from "../loading.js";
 
 const day = (ts) => new Date(+ts).toISOString().slice(0, 10);
 const uniq = (rows, key) => { const seen = new Set(); return rows.filter((r) => { const k = key(r); if (seen.has(k)) return false; seen.add(k); return true; }); };
@@ -22,11 +23,14 @@ export default async function history(root) {
        ${card("Chain transactions per day", `<div class="chart" id="txs"></div>`, { hint: "explorer" })}
      </div>`;
 
+  const ids = ["ins", "nav", "liq", "bridge", "newdep", "acct", "churn", "txs"];
+  const ld = Object.fromEntries(ids.map((id) => [id, chartLoading($(id), "Loading data branch")]));
   const N = 45;
   const [snaps, liqs, arb, morph, acct, txDaily] = await Promise.all([
     dataDays("snapshots", N), dataDays("liquidations", N), dataCsv("bridge/arbitrum.csv"), dataCsv("bridge/morph.csv"),
     dataDays("active_accounts", N), dataJson("explorer_daily.json", {}),
   ]);
+  Object.values(ld).forEach((l) => l.done());
   const have = [snaps.length && "snapshots", liqs.length && "liquidations", (arb.length + morph.length) && "bridge", acct.length && "chain samples"].filter(Boolean);
   $("note").textContent = have.length ? `Loaded: ${have.join(", ")} · ${snaps.length} snapshots · ${liqs.length} liquidation events · ${arb.length + morph.length} bridge events` : "No collected data yet — the GitHub Actions workflows have not pushed to the data branch";
 
