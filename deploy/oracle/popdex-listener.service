@@ -1,0 +1,20 @@
+[Unit]
+Description=PopDex websocket listener (liquidations, whale fills, vault fills)
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+User=__USER__
+WorkingDirectory=/opt/popdex/code
+Environment=DATA_DIR=/opt/popdex/data-listener
+Environment=PUBLISH=1
+Environment=WHALE_USD=25000
+Environment=COMMIT_EVERY=600
+Environment=PYTHONUNBUFFERED=1
+ExecStart=/opt/popdex/venv/bin/python collector/listener.py --seconds 0
+Restart=always
+RestartSec=10
+Nice=5
+
+[Install]
+WantedBy=multi-user.target

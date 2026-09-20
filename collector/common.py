@@ -105,26 +105,36 @@ def update_index():
     write_json("index.json", {"updated": now_ms(), "days": idx})
 
 
-def publish(message):
-    """Commit + push DATA_DIR to the `data` branch. No-op when nothing changed or
-    when not running in CI (PUBLISH=1 forces it)."""
-    update_index()
+def _git(*args, check=True):
+    return subprocess.run(["git", "-C", DATA_DIR, *args], check=check, capture_output=True, text=True)
+
+
+def publish(message, index=False):
+    """Commit + push DATA_DIR to the `data` branch.
+
+    Two writers (snapshot, listener) push to the same branch from separate
+    clones. They never touch the same files — index.json is written only by
+    the snapshot job (index=True), after pulling so it also lists the
+    listener's day files — so a rebase never conflicts.
+    No-op outside CI unless PUBLISH=1."""
     if not (os.environ.get("GITHUB_ACTIONS") or os.environ.get("PUBLISH")):
         print("[publish] skipped (not in CI)")
         return
-    git = lambda *a: subprocess.run(["git", "-C", DATA_DIR, *a], check=True, capture_output=True, text=True)
-    git("add", "-A")
-    if not subprocess.run(["git", "-C", DATA_DIR, "diff", "--cached", "--quiet"]).returncode:
+    _git("pull", "--rebase", "--autostash", "-q", "origin", "data", check=False)
+    if index:
+        update_index()
+    _git("add", "-A")
+    if subprocess.run(["git", "-C", DATA_DIR, "diff", "--cached", "--quiet"]).returncode == 0:
         print("[publish] nothing to commit")
         return
-    git("commit", "-q", "-m", message)
+    _git("commit", "-q", "-m", message)
     for attempt in range(6):
         try:
-            subprocess.run(["git", "-C", DATA_DIR, "pull", "--rebase", "-q", "origin", "data"], check=False, capture_output=True)
-            git("push", "-q", "origin", "HEAD:data")
+            _git("push", "-q", "origin", "HEAD:data")
             print(f"[publish] pushed: {message}")
             return
         except subprocess.CalledProcessError as e:
-            print(f"[publish] push failed ({attempt}): {e.stderr.strip()[-200:]}")
-            time.sleep(5 + attempt * 5)
+            print(f"[publish] push rejected ({attempt}): {e.stderr.strip()[-160:]}")
+            _git("pull", "--rebase", "-q", "origin", "data", check=False)
+            time.sleep(3 + attempt * 5)
     raise RuntimeError("could not push data branch")

@@ -8,7 +8,7 @@ Subscribes once and writes:
   trade_hourly/YYYY-MM-DD.jsonl   per-symbol hourly buy/sell notional + trade count + size buckets
 Commits every COMMIT_EVERY seconds and on exit.
 
-usage: python collector/listener.py [--seconds 21000]
+usage: python collector/listener.py [--seconds 21000]   (0 = run forever, for a VM)
 """
 import argparse
 import asyncio
@@ -72,7 +72,7 @@ class Hourly:
 
 
 async def run(seconds):
-    deadline = time.time() + seconds
+    deadline = time.time() + seconds if seconds > 0 else float("inf")
     last_commit = time.time()
     hourly = Hourly()
     counts = defaultdict(int)

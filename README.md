@@ -8,6 +8,12 @@ Analytics for [PopDEX](https://app.popdex.xyz) (perp DEX on Morph Tachyon) with 
   - `listener.yml` every 5 h, runs ~5 h 50 min: public liquidations (with wallet id — PopDex keeps **no history** of these), whale fills, protocol-vault / insurance-fund fills, hourly per-symbol buy/sell aggregates. Consecutive runs overlap on purpose; the site de-duplicates.
 - `popdex/` + `scripts/` — event decoder for the Tachyon precompiles and a block sampler used for exploration.
 
+## Running the collectors elsewhere
+
+An always-on websocket listener is heavy for GitHub Actions (~750 runner-hours/month). `deploy/oracle/`
+has a one-command installer that runs both collectors on a free Oracle Cloud VM (or any Ubuntu box) with
+systemd; the site keeps reading the `data` branch and nothing else changes. See [deploy/oracle/README.md](deploy/oracle/README.md).
+
 ## Branches
 
 | branch | contents |

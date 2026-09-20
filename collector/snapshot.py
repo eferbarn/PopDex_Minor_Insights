@@ -116,4 +116,4 @@ if __name__ == "__main__":
     step("vault_positions", snapshot_vault_positions)
     step("active_accounts", snapshot_active_accounts)
     step("bridge", snapshot_bridge)
-    publish(f"snapshot {utc_day()} {now_ms()}")
+    publish(f"snapshot {utc_day()} {now_ms()}", index=True)

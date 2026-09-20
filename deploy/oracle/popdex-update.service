@@ -1,0 +1,8 @@
+[Unit]
+Description=Pull the latest collector code from main and restart the listener if it changed
+
+[Service]
+Type=oneshot
+User=__USER__
+WorkingDirectory=/opt/popdex/code
+ExecStart=/bin/bash -c 'old=$(git rev-parse HEAD); git pull -q --ff-only origin main || exit 0; if [ "$old" != "$(git rev-parse HEAD)" ]; then /opt/popdex/venv/bin/pip install -q -r collector/requirements.txt; sudo systemctl restart popdex-listener; fi'
