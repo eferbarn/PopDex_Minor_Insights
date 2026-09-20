@@ -1,7 +1,7 @@
 // Weekend Oracle: RWA perps keep trading while the underlying market is closed,
 // priced only by PopDex's own book. How well does the weekend price predict
 // the real reopen?  All from 1H candles — no external data needed.
-import { symbols, candles, fmtPct, fmtUsd } from "../api.js";
+import { symbols, candles, fmtPct, fmtUsd, fmtShort } from "../api.js";
 import { chart, tile, card, pageHead, C } from "../main.js";
 import { skelTiles, skelTable, chartLoading } from "../loading.js";
 
@@ -60,11 +60,11 @@ export default async function weekend(root) {
   const medErr = rows.map((r) => Math.abs(r.error)).sort((a, b) => a - b)[Math.floor(rows.length / 2)];
   const totVol = rows.reduce((a, r) => a + r.vol, 0);
   $("tiles").innerHTML = tile("Symbol-weekends", rows.length) + tile("Direction agreement", fmtPct(agree / (moved || 1), 0), `of ${moved} weekends with a move`) +
-    tile("Median reopen error", fmtPct(medErr, 2), "|reopen ÷ weekend price − 1|") + tile("Weekend RWA volume", fmtUsd(totVol), "Sat 00:00 → Sun 21:00 UTC");
+    tile("Median reopen error", fmtPct(medErr, 2), "|reopen ÷ weekend price − 1|") + tile("Weekend RWA volume", fmtShort(totVol), `Sat 00:00 → Sun 21:00 UTC · ${fmtUsd(totVol)}`);
 
   const lim = Math.ceil(Math.max(...rows.map((r) => Math.max(Math.abs(r.move), Math.abs(r.realized)))) * 100 * 1.1);
   chart($("sc"), {
-    tooltip: { trigger: "item", formatter: (p) => `${p.data[2]} ${p.data[3]}<br>weekend ${p.data[0].toFixed(2)}% → reopen ${p.data[1].toFixed(2)}%` },
+    tooltip: { trigger: "item", formatter: (p) => `${p.data[2]} ${p.data[3]}<br>weekend ${p.data[0].toFixed(2)}% → reopen ${p.data[1].toFixed(2)}%<br>volume ${fmtShort(p.data[4])}` },
     xAxis: { type: "value", name: "weekend move %", min: -lim, max: lim, splitLine: { lineStyle: { color: C.line, type: "dashed" } }, axisLabel: { color: C.dim } },
     yAxis: { type: "value", name: "realized %", min: -lim, max: lim },
     series: [
@@ -73,5 +73,5 @@ export default async function weekend(root) {
     ],
   });
   $("tbl").innerHTML = `<table><tr><th>Weekend</th><th>Symbol</th><th>Fri close</th><th>Sun 20:00</th><th>Reopen</th><th>Weekend move</th><th>Realized</th><th>Reopen error</th><th>Weekend vol</th><th>Active hrs</th></tr>` +
-    rows.map((r) => `<tr><td>${r.week}</td><td class="sym">${r.sym}</td><td>${r.fri}</td><td>${r.wk}</td><td>${r.open}</td><td class="${r.move >= 0 ? "up" : "down"}">${fmtPct(r.move)}</td><td class="${r.realized >= 0 ? "up" : "down"}">${fmtPct(r.realized)}</td><td>${fmtPct(r.error)}</td><td>${fmtUsd(r.vol)}</td><td>${r.activeHours}/45</td></tr>`).join("") + `</table>`;
+    rows.map((r) => `<tr><td>${r.week}</td><td class="sym">${r.sym}</td><td>${r.fri}</td><td>${r.wk}</td><td>${r.open}</td><td class="${r.move >= 0 ? "up" : "down"}">${fmtPct(r.move)}</td><td class="${r.realized >= 0 ? "up" : "down"}">${fmtPct(r.realized)}</td><td>${fmtPct(r.error)}</td><td>${fmtShort(r.vol)}</td><td>${r.activeHours}/45</td></tr>`).join("") + `</table>`;
 }

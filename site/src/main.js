@@ -6,6 +6,7 @@ import vault from "./pages/vault.js";
 import history from "./pages/history.js";
 import { startLive, onStatus, onLive, live as liveStore } from "./live.js";
 import { spinner } from "./loading.js";
+import { fmtK } from "./api.js";
 
 const pages = { live, markets, weekend, vault, history };
 const app = document.getElementById("app");
@@ -44,7 +45,7 @@ function renderStatus() {
   const pill = document.getElementById("ws-pill");
   document.getElementById("ws-status").textContent = liveStore.status;
   pill.classList.toggle("is-off", liveStore.status !== "live");
-  document.getElementById("ws-count").textContent = liveStore.state.stats.events.toLocaleString("en-US");
+  document.getElementById("ws-count").textContent = fmtK(liveStore.state.stats.events);
 }
 onStatus(renderStatus);
 onLive(renderStatus);

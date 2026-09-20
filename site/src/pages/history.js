@@ -1,6 +1,6 @@
 // History: everything the API does not keep — read from the `data` branch that
 // the GitHub Actions collectors append to.
-import { dataDays, dataCsv, dataJson, fmtUsd, fmtNum, fmtPct } from "../api.js";
+import { dataDays, dataCsv, dataJson, fmtUsd, fmtShort, fmtK, fmtNum, fmtPct } from "../api.js";
 import { chart, card, pageHead, C } from "../main.js";
 import { chartLoading } from "../loading.js";
 
@@ -38,13 +38,13 @@ export default async function history(root) {
   if (snaps.length) {
     const wallets = [...new Set(snaps.flatMap((s) => s.insurance.map((i) => i.wallet)))].filter((w) => !w.endsWith("fe"));
     chart($("ins"), {
-      xAxis: { type: "category", data: snaps.map((s) => t(s.ts)) }, yAxis: { type: "value", scale: true }, legend: { top: 0 },
+      xAxis: { type: "category", data: snaps.map((s) => t(s.ts)) }, yAxis: { type: "value", scale: true, axisLabel: { formatter: (v) => fmtShort(v) } }, legend: { top: 0 }, tooltip: { trigger: "axis", valueFormatter: (v) => fmtUsd(v, 2) },
       color: [C.brand, C.tint, C.grey],
       series: wallets.map((w) => ({ name: "…" + w.slice(-4), type: "line", showSymbol: false, data: snaps.map((s) => +(s.insurance.find((i) => i.wallet === w)?.equity ?? NaN)) })),
     });
     chart($("nav"), {
       xAxis: { type: "category", data: snaps.map((s) => t(s.ts)) },
-      yAxis: [{ type: "value", scale: true, name: "NAV" }, { type: "value", scale: true, name: "TVL", axisLabel: { formatter: (v) => "$" + (v / 1e6).toFixed(1) + "M" } }],
+      yAxis: [{ type: "value", scale: true, name: "NAV" }, { type: "value", scale: true, name: "TVL", axisLabel: { formatter: (v) => fmtShort(v) } }],
       legend: { top: 0 },
       series: [{ name: "NAV", type: "line", showSymbol: false, data: snaps.map((s) => +s.vault.nav) }, { name: "TVL", type: "line", yAxisIndex: 1, showSymbol: false, data: snaps.map((s) => +s.vault.totalEquity) }],
     });
@@ -55,7 +55,7 @@ export default async function history(root) {
   for (const l of L) { const d = (byDay[day(l.ts)] ||= { n: 0, usd: 0, long: 0, short: 0 }); d.n++; d.usd += +l.amount * +l.price; d[l.side === "Buy" ? "long" : "short"] += +l.amount * +l.price; }
   const ldays = Object.keys(byDay).sort();
   chart($("liq"), {
-    xAxis: { type: "category", data: ldays }, yAxis: [{ type: "value", name: "USD" }, { type: "value", name: "count" }], legend: { top: 0 },
+    xAxis: { type: "category", data: ldays }, yAxis: [{ type: "value", name: "USD", axisLabel: { formatter: (v) => fmtShort(v) } }, { type: "value", name: "count" }], legend: { top: 0 },
     series: [{ name: "longs liquidated", type: "bar", stack: "u", itemStyle: { color: C.ok }, data: ldays.map((d) => byDay[d].long) }, { name: "shorts liquidated", type: "bar", stack: "u", itemStyle: { color: C.bad }, data: ldays.map((d) => byDay[d].short) }, { name: "count", type: "line", yAxisIndex: 1, lineStyle: { color: C.tint }, data: ldays.map((d) => byDay[d].n) }],
   });
 
@@ -63,7 +63,7 @@ export default async function history(root) {
   const bdays = [...new Set(br.map((r) => r.d))].sort();
   const sumK = (k, d) => br.filter((r) => r.kind === k && r.d === d).reduce((a, r) => a + r.usd, 0);
   chart($("bridge"), {
-    xAxis: { type: "category", data: bdays }, yAxis: { type: "value" }, legend: { top: 0 },
+    xAxis: { type: "category", data: bdays }, yAxis: { type: "value", axisLabel: { formatter: (v) => fmtShort(v) } }, legend: { top: 0 }, tooltip: { trigger: "axis", valueFormatter: (v) => fmtShort(v) },
     series: [{ name: "deposits", type: "bar", itemStyle: { color: C.ok }, data: bdays.map((d) => sumK("deposit", d)) }, { name: "withdrawals", type: "bar", itemStyle: { color: C.bad, borderRadius: [0, 0, 3, 3] }, data: bdays.map((d) => -sumK("withdraw_submit", d)) }, { name: "net", type: "line", lineStyle: { color: C.tint }, data: bdays.map((d) => sumK("deposit", d) - sumK("withdraw_submit", d)) }],
   });
   const first = {};
@@ -87,7 +87,7 @@ export default async function history(root) {
   }
   const tdays = Object.keys(txDaily).sort();
   chart($("txs"), {
-    xAxis: { type: "category", data: tdays }, yAxis: { type: "value", axisLabel: { formatter: (v) => (v / 1e6).toFixed(0) + "M" } },
+    xAxis: { type: "category", data: tdays }, yAxis: { type: "value", axisLabel: { formatter: (v) => fmtK(v) } }, tooltip: { trigger: "axis", valueFormatter: (v) => fmtK(v) },
     series: [{ type: "bar", data: tdays.map((d) => txDaily[d]) }],
   });
 }

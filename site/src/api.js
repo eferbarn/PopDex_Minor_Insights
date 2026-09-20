@@ -128,6 +128,16 @@ export function connect(args, onMessage, onStatus = () => {}) {
 // ---- formatting -----------------------------------------------------------
 
 export const fmtUsd = (n, d = 0) => (n == null || isNaN(n) ? "–" : "$" + Number(n).toLocaleString("en-US", { maximumFractionDigits: d, minimumFractionDigits: d }));
+/** $1.5M / $100K / $980 — the short form the design system uses in chips, tiles and axes. */
+export function fmtShort(n, prefix = "$") {
+  if (n == null || isNaN(n)) return "–";
+  const a = Math.abs(+n), sign = +n < 0 ? "-" : "";
+  const [div, suf] = a >= 999.5e6 ? [1e9, "B"] : a >= 999.5e3 ? [1e6, "M"] : a >= 999.5 ? [1e3, "K"] : [1, ""];
+  const v = a / div;
+  const str = (v >= 100 ? v.toFixed(0) : v >= 10 ? v.toFixed(1) : v.toFixed(2)).replace(/\.0+$/, "").replace(/(\.\d)0$/, "$1");
+  return sign + prefix + str + suf;
+}
+export const fmtK = (n) => fmtShort(n, "");
 export const fmtNum = (n, d = 2) => (n == null || isNaN(n) ? "–" : Number(n).toLocaleString("en-US", { maximumFractionDigits: d }));
 export const fmtPct = (n, d = 2) => (n == null || isNaN(n) ? "–" : (n * 100).toFixed(d) + "%");
 export const short = (a) => (a ? a.slice(0, 6) + "…" + a.slice(-4) : "");
