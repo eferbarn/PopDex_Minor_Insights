@@ -1,27 +1,47 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>PopDex Minor Insights</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>PopDex Insights</title>
+    <meta name="description" content="Live and historical analytics for PopDex: liquidations, whale flow, the protocol vault, RWA weekend pricing and bridge flows. No backend." />
+    <meta name="theme-color" content="#0b0b0d" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="/popdex-ui.css" />
     <link rel="stylesheet" href="/src/style.css" />
   </head>
   <body>
-    <header>
-      <h1>PopDex <span>Minor Insights</span></h1>
-      <nav id="nav">
+    <div class="pd-backdrop" aria-hidden="true"></div>
+    <header class="site-top">
+      <div class="pd-brand">
+        <a href="#live" aria-label="PopDex Insights home">
+          <img src="/logo.png" alt="PopDex" />
+          <span class="section">/Insights</span>
+        </a>
+      </div>
+      <nav id="nav" class="site-nav">
         <a href="#live" data-page="live">Live</a>
         <a href="#markets" data-page="markets">Markets</a>
-        <a href="#weekend" data-page="weekend">Weekend Oracle</a>
-        <a href="#vault" data-page="vault">Protocol Vault</a>
+        <a href="#weekend" data-page="weekend">Weekend oracle</a>
+        <a href="#vault" data-page="vault">Protocol vault</a>
         <a href="#history" data-page="history">History</a>
       </nav>
-      <div id="status" class="muted">connecting…</div>
+      <div class="site-top-right">
+        <span class="pd-pill" id="ws-pill"><span class="live-dot" aria-hidden="true"></span><span id="ws-status">connecting</span></span>
+        <span class="pd-counter hide-sm"><b id="ws-count">0</b><span>events</span></span>
+      </div>
     </header>
-    <main id="app"></main>
-    <footer class="muted">
-      Data: PopDex public REST/WS, Morph Tachyon RPC, Arbitrum/Morph bridge logs.
-      History collected by <a href="https://github.com/eferbarn/PopDex_Minor_Insights">GitHub Actions</a> into the <code>data</code> branch. No backend.
+    <main id="app" class="wrap page"></main>
+    <footer class="site-foot">
+      <div class="site-foot-in">
+        <span class="pd-caption">PopDex public REST · websocket · Morph Tachyon RPC · bridge logs</span>
+        <a class="quiet-link" href="https://github.com/eferbarn/PopDex_Minor_Insights">Source & data
+          <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7M8 7h9v9"/></svg>
+        </a>
+      </div>
     </footer>
     <script type="module" src="/src/main.js"></script>
   </body>

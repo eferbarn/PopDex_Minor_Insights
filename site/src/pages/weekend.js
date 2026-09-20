@@ -2,7 +2,7 @@
 // priced only by PopDex's own book. How well does the weekend price predict
 // the real reopen?  All from 1H candles — no external data needed.
 import { symbols, candles, fmtPct, fmtUsd } from "../api.js";
-import { chart } from "../main.js";
+import { chart, tile, card, pageHead, C } from "../main.js";
 
 const H = 3600e3;
 // reopen (UTC hour of the first candle after the underlying market reopens)
@@ -36,42 +36,38 @@ function weekends(cs, sym) {
 
 export default async function weekend(root) {
   const $ = (id) => root.querySelector("#" + id);
-  root.innerHTML = `
-    <p class="muted">RWA futures are priced by the PopDex order book alone while the underlying market is closed (Sat 00:00 → reopen). Each point is one symbol-weekend: x = where the weekend book moved the price, y = where the underlying actually reopened. Points near the diagonal mean the weekend market was "right".</p>
-    <div class="tiles" id="tiles"></div>
-    <div class="grid">
-      <div class="panel wide"><h3>Weekend move vs realized reopen move</h3><div class="chart" id="sc" style="height:380px"></div></div>
-      <div class="panel wide"><h3>Per symbol-weekend</h3><div id="tbl"></div></div>
-    </div>`;
+  root.innerHTML = pageHead("02 / WEEKEND ORACLE", "When the real market sleeps, <em class='tint'>who sets the price?</em>",
+    "RWA futures keep trading while the underlying market is closed, priced only by the PopDex order book. Each point is one symbol-weekend: x = where the weekend book moved the price, y = where the underlying actually reopened. Points on the diagonal mean the weekend market was right.") +
+    `<div class="tiles" id="tiles"></div>
+     <div class="grid">
+       ${card("Weekend move vs realized reopen move", `<div class="chart" id="sc" style="height:400px"></div>`, { wide: true, hint: "one dot per symbol-weekend · size = weekend volume" })}
+       ${card("Per symbol-weekend", `<div class="tbl" id="tbl"></div>`, { wide: true })}
+     </div>`;
   const rwa = (await symbols()).filter((s) => s.assetClass === "Rwa" && s.status === "Trading");
   const rows = [];
   for (let i = 0; i < rwa.length; i += 10) {
     await Promise.all(rwa.slice(i, i + 10).map(async (s) => rows.push(...weekends(await candles(s.symbol, "1H", 1000), s.symbol))));
   }
   rows.sort((a, b) => b.week.localeCompare(a.week) || b.vol - a.vol);
-  if (!rows.length) { $("tbl").innerHTML = '<div class="empty">no complete weekends in the candle window yet</div>'; return; }
+  if (!rows.length) { $("tbl").innerHTML = '<div class="empty">No complete weekends in the candle window yet.</div>'; return; }
 
   const agree = rows.filter((r) => Math.sign(r.move) === Math.sign(r.realized) && Math.abs(r.move) > 0.0005).length;
   const moved = rows.filter((r) => Math.abs(r.move) > 0.0005).length;
   const medErr = rows.map((r) => Math.abs(r.error)).sort((a, b) => a - b)[Math.floor(rows.length / 2)];
   const totVol = rows.reduce((a, r) => a + r.vol, 0);
-  $("tiles").innerHTML = [
-    ["Symbol-weekends", rows.length],
-    ["Direction agreement", `${fmtPct(agree / (moved || 1), 0)} <span class="muted">of ${moved} with a move</span>`],
-    ["Median |reopen error|", fmtPct(medErr, 2)],
-    ["Weekend RWA volume", fmtUsd(totVol)],
-  ].map(([k, v]) => `<div class="tile"><div class="k">${k}</div><div class="v">${v}</div></div>`).join("");
+  $("tiles").innerHTML = tile("Symbol-weekends", rows.length) + tile("Direction agreement", fmtPct(agree / (moved || 1), 0), `of ${moved} weekends with a move`) +
+    tile("Median reopen error", fmtPct(medErr, 2), "|reopen ÷ weekend price − 1|") + tile("Weekend RWA volume", fmtUsd(totVol), "Sat 00:00 → Sun 21:00 UTC");
 
   const lim = Math.ceil(Math.max(...rows.map((r) => Math.max(Math.abs(r.move), Math.abs(r.realized)))) * 100 * 1.1);
   chart($("sc"), {
     tooltip: { trigger: "item", formatter: (p) => `${p.data[2]} ${p.data[3]}<br>weekend ${p.data[0].toFixed(2)}% → reopen ${p.data[1].toFixed(2)}%` },
-    xAxis: { name: "weekend move %", min: -lim, max: lim, splitLine: { lineStyle: { color: "#262a37" } } },
-    yAxis: { name: "realized %", min: -lim, max: lim, splitLine: { lineStyle: { color: "#262a37" } } },
+    xAxis: { type: "value", name: "weekend move %", min: -lim, max: lim, splitLine: { lineStyle: { color: C.line, type: "dashed" } }, axisLabel: { color: C.dim } },
+    yAxis: { type: "value", name: "realized %", min: -lim, max: lim },
     series: [
-      { type: "scatter", symbolSize: (d) => 6 + Math.min(14, Math.sqrt(d[4] / 5000)), data: rows.map((r) => [r.move * 100, r.realized * 100, r.sym, r.week, r.vol]) },
-      { type: "line", data: [[-lim, -lim], [lim, lim]], showSymbol: false, lineStyle: { color: "#8a90a5", type: "dashed" }, tooltip: { show: false } },
+      { type: "scatter", symbolSize: (d) => 6 + Math.min(14, Math.sqrt(d[4] / 5000)), itemStyle: { color: "rgba(128,119,255,0.75)", borderColor: C.tint, borderWidth: 1 }, data: rows.map((r) => [r.move * 100, r.realized * 100, r.sym, r.week, r.vol]) },
+      { type: "line", data: [[-lim, -lim], [lim, lim]], showSymbol: false, lineStyle: { color: C.dim, type: "dashed", width: 1 }, tooltip: { show: false } },
     ],
   });
   $("tbl").innerHTML = `<table><tr><th>Weekend</th><th>Symbol</th><th>Fri close</th><th>Sun 20:00</th><th>Reopen</th><th>Weekend move</th><th>Realized</th><th>Reopen error</th><th>Weekend vol</th><th>Active hrs</th></tr>` +
-    rows.map((r) => `<tr><td>${r.week}</td><td>${r.sym}</td><td>${r.fri}</td><td>${r.wk}</td><td>${r.open}</td><td class="${r.move >= 0 ? "up" : "down"}">${fmtPct(r.move)}</td><td class="${r.realized >= 0 ? "up" : "down"}">${fmtPct(r.realized)}</td><td>${fmtPct(r.error)}</td><td>${fmtUsd(r.vol)}</td><td>${r.activeHours}/45</td></tr>`).join("") + `</table>`;
+    rows.map((r) => `<tr><td>${r.week}</td><td class="sym">${r.sym}</td><td>${r.fri}</td><td>${r.wk}</td><td>${r.open}</td><td class="${r.move >= 0 ? "up" : "down"}">${fmtPct(r.move)}</td><td class="${r.realized >= 0 ? "up" : "down"}">${fmtPct(r.realized)}</td><td>${fmtPct(r.error)}</td><td>${fmtUsd(r.vol)}</td><td>${r.activeHours}/45</td></tr>`).join("") + `</table>`;
 }
