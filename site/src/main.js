@@ -70,6 +70,13 @@ async function route() {
   }
 }
 
-window.addEventListener("hashchange", route);
+// mobile menu
+const nav = document.getElementById("nav"), toggle = document.getElementById("nav-toggle");
+const setMenu = (open) => { nav.classList.toggle("is-open", open); toggle.setAttribute("aria-expanded", String(open)); };
+toggle.addEventListener("click", () => setMenu(!nav.classList.contains("is-open")));
+document.addEventListener("click", (e) => { if (!nav.contains(e.target) && !toggle.contains(e.target)) setMenu(false); });
+document.addEventListener("keydown", (e) => e.key === "Escape" && setMenu(false));
+
+window.addEventListener("hashchange", () => { setMenu(false); route(); });
 startLive().then(renderStatus);
 route();

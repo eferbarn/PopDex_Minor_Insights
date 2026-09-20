@@ -78,9 +78,24 @@ tr:last-child td { border-bottom: 0; }
 /* ---- controls ---- */
 .pd-btn--sm.ghost-xs { padding: 6px 12px; font-size: 12px; }
 
+/* ---- mobile nav: hamburger top-left, glass dropdown ---- */
+.nav-toggle { display: none; width: 38px; height: 38px; border-radius: 12px; border: 1px solid var(--line-2); background: rgba(14,14,18,0.55); color: var(--muted); cursor: pointer; place-items: center; padding: 0; flex: none; transition: color 160ms ease, border-color 160ms ease, background 160ms ease; }
+.nav-toggle:hover, .nav-toggle[aria-expanded="true"] { color: #fff; border-color: var(--brand-soft); background: rgba(77,66,252,0.12); }
+.nav-toggle .i-close { display: none; }
+.nav-toggle[aria-expanded="true"] .i-open { display: none; }
+.nav-toggle[aria-expanded="true"] .i-close { display: block; }
 @media (max-width: 760px) {
-  .site-top { padding: 18px 20px 10px; flex-wrap: wrap; gap: 12px; }
-  .site-nav { order: 3; width: 100%; gap: 14px; overflow-x: auto; }
+  .site-top { padding: 14px 16px 10px; gap: 12px; }
+  .nav-toggle { display: grid; }
+  .pd-brand { flex: 1; }
+  .site-nav { position: absolute; left: 16px; right: 16px; top: calc(100% + 2px); z-index: 40; flex-direction: column; align-items: stretch; gap: 2px; padding: 8px;
+    border-radius: 18px; background: rgba(20,21,26,0.92); border: 1px solid rgba(255,255,255,0.09);
+    box-shadow: inset 0 1px 0 rgba(255,255,255,0.06), 0 30px 90px -30px rgba(77,66,252,0.45), 0 24px 48px -24px rgba(0,0,0,0.7);
+    backdrop-filter: blur(22px) saturate(140%); -webkit-backdrop-filter: blur(22px) saturate(140%);
+    opacity: 0; transform: translateY(-6px); pointer-events: none; transition: opacity 200ms var(--ease), transform 200ms var(--ease); }
+  .site-nav.is-open { opacity: 1; transform: none; pointer-events: auto; }
+  .site-nav a { font-size: 15px; padding: 11px 12px; border-radius: 10px; }
+  .site-nav a.active { background: rgba(77,66,252,0.16); }
   .hide-sm { display: none; }
   .site-foot { padding: 24px 20px; }
   .grid { grid-template-columns: 1fr; }
@@ -118,3 +133,4 @@ tr:last-child td { border-bottom: 0; }
   background: #141518; border: 1px solid rgba(255,255,255,0.14); font-family: var(--font-mono); font-variant-numeric: tabular-nums; }
 .ld-chip b { font-weight: 600; color: var(--brand-tint); }
 @media (prefers-reduced-motion: reduce) { .ld-bar, .ld-feed > div, .ld-chart, .ld-ring i { animation: none; } }
+@media (max-width: 760px) { .site-top:has(.site-nav.is-open) { background: var(--bg); } }
