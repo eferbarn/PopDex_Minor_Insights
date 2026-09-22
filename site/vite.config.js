@@ -6,6 +6,7 @@ export default defineConfig({
     proxy: {
       "/px/api": { target: "https://api.popdex.xyz", changeOrigin: true, rewrite: (p) => p.replace(/^\/px\/api/, "/api/v1") },
       "/px/explorer": { target: "https://app.popdex.xyz", changeOrigin: true, rewrite: (p) => p.replace(/^\/px\/explorer/, "/web/v1/explorer") },
+      "/px/app": { target: "https://app.popdex.xyz", changeOrigin: true, rewrite: (p) => p.replace(/^\/px\/app/, "/web/v1") },
     },
   },
 });

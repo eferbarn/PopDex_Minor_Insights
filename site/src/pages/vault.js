@@ -1,6 +1,6 @@
 // Protocol vault: the LP pool that market-makes, absorbs liquidations and backs
 // the insurance funds. Its positions / fills / depositors are public.
-import { rest, paginate, PROTOCOL_VAULT, PROTOCOL_MM, fmtUsd, fmtShort, fmtK, fmtNum, fmtPct, short, fmtTime } from "../api.js";
+import { rest, paginate, PROTOCOL_VAULT, PROTOCOL_MM, fmtUsd, fmtShort, fmtK, fmtNum, fmtPct, short, fmtTime, symTag, loadIcons } from "../api.js";
 import { live, onLive } from "../live.js";
 import { chart, tile, card, pageHead, C } from "../main.js";
 import { skelTiles, skelTable, chartLoading } from "../loading.js";
@@ -18,6 +18,7 @@ export default async function vault(root) {
      </div>`;
 
   const ld = { pnl: chartLoading($("pnl"), "Loading"), dep: chartLoading($("dep"), "Loading depositors") };
+  await loadIcons();
   const v = (await rest("/vaults", { limit: 100 })).data.find((x) => x.vaultWalletId.toLowerCase() === PROTOCOL_VAULT);
   const ins = (await rest("/public/insurance-fund")).data;
   const insTot = ins.reduce((a, x) => a + +x.accountEquity, 0);
@@ -50,13 +51,13 @@ export default async function vault(root) {
   const net = rows.reduce((a, p) => a + (p.positionSide === "Long" ? 1 : -1) * p.usd, 0);
   $("pos").innerHTML = `<div class="dim" style="margin-bottom:8px;font-size:12px">${rows.length} positions · gross ${fmtShort(rows.reduce((a, p) => a + p.usd, 0))} · net ${fmtShort(net)} (${net >= 0 ? "long" : "short"}) · unrealized ${fmtShort(rows.reduce((a, p) => a + +p.unPnl, 0))}</div>` +
     `<table><tr><th>Symbol</th><th>Side</th><th>Size</th><th>Notional</th><th>Entry</th><th>Mark</th><th>Unrealized</th><th>Realized</th><th>Funding</th></tr>` +
-    rows.map((p) => `<tr><td class="sym">${p.symbol}</td><td class="${p.positionSide === "Long" ? "up" : "down"}">${p.positionSide}</td><td>${fmtK(p.holdQty)}</td><td>${fmtShort(p.usd)}</td><td>${fmtNum(p.avgOpenPrice, 4)}</td><td>${fmtNum(p.markPrice, 4)}</td><td class="${+p.unPnl >= 0 ? "up" : "down"}">${fmtShort(p.unPnl)}</td><td class="${+p.realizedPnl >= 0 ? "up" : "down"}">${fmtShort(p.realizedPnl)}</td><td>${fmtShort(p.fundingFee)}</td></tr>`).join("") + `</table>`;
+    rows.map((p) => `<tr><td>${symTag(p.symbol)}</td><td class="${p.positionSide === "Long" ? "up" : "down"}">${p.positionSide}</td><td>${fmtK(p.holdQty)}</td><td>${fmtShort(p.usd)}</td><td>${fmtNum(p.avgOpenPrice, 4)}</td><td>${fmtNum(p.markPrice, 4)}</td><td class="${+p.unPnl >= 0 ? "up" : "down"}">${fmtShort(p.unPnl)}</td><td class="${+p.realizedPnl >= 0 ? "up" : "down"}">${fmtShort(p.realizedPnl)}</td><td>${fmtShort(p.fundingFee)}</td></tr>`).join("") + `</table>`;
 
   const renderFills = () => {
     const st = live.state.vaultStats, rows = live.state.vaultFills;
     $("ftiles").innerHTML = tile("Fills", st.n, "this session") + tile("Realized PnL", fmtShort(st.pnl)) + tile("Fees paid", fmtShort(st.fee)) + tile("Notional", fmtShort(st.vol));
     $("fills").innerHTML = rows.length ? rows.slice(0, 150).map((d, i) =>
-      `<div class="${i === 0 ? "new" : ""}"><span class="t">${fmtTime(d.ts)}</span><span class="addr">${short(d.w)}</span><span class="side ${d.side === "Buy" ? "up" : "down"}">${d.side}</span><span class="sym">${d.symbol}</span><span>${fmtK(d.execQty)} @ ${d.execPrice}</span><span>${fmtShort(d.execValue)}</span><span class="${+d.execPnl >= 0 ? "up" : "down"}">pnl ${fmtShort(d.execPnl)}</span>${d.liquidation ? '<span class="pd-pill pd-pill--error">liq</span>' : ""}<span class="dim">${d.orderType} ${d.tradeScope || ""}</span></div>`).join("")
+      `<div class="${i === 0 ? "new" : ""}"><span class="t">${fmtTime(d.ts)}</span><span class="addr">${short(d.w)}</span><span class="side ${d.side === "Buy" ? "up" : "down"}">${d.side}</span>${symTag(d.symbol)}<span>${fmtK(d.execQty)} @ ${d.execPrice}</span><span>${fmtShort(d.execValue)}</span><span class="${+d.execPnl >= 0 ? "up" : "down"}">pnl ${fmtShort(d.execPnl)}</span>${d.liquidation ? '<span class="pd-pill pd-pill--error">liq</span>' : ""}<span class="dim">${d.orderType} ${d.tradeScope || ""}</span></div>`).join("")
       : `<div class="empty">Waiting for fills.</div>`;
   };
   renderFills();

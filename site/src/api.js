@@ -27,6 +27,24 @@ export async function explorer(path) {
   return j.data;
 }
 
+/* Token icons. app.popdex.xyz's symbol config carries an `icon` URL per pair
+   (the REST one does not); fetched once, and symTag renders without it until it lands. */
+let icons = null, iconsP = null;
+export function loadIcons() {
+  return (iconsP ||= fetch("/px/app/config/symbols")
+    .then((r) => r.json())
+    .then((j) => { icons = Object.fromEntries((j.data || []).filter((x) => x.icon).map((x) => [x.symbol, x.icon])); return icons; })
+    .catch(() => (icons = {})));
+}
+export const symIcon = (symbol) => (icons && icons[symbol]) || null;
+
+/** Pair label with its token icon, e.g. symTag("BTCUSDT"). */
+export function symTag(symbol) {
+  const u = symIcon(symbol);
+  const img = u ? `<img class="sym-i" src="${u}?w=40&h=40&q=160&f=webp" alt="" width="16" height="16" loading="lazy" decoding="async" onerror="this.remove()">` : "";
+  return `<span class="sym">${img}${symbol}</span>`;
+}
+
 export async function paginate(path, params = {}, maxPages = 20) {
   const out = [];
   let cursor;

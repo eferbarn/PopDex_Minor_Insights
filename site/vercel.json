@@ -5,6 +5,7 @@
   "rewrites": [
     { "source": "/px/api/:path*", "destination": "https://api.popdex.xyz/api/v1/:path*" },
     { "source": "/px/explorer/:path*", "destination": "https://app.popdex.xyz/web/v1/explorer/:path*" },
+    { "source": "/px/app/:path*", "destination": "https://app.popdex.xyz/web/v1/:path*" },
     { "source": "/(.*)", "destination": "/index.html" }
   ]
 }

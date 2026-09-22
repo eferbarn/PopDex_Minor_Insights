@@ -6,7 +6,7 @@ import vault from "./pages/vault.js";
 import history from "./pages/history.js";
 import { startLive, onStatus, onLive, live as liveStore } from "./live.js";
 import { spinner } from "./loading.js";
-import { fmtK } from "./api.js";
+import { fmtK, loadIcons } from "./api.js";
 
 const pages = { live, markets, weekend, vault, history };
 const app = document.getElementById("app");
@@ -78,5 +78,6 @@ document.addEventListener("click", (e) => { if (!nav.contains(e.target) && !togg
 document.addEventListener("keydown", (e) => e.key === "Escape" && setMenu(false));
 
 window.addEventListener("hashchange", () => { setMenu(false); route(); });
+loadIcons();
 startLive().then(renderStatus);
 route();

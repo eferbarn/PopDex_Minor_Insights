@@ -1,5 +1,5 @@
 // Markets: daily volume crypto vs RWA (1D candles for every symbol), current OI / funding table.
-import { symbols, paginate, candles, fmtUsd, fmtShort, fmtPct, fmtNum } from "../api.js";
+import { symbols, paginate, candles, fmtUsd, fmtShort, fmtPct, fmtNum, symTag, loadIcons } from "../api.js";
 import { chart, tile, card, pageHead, C } from "../main.js";
 import { skelTiles, skelTable, chartLoading } from "../loading.js";
 
@@ -15,6 +15,7 @@ export default async function markets(root) {
      </div>`;
   const ld = { vol: chartLoading($("vol"), "Loading daily candles"), share: chartLoading($("share"), "Loading"), rwa: chartLoading($("rwa"), "Loading") };
 
+  await loadIcons();
   const syms = (await symbols()).filter((s) => s.status === "Trading");
   const tickers = await paginate("/public/market/tickers", { category: "Futures" });
   const cls = Object.fromEntries(syms.map((s) => [s.symbol, s.assetClass]));
@@ -54,5 +55,5 @@ export default async function markets(root) {
 
   const rows = tickers.map((t) => ({ ...t, oiUsd: +t.openInterest * +t.markPrice, cls: cls[t.symbol] })).sort((a, b) => b.oiUsd - a.oiUsd);
   $("oi").innerHTML = `<table><tr><th>Symbol</th><th>Class</th><th>Last</th><th>OI (USD)</th><th>Funding (1h)</th><th>Annualized</th><th>24h vol</th></tr>` +
-    rows.map((t) => `<tr><td class="sym">${t.symbol}</td><td class="dim">${t.cls}</td><td>${fmtNum(t.lastPrice, 4)}</td><td>${fmtShort(t.oiUsd)}</td><td class="${+t.fundingRate >= 0 ? "up" : "down"}">${fmtPct(+t.fundingRate, 4)}</td><td>${fmtPct(+t.fundingRate * 24 * 365, 1)}</td><td>${fmtShort(t.turnover24h)}</td></tr>`).join("") + `</table>`;
+    rows.map((t) => `<tr><td>${symTag(t.symbol)}</td><td class="dim">${t.cls}</td><td>${fmtNum(t.lastPrice, 4)}</td><td>${fmtShort(t.oiUsd)}</td><td class="${+t.fundingRate >= 0 ? "up" : "down"}">${fmtPct(+t.fundingRate, 4)}</td><td>${fmtPct(+t.fundingRate * 24 * 365, 1)}</td><td>${fmtShort(t.turnover24h)}</td></tr>`).join("") + `</table>`;
 }
