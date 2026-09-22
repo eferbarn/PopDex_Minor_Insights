@@ -38,8 +38,14 @@ export default async function livePage(root) {
       : `<div class="empty"><span class="ld-chip"><span class="live-dot" aria-hidden="true"></span>Watching ${Object.keys(live.state.prices).length || "all"} markets</span><br><span class="dim" style="display:block;margin-top:10px">No fill ≥ ${fmtShort(WHALE_USD)} yet.</span></div>`;
 
     const rows = Object.entries(s.bySym).sort((a, b) => b[1].buy + b[1].sell - (a[1].buy + a[1].sell)).slice(0, 25);
-    $("imb").innerHTML = rows.length ? `<table><tr><th>Symbol</th><th>Trades</th><th>Buy</th><th>Sell</th><th>Imbalance</th></tr>` +
-      rows.map(([sym, r]) => { const imb = (r.buy - r.sell) / (r.buy + r.sell || 1); return `<tr><td class="sym">${sym}</td><td>${r.n}</td><td>${fmtShort(r.buy)}</td><td>${fmtShort(r.sell)}</td><td class="${imb >= 0 ? "up" : "down"}">${(imb * 100).toFixed(0)}%</td></tr>`; }).join("") + `</table>`
+    $("imb").innerHTML = rows.length ? `<table><tr><th>Symbol</th><th>Trades</th><th>Buy</th><th>Sell</th><th class="imb-h">Buy vs sell</th><th>Imbalance</th></tr>` +
+      rows.map(([sym, r]) => {
+        const tot = r.buy + r.sell || 1, imb = (r.buy - r.sell) / tot, buyPct = (r.buy / tot) * 100;
+        const title = `${fmtShort(r.buy)} bought vs ${fmtShort(r.sell)} sold — ${Math.abs(imb * 100).toFixed(0)}% toward ${imb >= 0 ? "buyers" : "sellers"}`;
+        return `<tr><td class="sym">${sym}</td><td>${r.n}</td><td>${fmtShort(r.buy)}</td><td>${fmtShort(r.sell)}</td>` +
+          `<td class="imb-c"><span class="imb-bar" title="${title}" role="img" aria-label="${title}"><i class="imb-buy" style="width:${buyPct.toFixed(2)}%"></i><i class="imb-sell"></i></span></td>` +
+          `<td class="${imb >= 0 ? "up" : "down"}">${(imb * 100).toFixed(0)}%</td></tr>`;
+      }).join("") + `</table>`
       : skelFeed(6);
   };
 
