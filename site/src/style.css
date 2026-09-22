@@ -61,6 +61,10 @@ th:first-child, td:first-child { text-align: left; }
 th { font-family: var(--font-sans); font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--dim); font-weight: 600; }
 tr:last-child td { border-bottom: 0; }
 .sym { font-family: var(--font-sans); font-weight: 600; color: var(--text); display: inline-flex; align-items: center; gap: 6px; vertical-align: middle; }
+a.sym { text-decoration: none; transition: color 160ms ease, opacity 160ms ease; }
+a.sym:hover { color: var(--brand-tint); }
+a.sym:hover .sym-i { opacity: 0.85; }
+a.sym:focus-visible { outline: none; box-shadow: var(--ring); border-radius: 6px; }
 .sym-i { width: 16px; height: 16px; border-radius: 50%; display: block; flex: 0 0 auto; background: rgba(255,255,255,0.06); object-fit: cover; }
 
 /* ---- semantic colours: only success / error / warning are coloured ---- */

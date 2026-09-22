@@ -38,11 +38,13 @@ export function loadIcons() {
 }
 export const symIcon = (symbol) => (icons && icons[symbol]) || null;
 
-/** Pair label with its token icon, e.g. symTag("BTCUSDT"). */
+export const TRADE_URL = "https://app.popdex.xyz/en/trade/futures/";
+
+/** Pair label with its token icon, linking to the market on PopDex. */
 export function symTag(symbol) {
   const u = symIcon(symbol);
   const img = u ? `<img class="sym-i" src="${u}?w=40&h=40&q=160&f=webp" alt="" width="16" height="16" loading="lazy" decoding="async" onerror="this.remove()">` : "";
-  return `<span class="sym">${img}${symbol}</span>`;
+  return `<a class="sym" href="${TRADE_URL}${encodeURIComponent(symbol)}" target="_blank" rel="noopener noreferrer" title="Trade ${symbol} on PopDex">${img}${symbol}</a>`;
 }
 
 export async function paginate(path, params = {}, maxPages = 20) {
