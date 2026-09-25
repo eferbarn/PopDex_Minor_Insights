@@ -1,16 +1,23 @@
 // History: everything the API does not keep — read from the `data` branch that
 // the GitHub Actions collectors append to.
-import { dataDays, dataCsv, dataJson, fmtUsd, fmtShort, fmtK, fmtNum, fmtPct } from "../api.js";
+import { dataDays, dataCsv, dataJson, lastDays, fmtUsd, fmtShort, fmtK, fmtNum, fmtPct } from "../api.js";
 import { chart, card, pageHead, C } from "../main.js";
 import { chartLoading } from "../loading.js";
 
 const day = (ts) => new Date(+ts).toISOString().slice(0, 10);
+// How far back every chart on this page looks. Two weeks by default, one week
+// on request; kept across re-renders while the tab is open.
+const WINDOWS = [7, 14];
+let days = 14;
+const rangePicker = () => `<div class="range">${WINDOWS.map((n) =>
+  `<button class="pd-btn pd-btn--sm${n === days ? "" : " pd-btn--ghost"} ghost-xs" data-days="${n}"${n === days ? " aria-current=\"true\"" : ""}>${n} days</button>`).join("")}</div>`;
 const uniq = (rows, key) => { const seen = new Set(); return rows.filter((r) => { const k = key(r); if (seen.has(k)) return false; seen.add(k); return true; }); };
 
 export default async function history(root) {
   const $ = (id) => root.querySelector("#" + id);
   root.innerHTML = pageHead("04 / HISTORY", "What the API <em class='tint'>forgets</em>",
-    "PopDex keeps no history of liquidations, insurance-fund balances or vault inventory. Two GitHub Actions jobs append these to the data branch every few minutes; this page reads them back.") +
+    "PopDex keeps no history of liquidations, insurance-fund balances or vault inventory. Two GitHub Actions jobs append these to the data branch every few minutes; this page reads them back.",
+    rangePicker()) +
     `<p class="pd-caption" id="note" style="margin:-6px 0 16px"></p>
      <div class="grid">
        ${card("Insurance funds equity", `<div class="chart" id="ins"></div>`, { hint: "drops = losses absorbed from liquidations" })}
@@ -23,16 +30,22 @@ export default async function history(root) {
        ${card("Chain transactions per day", `<div class="chart" id="txs"></div>`, { hint: "explorer" })}
      </div>`;
 
+  root.querySelectorAll("[data-days]").forEach((b) => b.addEventListener("click", () => {
+    const n = +b.dataset.days;
+    if (n !== days) { days = n; history(root); }
+  }));
+
   const ids = ["ins", "nav", "liq", "bridge", "newdep", "acct", "churn", "txs"];
   const ld = Object.fromEntries(ids.map((id) => [id, chartLoading($(id), "Loading data branch")]));
-  const N = 45;
+  const N = days;
+  const WIN = new Set(lastDays(N));
   const [snaps, liqs, arb, morph, acct, txDaily] = await Promise.all([
     dataDays("snapshots", N), dataDays("liquidations", N), dataCsv("bridge/arbitrum.csv"), dataCsv("bridge/morph.csv"),
     dataDays("active_accounts", N), dataJson("explorer_daily.json", {}),
   ]);
   Object.values(ld).forEach((l) => l.done());
   const have = [snaps.length && "snapshots", liqs.length && "liquidations", (arb.length + morph.length) && "bridge", acct.length && "chain samples"].filter(Boolean);
-  $("note").textContent = have.length ? `Loaded: ${have.join(", ")} · ${snaps.length} snapshots · ${liqs.length} liquidation events · ${arb.length + morph.length} bridge events` : "No collected data yet — the GitHub Actions workflows have not pushed to the data branch";
+  $("note").textContent = have.length ? `Last ${N} days · ${have.join(", ")} · ${snaps.length} snapshots · ${liqs.length} liquidation events · ${arb.length + morph.length} bridge events` : "No collected data yet — the GitHub Actions workflows have not pushed to the data branch";
 
   const t = (ts) => new Date(+ts).toISOString().slice(5, 16).replace("T", " ");
   if (snaps.length) {
@@ -60,7 +73,8 @@ export default async function history(root) {
   });
 
   const br = [...arb, ...morph].filter((r) => r.kind === "deposit" || r.kind === "withdraw_submit").map((r) => ({ ...r, usd: +r.amount / 1e6, d: day(r.ts) }));
-  const bdays = [...new Set(br.map((r) => r.d))].sort();
+  const allBdays = [...new Set(br.map((r) => r.d))].sort();
+  const bdays = allBdays.filter((d) => WIN.has(d));
   const sumK = (k, d) => br.filter((r) => r.kind === k && r.d === d).reduce((a, r) => a + r.usd, 0);
   chart($("bridge"), {
     xAxis: { type: "category", data: bdays }, yAxis: { type: "value", axisLabel: { formatter: (v) => fmtShort(v) } }, legend: { top: 0 }, tooltip: { trigger: "axis", valueFormatter: (v) => fmtShort(v) },
@@ -69,7 +83,8 @@ export default async function history(root) {
   const first = {};
   for (const r of br.filter((r) => r.kind === "deposit").sort((a, b) => +a.ts - +b.ts)) first[r.receiver] ??= r.d;
   const newBy = {}; for (const d of Object.values(first)) newBy[d] = (newBy[d] || 0) + 1;
-  let cum = 0;
+  // start the cumulative line at the real total from before the window
+  let cum = allBdays.filter((d) => d < (bdays[0] ?? "9999")).reduce((a, d) => a + (newBy[d] || 0), 0);
   chart($("newdep"), {
     xAxis: { type: "category", data: bdays }, yAxis: [{ type: "value", name: "new" }, { type: "value", name: "cumulative" }], legend: { top: 0 },
     series: [{ name: "new depositors", type: "bar", data: bdays.map((d) => newBy[d] || 0) }, { name: "cumulative", type: "line", yAxisIndex: 1, data: bdays.map((d) => (cum += newBy[d] || 0)) }],
@@ -85,7 +100,7 @@ export default async function history(root) {
       series: [{ name: "cancel/create", type: "line", showSymbol: false, data: acct.map((a) => +(a.cancels / Math.max(1, a.orders)).toFixed(3)) }],
     });
   }
-  const tdays = Object.keys(txDaily).sort();
+  const tdays = Object.keys(txDaily).sort().filter((d) => WIN.has(d));
   chart($("txs"), {
     xAxis: { type: "category", data: tdays }, yAxis: { type: "value", axisLabel: { formatter: (v) => fmtK(v) } }, tooltip: { trigger: "axis", valueFormatter: (v) => fmtK(v) },
     series: [{ type: "bar", data: tdays.map((d) => txDaily[d]) }],

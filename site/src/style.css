@@ -94,6 +94,7 @@ a.sym:focus-visible { outline: none; box-shadow: var(--ring); border-radius: 6px
 
 /* ---- controls ---- */
 .pd-btn--sm.ghost-xs { padding: 6px 12px; font-size: 12px; }
+.range { display: flex; gap: 8px; flex: none; }
 
 /* ---- mobile nav: hamburger top-left, glass dropdown ---- */
 .nav-toggle { display: none; width: 38px; height: 38px; border-radius: 12px; border: 1px solid var(--line-2); background: rgba(14,14,18,0.55); color: var(--muted); cursor: pointer; place-items: center; padding: 0; flex: none; transition: color 160ms ease, border-color 160ms ease, background 160ms ease; }
