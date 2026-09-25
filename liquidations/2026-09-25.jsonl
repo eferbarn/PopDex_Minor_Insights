@@ -15,3 +15,4 @@
 {"recv":1790373563376,"amount":"66","price":"4.975","remainAmount":"0","side":"Buy","symbol":"NEARUSDT","symbolId":20020,"ts":"1790373563178","walletId":"0xdAC8a776f49e56beF529ED01683B5Ff992866C9f"}
 {"recv":1790374577897,"amount":"1225.11","price":"76.1","remainAmount":"0","side":"Sell","symbol":"UNITREEUSDT","symbolId":21118,"ts":"1790374577723","walletId":"0xdfdB07eeE00FdE936603BBccD42A090cB921F8FF"}
 {"recv":1790374577897,"amount":"1225.11","price":"76.1","remainAmount":"0","side":"Buy","symbol":"UNITREEUSDT","symbolId":21118,"ts":"1790374577723","walletId":"0xFffFFfffFFFFFFFFFffFfFFfffffFFffFFFfFfF7"}
+{"recv":1790375654405,"amount":"6.46","price":"122.503","remainAmount":"0","side":"Buy","symbol":"SOLUSDT","symbolId":20002,"ts":"1790375654222","walletId":"0xb263Bd19c93Ec8168543e8B2f726840322745aBC"}
