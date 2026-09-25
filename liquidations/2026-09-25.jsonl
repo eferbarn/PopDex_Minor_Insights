@@ -10,3 +10,4 @@
 {"recv":1790367543250,"amount":"1380.91","price":"32.93","remainAmount":"0","side":"Sell","symbol":"MINIMAXUSDT","symbolId":21120,"ts":"1790367543084","walletId":"0xdC11f84747ee1c1F0e436CE5A624754973d315d4"}
 {"recv":1790367543250,"amount":"1380.91","price":"32.93","remainAmount":"0","side":"Buy","symbol":"MINIMAXUSDT","symbolId":21120,"ts":"1790367543084","walletId":"0xFffFFfffFFFFFFFFFffFfFFfffffFFffFFFfFfF7"}
 {"recv":1790368867660,"amount":"177.61","price":"77.78","remainAmount":"0","side":"Buy","symbol":"UNITREEUSDT","symbolId":21118,"ts":"1790368867475","walletId":"0x7020080968AD6Eb6517027ccD042c01Dc9Cd9477"}
+{"recv":1790370879757,"amount":"0.5","price":"1514.9","remainAmount":"0","side":"Sell","symbol":"ZECUSDT","symbolId":20005,"ts":"1790370879574","walletId":"0xdAC8a776f49e56beF529ED01683B5Ff992866C9f"}
