@@ -33,6 +33,13 @@ class RateLimiter:
                 now = time.monotonic()
             self.next_at = now + self.interval
 
+    def penalize(self, seconds):
+        """Global cooldown after a 429 — every worker backs off, not just the
+        one that got the error. Without this, all `workers` threads burn their
+        retries inside the same rate-limit window and the call fails."""
+        with self.lock:
+            self.next_at = max(self.next_at, time.monotonic() + seconds)
+
 
 class Tachyon:
     def __init__(self, url=RPC_URL, per_minute=1100, workers=8):
@@ -42,12 +49,12 @@ class Tachyon:
         self.limiter = RateLimiter(per_minute)
         self.workers = workers
 
-    def call(self, method, params, retries=5):
+    def call(self, method, params, retries=8):
         for attempt in range(retries):
             self.limiter.wait()
             r = self.session.post(self.url, data=json.dumps({"jsonrpc": "2.0", "method": method, "params": params, "id": "1"}), timeout=30)
             if r.status_code == 429:
-                time.sleep(2 ** attempt)
+                self.limiter.penalize(min(60, 5 * (attempt + 1)))
                 continue
             r.raise_for_status()
             body = r.json()

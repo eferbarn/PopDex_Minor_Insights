@@ -1,0 +1,12 @@
+[Unit]
+Description=Run the 600-block on-chain sample every 30 minutes
+# Offset from popdex-snapshot.timer (*:0/10) on purpose: both writers share the
+# /opt/popdex/data-snapshot clone and would collide on .git/index.lock.
+
+[Timer]
+OnCalendar=*:05,35
+RandomizedDelaySec=30
+Persistent=true
+
+[Install]
+WantedBy=timers.target

@@ -38,9 +38,14 @@ def snapshot_markets():
         "ts": ts,
         "insurance": ins,
         "vault": {k: vault.get(k) for k in ["vaultWalletId", "nav", "totalEquity", "totalShares", "apr", "allTimePnl", "leaderShares"]},
+    }
+    # Per-symbol rows are ~92% of a snapshot row's bytes and nothing on the
+    # history page reads them, so they get their own daily file.
+    append_jsonl(f"tickers/{utc_day(ts)}.jsonl", {
+        "ts": ts,
         "tickers": [{"s": t["symbol"], "oi": t["openInterest"], "fr": t["fundingRate"], "v24": t["turnover24h"],
                      "last": t["lastPrice"], "mark": t["markPrice"], "idx": t["indexPrice"]} for t in tickers],
-    }
+    })
     try:
         ov = get("/overview", base=EXPLORER)["data"]
         row["explorer"] = {"block": ov["latestBlockHeight"], "txs": ov["totalTransactions"], "tps": ov["avgTps"]}
@@ -63,7 +68,7 @@ def snapshot_vault_positions():
 def snapshot_active_accounts(n_blocks=600):
     from popdex.rpc import Tachyon
     from popdex.events import decode_log
-    rpc = Tachyon(per_minute=1000)
+    rpc = Tachyon(per_minute=600)
     to_block = rpc.latest_block_number() - 2
     from_block = to_block - n_blocks + 1
     numbers = list(range(from_block, to_block + 1))
@@ -111,9 +116,21 @@ def snapshot_bridge():
         bridge.scan(chain, budget_s=240)
 
 
+STEPS = [
+    ("markets", snapshot_markets),
+    ("vault_positions", snapshot_vault_positions),
+    ("active_accounts", snapshot_active_accounts),
+    ("bridge", snapshot_bridge),
+]
+
 if __name__ == "__main__":
-    step("markets", snapshot_markets)
-    step("vault_positions", snapshot_vault_positions)
-    step("active_accounts", snapshot_active_accounts)
-    step("bridge", snapshot_bridge)
-    publish(f"snapshot {utc_day()} {now_ms()}", index=True)
+    import sys
+    only = set(sys.argv[1:])
+    unknown = only - {n for n, _ in STEPS}
+    if unknown:
+        raise SystemExit(f"unknown step(s): {', '.join(sorted(unknown))}; known: {', '.join(n for n, _ in STEPS)}")
+    ran = [n for n, fn in STEPS if not only or n in only]
+    for name, fn in STEPS:
+        if name in ran:
+            step(name, fn)
+    publish(f"snapshot[{','.join(ran)}] {utc_day()} {now_ms()}", index=True)

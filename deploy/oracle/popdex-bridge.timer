@@ -1,0 +1,11 @@
+[Unit]
+Description=Scan the bridges hourly
+# Offset from the other two writers; they share one git clone.
+
+[Timer]
+OnCalendar=*:07
+RandomizedDelaySec=60
+Persistent=true
+
+[Install]
+WantedBy=timers.target

@@ -9,7 +9,8 @@
 #   2. creates /opt/popdex with a deploy key (prints the public key; you add it to
 #      GitHub as a deploy key with WRITE access, then press Enter)
 #   3. clones main (code) and two copies of the data branch (one per writer)
-#   4. installs systemd units: popdex-listener (always on) and popdex-snapshot (every 10 min)
+#   4. installs systemd units: popdex-listener (always on), popdex-snapshot
+#      (every 10 min), popdex-chain (every 30 min), popdex-bridge (hourly)
 set -euo pipefail
 
 REPO="eferbarn/PopDex_Minor_Insights"
@@ -57,10 +58,15 @@ python3 -m venv "$BASE/venv"
 "$BASE/venv/bin/pip" install -q -r "$BASE/code/collector/requirements.txt"
 
 echo "== 4/4 systemd"
-sudo cp "$BASE/code/deploy/oracle/popdex-listener.service" "$BASE/code/deploy/oracle/popdex-snapshot.service" "$BASE/code/deploy/oracle/popdex-snapshot.timer" "$BASE/code/deploy/oracle/popdex-update.service" "$BASE/code/deploy/oracle/popdex-update.timer" /etc/systemd/system/
+sudo cp "$BASE"/code/deploy/oracle/popdex-*.service "$BASE"/code/deploy/oracle/popdex-*.timer /etc/systemd/system/
 sudo sed -i "s/__USER__/$RUN_USER/g" /etc/systemd/system/popdex-*.service
 sudo systemctl daemon-reload
-sudo systemctl enable --now popdex-listener.service popdex-snapshot.timer popdex-update.timer
+sudo systemctl enable --now popdex-listener.service popdex-snapshot.timer popdex-chain.timer popdex-bridge.timer popdex-update.timer
+
+# popdex-update.service restarts the listener when main changes; without this it
+# cannot, and the hourly update fails silently.
+echo "$RUN_USER ALL=(root) NOPASSWD: /bin/systemctl restart popdex-listener.service" | sudo tee /etc/sudoers.d/popdex-restart >/dev/null
+sudo chmod 440 /etc/sudoers.d/popdex-restart
 echo
 echo "done. useful commands:"
 echo "  systemctl status popdex-listener        # is the websocket listener up?"
