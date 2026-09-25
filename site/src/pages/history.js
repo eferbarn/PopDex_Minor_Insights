@@ -1,6 +1,6 @@
 // History: everything the API does not keep — read from the `data` branch that
 // the GitHub Actions collectors append to.
-import { dataDays, dataCsv, dataJson, fmtUsd, fmtShort, fmtK, fmtNum, fmtPct } from "../api.js";
+import { dataDays, dataCsv, dataJson, lastDays, fmtUsd, fmtShort, fmtK, fmtNum, fmtPct } from "../api.js";
 import { chart, card, pageHead, C } from "../main.js";
 import { chartLoading } from "../loading.js";
 
@@ -25,14 +25,19 @@ export default async function history(root) {
 
   const ids = ["ins", "nav", "liq", "bridge", "newdep", "acct", "churn", "txs"];
   const ld = Object.fromEntries(ids.map((id) => [id, chartLoading($(id), "Loading data branch")]));
-  const N = 45;
+  // Window every chart on this page to the last N days. 7 by default; ?days=30
+  // (or 14 / 90) widens it. Bridge CSVs are full history on purpose — first-ever
+  // deposits are needed to tell a new depositor from a returning one — so they
+  // are windowed for display only, after `first` has been computed.
+  const N = Math.min(90, Math.max(1, +new URLSearchParams(location.search).get("days") || 7));
+  const WIN = new Set(lastDays(N));
   const [snaps, liqs, arb, morph, acct, txDaily] = await Promise.all([
     dataDays("snapshots", N), dataDays("liquidations", N), dataCsv("bridge/arbitrum.csv"), dataCsv("bridge/morph.csv"),
     dataDays("active_accounts", N), dataJson("explorer_daily.json", {}),
   ]);
   Object.values(ld).forEach((l) => l.done());
   const have = [snaps.length && "snapshots", liqs.length && "liquidations", (arb.length + morph.length) && "bridge", acct.length && "chain samples"].filter(Boolean);
-  $("note").textContent = have.length ? `Loaded: ${have.join(", ")} · ${snaps.length} snapshots · ${liqs.length} liquidation events · ${arb.length + morph.length} bridge events` : "No collected data yet — the GitHub Actions workflows have not pushed to the data branch";
+  $("note").textContent = have.length ? `Last ${N} days · ${have.join(", ")} · ${snaps.length} snapshots · ${liqs.length} liquidation events · ${arb.length + morph.length} bridge events` : "No collected data yet — the GitHub Actions workflows have not pushed to the data branch";
 
   const t = (ts) => new Date(+ts).toISOString().slice(5, 16).replace("T", " ");
   if (snaps.length) {
@@ -60,7 +65,8 @@ export default async function history(root) {
   });
 
   const br = [...arb, ...morph].filter((r) => r.kind === "deposit" || r.kind === "withdraw_submit").map((r) => ({ ...r, usd: +r.amount / 1e6, d: day(r.ts) }));
-  const bdays = [...new Set(br.map((r) => r.d))].sort();
+  const allBdays = [...new Set(br.map((r) => r.d))].sort();
+  const bdays = allBdays.filter((d) => WIN.has(d));
   const sumK = (k, d) => br.filter((r) => r.kind === k && r.d === d).reduce((a, r) => a + r.usd, 0);
   chart($("bridge"), {
     xAxis: { type: "category", data: bdays }, yAxis: { type: "value", axisLabel: { formatter: (v) => fmtShort(v) } }, legend: { top: 0 }, tooltip: { trigger: "axis", valueFormatter: (v) => fmtShort(v) },
@@ -69,7 +75,8 @@ export default async function history(root) {
   const first = {};
   for (const r of br.filter((r) => r.kind === "deposit").sort((a, b) => +a.ts - +b.ts)) first[r.receiver] ??= r.d;
   const newBy = {}; for (const d of Object.values(first)) newBy[d] = (newBy[d] || 0) + 1;
-  let cum = 0;
+  // start the cumulative line at the true total from before the window
+  let cum = allBdays.filter((d) => d < (bdays[0] ?? "9999")).reduce((a, d) => a + (newBy[d] || 0), 0);
   chart($("newdep"), {
     xAxis: { type: "category", data: bdays }, yAxis: [{ type: "value", name: "new" }, { type: "value", name: "cumulative" }], legend: { top: 0 },
     series: [{ name: "new depositors", type: "bar", data: bdays.map((d) => newBy[d] || 0) }, { name: "cumulative", type: "line", yAxisIndex: 1, data: bdays.map((d) => (cum += newBy[d] || 0)) }],
@@ -85,7 +92,7 @@ export default async function history(root) {
       series: [{ name: "cancel/create", type: "line", showSymbol: false, data: acct.map((a) => +(a.cancels / Math.max(1, a.orders)).toFixed(3)) }],
     });
   }
-  const tdays = Object.keys(txDaily).sort();
+  const tdays = Object.keys(txDaily).sort().filter((d) => WIN.has(d));
   chart($("txs"), {
     xAxis: { type: "category", data: tdays }, yAxis: { type: "value", axisLabel: { formatter: (v) => fmtK(v) } }, tooltip: { trigger: "axis", valueFormatter: (v) => fmtK(v) },
     series: [{ type: "bar", data: tdays.map((d) => txDaily[d]) }],

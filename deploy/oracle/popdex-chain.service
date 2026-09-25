@@ -1,5 +1,5 @@
 [Unit]
-Description=PopDex 10-minute snapshot (insurance funds, vault NAV, per-symbol OI/funding)
+Description=PopDex on-chain sample (600 blocks: active accounts, UI vs bot, cancel ratio)
 After=network-online.target
 
 [Service]
@@ -9,6 +9,6 @@ WorkingDirectory=/opt/popdex/code
 Environment=DATA_DIR=/opt/popdex/data-snapshot
 Environment=PUBLISH=1
 Environment=PYTHONUNBUFFERED=1
-ExecStart=/opt/popdex/venv/bin/python collector/snapshot.py markets vault_positions
+ExecStart=/opt/popdex/venv/bin/python collector/snapshot.py active_accounts
 TimeoutStartSec=15min
 Nice=10
