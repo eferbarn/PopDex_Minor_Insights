@@ -40,3 +40,4 @@
 {"s":"AVAXUSDT","usd":81107.74,"block":"56828488","createdAt":"1790419068869","createdBlock":"56828488","execId":"488153002935320610","price":"10.775","side":"Sell","size":"7527.4"}
 {"s":"BTCUSDT","usd":34738.26,"block":"56830669","createdAt":"1790419311215","createdBlock":"56830669","execId":"488171737582665756","price":"84112","side":"Buy","size":"0.413"}
 {"s":"NEARUSDT","usd":74163.6,"block":"56831004","createdAt":"1790419348361","createdBlock":"56831004","execId":"488174615210754053","price":"4.905","side":"Sell","size":"15120"}
+{"s":"BTCUSDT","usd":29395.75,"block":"56844129","createdAt":"1790420807367","createdBlock":"56844129","execId":"488287358102274094","price":"84108","side":"Sell","size":"0.3495"}
