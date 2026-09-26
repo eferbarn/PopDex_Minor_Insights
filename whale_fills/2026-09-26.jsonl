@@ -51,3 +51,5 @@
 {"s":"SUIUSDT","usd":83886.55,"block":"57026341","createdAt":"1790441058169","createdBlock":"57026341","execId":"489852547264151594","price":"1.18265","side":"Sell","size":"70931"}
 {"s":"AVAXUSDT","usd":74410.06,"block":"57026831","createdAt":"1790441112956","createdBlock":"57026831","execId":"489856756332101665","price":"11.018","side":"Sell","size":"6753.5"}
 {"s":"ZECUSDT","usd":65372.79,"block":"57090899","createdAt":"1790448250866","createdBlock":"57090899","execId":"490407096261541968","price":"1574.11","side":"Sell","size":"41.53"}
+{"s":"ZECUSDT","usd":36908.39,"block":"57111490","createdAt":"1790450543574","createdBlock":"57111490","execId":"490583971604725820","price":"1552.73","side":"Sell","size":"23.77"}
+{"s":"ZECUSDT","usd":26100.65,"block":"57111490","createdAt":"1790450543574","createdBlock":"57111490","execId":"490583971604725818","price":"1553.61","side":"Sell","size":"16.8"}
