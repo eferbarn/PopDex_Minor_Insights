@@ -11,3 +11,5 @@
 {"s":"ENAUSDT","usd":30465.29,"block":"56691279","createdAt":"1790403796234","createdBlock":"56691279","execId":"486974386599886979","price":"0.27049","side":"Buy","size":"112630"}
 {"s":"ENAUSDT","usd":32583.76,"block":"56691279","createdAt":"1790403796234","createdBlock":"56691279","execId":"486974386599886975","price":"0.26951","side":"Buy","size":"120900"}
 {"s":"ENAUSDT","usd":28121.72,"block":"56715252","createdAt":"1790406464530","createdBlock":"56715252","execId":"487180313101860906","price":"0.26952","side":"Buy","size":"104340"}
+{"s":"ETHUSDT","usd":37290.08,"block":"56723091","createdAt":"1790407335858","createdBlock":"56723091","execId":"487247649599127568","price":"2689.9","side":"Buy","size":"13.863"}
+{"s":"ETHUSDT","usd":105476.36,"block":"56723091","createdAt":"1790407335858","createdBlock":"56723091","execId":"487247649599127566","price":"2689.9","side":"Buy","size":"39.212"}
