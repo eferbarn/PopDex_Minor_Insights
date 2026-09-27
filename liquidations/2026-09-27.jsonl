@@ -11,3 +11,6 @@
 {"recv":1790503001485,"amount":"92","price":"0.57939","remainAmount":"0","side":"Buy","symbol":"WLDUSDT","symbolId":20011,"ts":"1790503001284","walletId":"0x8518EE813C336E5F78F0E10bDA0C6344A1033A1b"}
 {"recv":1790504112660,"amount":"0.1","price":"125.208","remainAmount":"0","side":"Buy","symbol":"SOLUSDT","symbolId":20002,"ts":"1790504112465","walletId":"0x9491C553eC0D619B62e7619967f21266D7c98071"}
 {"recv":1790506223146,"amount":"35","price":"0.59094","remainAmount":"0","side":"Buy","symbol":"WLDUSDT","symbolId":20011,"ts":"1790506222981","walletId":"0x661367fa0e8cE75B7B831132913d3E62654009D4"}
+{"recv":1790514067655,"amount":"123","price":"0.2129","remainAmount":"0","side":"Sell","symbol":"XLMUSDT","symbolId":20019,"ts":"1790514067479","walletId":"0xf061D760D4759aDBF02e3B7C757718BE93A2505b"}
+{"recv":1790514084375,"amount":"34.612","price":"318.99","remainAmount":"0","side":"Sell","symbol":"TAOUSDT","symbolId":20010,"ts":"1790514084149","walletId":"0xBCaf0821564C562046A4B1b21C63421749B3Db3a"}
+{"recv":1790514305059,"amount":"789","price":"0.12635","remainAmount":"0","side":"Sell","symbol":"MARSCOINUSDT","symbolId":20031,"ts":"1790514304882","walletId":"0x1ccC126261B0B0503ae10F0f344Cd293554C4741"}
