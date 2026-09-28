@@ -64,3 +64,5 @@
 {"recv":1790597411586,"amount":"0.0906","price":"83801","remainAmount":"0","side":"Buy","symbol":"BTCUSDT","symbolId":20000,"ts":"1790597411411","walletId":"0x4C81B3FB6D903fcE7C73ED5AC70277a79B948743"}
 {"recv":1790600078066,"amount":"0.0016","price":"83850","remainAmount":"0","side":"Buy","symbol":"BTCUSDT","symbolId":20000,"ts":"1790600077864","walletId":"0x656c7e9FbEA43BcD86b6BB06d00348f944839281"}
 {"recv":1790600124936,"amount":"0.072","price":"2702.6","remainAmount":"0","side":"Buy","symbol":"ETHUSDT","symbolId":20001,"ts":"1790600124724","walletId":"0xAAd6624f5494066C96d1d0707106F1ad58fC1B63"}
+{"recv":1790603348062,"amount":"6976","price":"0.14779","remainAmount":"0","side":"Sell","symbol":"MARSCOINUSDT","symbolId":20031,"ts":"1790603347830","walletId":"0x5a66C86Ad6ceC6C0EA6DC3ad55ea79f6C46F983E"}
+{"recv":1790603348062,"amount":"6976","price":"0.14779","remainAmount":"0","side":"Buy","symbol":"MARSCOINUSDT","symbolId":20031,"ts":"1790603347830","walletId":"0xfFfFFffFffffFFffFffFFFFFFfFFFfFfFFfFfFfD"}
