@@ -53,3 +53,4 @@
 {"recv":1790586208484,"amount":"0.011","price":"4023.9","remainAmount":"0","side":"Sell","symbol":"XAUUSDT","symbolId":21003,"ts":"1790586208234","walletId":"0x0E176AD130778C76fD49Fc8a4a97fC69b20bd5FF"}
 {"recv":1790586212910,"amount":"10.3","price":"1.15683","remainAmount":"0","side":"Sell","symbol":"SUIUSDT","symbolId":20014,"ts":"1790586212701","walletId":"0xCd8e25d8348A3d1160c1436A83088B3D397A1c57"}
 {"recv":1790586622563,"amount":"0.0361","price":"82259","remainAmount":"0","side":"Sell","symbol":"BTCUSDT","symbolId":20000,"ts":"1790586622366","walletId":"0x4ECE740F8439eea94D2e74A4484BEa8403c09D69"}
+{"recv":1790586942032,"amount":"2090","price":"0.2125","remainAmount":"0","side":"Buy","symbol":"XLMUSDT","symbolId":20019,"ts":"1790586941816","walletId":"0x80fFD626B3D779a41d9CE0F6303712f771DA18F3"}
