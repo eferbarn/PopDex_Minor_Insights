@@ -57,3 +57,4 @@
 {"recv":1790588397755,"amount":"5","price":"5.021","remainAmount":"0","side":"Sell","symbol":"NEARUSDT","symbolId":20020,"ts":"1790588397553","walletId":"0x868B197337BD746323fcF7bAD120E949FCc13fcb"}
 {"recv":1790591397307,"amount":"15","price":"1.721","remainAmount":"0","side":"Buy","symbol":"GRAMUSDT","symbolId":20024,"ts":"1790591397098","walletId":"0x661367fa0e8cE75B7B831132913d3E62654009D4"}
 {"recv":1790593212710,"amount":"0.375","price":"2669.2","remainAmount":"0","side":"Buy","symbol":"ETHUSDT","symbolId":20001,"ts":"1790593212520","walletId":"0xAAd6624f5494066C96d1d0707106F1ad58fC1B63"}
+{"recv":1790594963457,"amount":"4529","price":"0.005092","remainAmount":"0","side":"Buy","symbol":"PUMPUSDT","symbolId":20027,"ts":"1790594963270","walletId":"0x9b9d9501Dff93e93A3573f647b2f8c267C66270E"}
