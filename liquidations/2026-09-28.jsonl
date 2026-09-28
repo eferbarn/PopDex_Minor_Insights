@@ -43,3 +43,5 @@
 {"recv":1790574785656,"amount":"0.08","price":"137.87","remainAmount":"0","side":"Sell","symbol":"SOXLUSDT","symbolId":21104,"ts":"1790574785470","walletId":"0x4A42805676Fc23A352Aa6F5dCCE342503407D96C"}
 {"recv":1790575276136,"amount":"717","price":"5.097","remainAmount":"0","side":"Sell","symbol":"NEARUSDT","symbolId":20020,"ts":"1790575275922","walletId":"0xf568Dc8dc4130244cb59ea2d7b4D07F657b53c97"}
 {"recv":1790576546082,"amount":"0.05","price":"1529.86","remainAmount":"0","side":"Sell","symbol":"ZECUSDT","symbolId":20005,"ts":"1790576545880","walletId":"0xE7F33D7FC656226F5F586feC3e97b4fB8FE03dDE"}
+{"recv":1790577205307,"amount":"1893","price":"0.51424","remainAmount":"0","side":"Sell","symbol":"PONSUSDT","symbolId":20028,"ts":"1790577205089","walletId":"0xCF47a1c56C1fbC1B1C7108846A914a791b29dAFB"}
+{"recv":1790577205307,"amount":"1893","price":"0.51424","remainAmount":"0","side":"Buy","symbol":"PONSUSDT","symbolId":20028,"ts":"1790577205089","walletId":"0xfFfFFffFffffFFffFffFFFFFFfFFFfFfFFfFfFfD"}
