@@ -66,3 +66,4 @@
 {"recv":1790600124936,"amount":"0.072","price":"2702.6","remainAmount":"0","side":"Buy","symbol":"ETHUSDT","symbolId":20001,"ts":"1790600124724","walletId":"0xAAd6624f5494066C96d1d0707106F1ad58fC1B63"}
 {"recv":1790603348062,"amount":"6976","price":"0.14779","remainAmount":"0","side":"Sell","symbol":"MARSCOINUSDT","symbolId":20031,"ts":"1790603347830","walletId":"0x5a66C86Ad6ceC6C0EA6DC3ad55ea79f6C46F983E"}
 {"recv":1790603348062,"amount":"6976","price":"0.14779","remainAmount":"0","side":"Buy","symbol":"MARSCOINUSDT","symbolId":20031,"ts":"1790603347830","walletId":"0xfFfFFffFffffFFffFffFFFFFFfFFFfFfFFfFfFfD"}
+{"recv":1790605592352,"amount":"1152","price":"0.5044","remainAmount":"0","side":"Sell","symbol":"ONDOUSDT","symbolId":20018,"ts":"1790605592160","walletId":"0xf8d548922b7a5f0Ce02a9d44Ce134CB848EC2b31"}
