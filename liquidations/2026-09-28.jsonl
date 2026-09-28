@@ -100,3 +100,5 @@
 {"recv":1790624304894,"amount":"0.0086","price":"82905","remainAmount":"0","side":"Sell","symbol":"BTCUSDT","symbolId":20000,"ts":"1790624304612","walletId":"0x48b576c87e788a762D6f95A456f2A39113b46950"}
 {"recv":1790624322712,"amount":"571","price":"4.689","remainAmount":"0","side":"Sell","symbol":"NEARUSDT","symbolId":20020,"ts":"1790624322517","walletId":"0xa42B37b50Fe7f1a4850E66881C22E80a80A08240"}
 {"recv":1790624328774,"amount":"3304","price":"0.25658","remainAmount":"0","side":"Sell","symbol":"ENAUSDT","symbolId":20017,"ts":"1790624328559","walletId":"0x03aC494BA8ed655323d00B3fF733C867527Fe3Ed"}
+{"recv":1790633164606,"amount":"0.13","price":"116.814","remainAmount":"0","side":"Sell","symbol":"SOLUSDT","symbolId":20002,"ts":"1790633164432","walletId":"0x7F79397d776ac78Df9D9D67f387EaC4d214f6166"}
+{"recv":1790633187323,"amount":"0.13","price":"85.541","remainAmount":"0","side":"Sell","symbol":"HYPEUSDT","symbolId":20006,"ts":"1790633187112","walletId":"0x8D1114117012916b7217d232D240419322e2B3d2"}
