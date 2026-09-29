@@ -9,3 +9,5 @@
 {"recv":1790648530118,"amount":"0.0024","price":"82629","remainAmount":"0","side":"Sell","symbol":"BTCUSDT","symbolId":20000,"ts":"1790648529892","walletId":"0x070692dA34b622fD56d40ae7A561473b046b3E19"}
 {"recv":1790651707496,"amount":"3.1","price":"14.682","remainAmount":"0","side":"Sell","symbol":"LINKUSDT","symbolId":20023,"ts":"1790651707309","walletId":"0xaBD3a41268DE53b7b687aFd88Ad4518D714E9cb1"}
 {"recv":1790657241784,"amount":"0.07","price":"1351.46","remainAmount":"0","side":"Sell","symbol":"ZECUSDT","symbolId":20005,"ts":"1790657241523","walletId":"0x6e2a4Fb5Ab0A9Ca008636af129a4cd01147FAEbd"}
+{"recv":1790665690215,"amount":"67","price":"0.17156","remainAmount":"0","side":"Buy","symbol":"MARSCOINUSDT","symbolId":20031,"ts":"1790665689120","walletId":"0x76b13885484B77af206ED9A4242a6355F43A331D"}
+{"recv":1790665717955,"amount":"74.7","price":"15.243","remainAmount":"0","side":"Buy","symbol":"LINKUSDT","symbolId":20023,"ts":"1790665717781","walletId":"0xC49CAC2211d6AE6E038563023D89Ee82f7b7Faef"}
