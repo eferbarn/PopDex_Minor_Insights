@@ -27,3 +27,4 @@
 {"recv":1790696583158,"amount":"1.67","price":"85.52","remainAmount":"0","side":"Sell","symbol":"HYPEUSDT","symbolId":20006,"ts":"1790696582975","walletId":"0xb4b83e5814F7b70745A7b60620Af5a7Db752F90A"}
 {"recv":1790697222539,"amount":"131","price":"0.14129","remainAmount":"0","side":"Sell","symbol":"MARSCOINUSDT","symbolId":20031,"ts":"1790697222330","walletId":"0x731D692bC8B6Af18F288a48409b8E4001b1A3dbD"}
 {"recv":1790702458160,"amount":"3853","price":"0.005464","remainAmount":"0","side":"Sell","symbol":"PUMPUSDT","symbolId":20027,"ts":"1790702458004","walletId":"0x070692dA34b622fD56d40ae7A561473b046b3E19"}
+{"recv":1790703270163,"amount":"15227","price":"0.13695","remainAmount":"0","side":"Sell","symbol":"MARSCOINUSDT","symbolId":20031,"ts":"1790703269983","walletId":"0xEBdE960C3f9cBD18b191926C59a9696249a5f9A5"}
