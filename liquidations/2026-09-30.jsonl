@@ -32,3 +32,4 @@
 {"recv":1790775582139,"amount":"0.3188","price":"83861","remainAmount":"0","side":"Sell","symbol":"BTCUSDT","symbolId":20000,"ts":"1790775581844","walletId":"0xdC25F0288FCe5753D8Cec8648416c831104Cf51a"}
 {"recv":1790775651601,"amount":"549","price":"0.223","remainAmount":"0","side":"Sell","symbol":"XLMUSDT","symbolId":20019,"ts":"1790775651368","walletId":"0x9848e76608Bc2dF6c51C9C5947196B2F950236f5"}
 {"recv":1790775653140,"amount":"0.0103","price":"83721","remainAmount":"0","side":"Sell","symbol":"BTCUSDT","symbolId":20000,"ts":"1790775652931","walletId":"0x9fF25598d8ebEBD86C26d10EabF2F0DfF849884E"}
+{"recv":1790777178622,"amount":"0.03","price":"1503.29","remainAmount":"0","side":"Buy","symbol":"ZECUSDT","symbolId":20005,"ts":"1790777178388","walletId":"0xAE89dfE1165F12EFB0d0a8599e5DCBF5F78eeE82"}
