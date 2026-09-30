@@ -41,3 +41,6 @@
 {"recv":1790778769998,"amount":"0.29","price":"2661.5","remainAmount":"0","side":"Sell","symbol":"ETHUSDT","symbolId":20001,"ts":"1790778769792","walletId":"0x53fB5f2212437693d6957a603840d253162CA84F"}
 {"recv":1790778770579,"amount":"0.8","price":"1415.92","remainAmount":"0","side":"Sell","symbol":"ZECUSDT","symbolId":20005,"ts":"1790778770348","walletId":"0x206aD04BabaF8615030F05E5c364d844A8AC7519"}
 {"recv":1790778773078,"amount":"3.63","price":"117.997","remainAmount":"0","side":"Sell","symbol":"SOLUSDT","symbolId":20002,"ts":"1790778772814","walletId":"0x48b576c87e788a762D6f95A456f2A39113b46950"}
+{"recv":1790778972579,"amount":"168","price":"0.219","remainAmount":"0","side":"Sell","symbol":"XLMUSDT","symbolId":20019,"ts":"1790778972353","walletId":"0xb9532abC3205Cbc40f052d3d1844d1F04eCFE911"}
+{"recv":1790779217939,"amount":"41","price":"13.923","remainAmount":"0","side":"Sell","symbol":"LINKUSDT","symbolId":20023,"ts":"1790779217738","walletId":"0xC49CAC2211d6AE6E038563023D89Ee82f7b7Faef"}
+{"recv":1790779274825,"amount":"425","price":"0.2189","remainAmount":"0","side":"Sell","symbol":"XLMUSDT","symbolId":20019,"ts":"1790779274569","walletId":"0x2eA11788a24f1E5Ca2Ea37854B7c090E45c62228"}
