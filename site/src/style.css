@@ -6,17 +6,22 @@ body { font-size: 15px; line-height: 1.55; }
 /* ---- shell (mirrors PopDEX_Docs / 3P) ---- */
 .wrap { position: relative; z-index: 1; width: 100%; max-width: 1152px; margin: 0 auto; padding: 0 24px; }
 .page { padding-bottom: 40px; }
-.site-top { position: sticky; top: 0; z-index: 30; display: flex; align-items: center; gap: 28px; padding: 24px 36px 12px;
+/* header — one shared bar across Creators form, Creators Docs, Purple Promise and Insights:
+   68px tall (60px under 640px), 36px side padding (20px), mark + wordmark + /Section left, quiet counters right */
+.site-top { position: sticky; top: 0; z-index: 30; display: flex; align-items: center; gap: 16px; height: 68px; padding: 0 36px;
   background: linear-gradient(180deg, var(--bg) 0%, rgba(11,11,13,0.8) 60%, transparent 100%); }
+.pd-brand { min-width: 0; user-select: none; }
 .pd-brand a { display: flex; align-items: center; gap: 9px; text-decoration: none; }
 .pd-brand .brand-mark { height: 21px; width: auto; display: block; color: #fff; flex: 0 0 auto; }
-.pd-brand .wordmark { font-size: 20px; font-weight: 800; letter-spacing: -0.022em; color: #fff; line-height: 1; margin-left: -1px; }
-.site-nav { display: flex; align-items: center; gap: 18px; flex: 1; }
-.site-nav a { font-size: 13px; font-weight: 600; color: var(--dim); text-decoration: none; letter-spacing: 0.01em; padding: 6px 0; display: inline-flex; align-items: center; gap: 7px; transition: color 160ms ease; }
+.pd-brand .wordmark { font-size: 20px; font-weight: 800; letter-spacing: -0.022em; color: #fff; line-height: 1; margin-left: -1px; white-space: nowrap; }
+.pd-brand .section { line-height: 1; white-space: nowrap; }
+.site-nav { display: flex; align-items: center; gap: 18px; flex: 1; margin-left: 12px; }
+.site-nav a { font-size: 13px; font-weight: 600; color: var(--dim); text-decoration: none; letter-spacing: 0.01em; padding: 6px 0; display: inline-flex; align-items: center; gap: 7px; white-space: nowrap; transition: color 160ms ease; }
 .site-nav a::before { content: ""; width: 6px; height: 6px; border-radius: 50%; background: transparent; transition: background 160ms ease; }
 .site-nav a:hover { color: var(--text); }
 .site-nav a.active { color: var(--text); } .site-nav a.active::before { background: var(--brand-soft); box-shadow: 0 0 10px rgba(128,119,255,0.8); }
-.site-top-right { display: flex; align-items: center; gap: 12px; flex: none; }
+.site-top-right { display: flex; align-items: center; gap: 12px; flex: none; font-size: 12px; letter-spacing: 0.06em; color: var(--dim); }
+.pd-pill { white-space: nowrap; }
 .site-top-right .pd-counter { gap: 6px; }
 .site-top-right .pd-pill.is-off { color: var(--dim); background: transparent; border-color: var(--line-2); }
 .site-top-right .pd-pill.is-off .live-dot::before { animation: none; opacity: 0; }
@@ -96,19 +101,17 @@ a.sym:focus-visible { outline: none; box-shadow: var(--ring); border-radius: 6px
 .pd-btn--sm.ghost-xs { padding: 6px 12px; font-size: 12px; }
 .range { display: flex; gap: 8px; flex: none; }
 
-/* ---- mobile nav: hamburger top-left, glass dropdown ---- */
-.nav-toggle { display: none; width: 38px; height: 38px; border-radius: 12px; border: 1px solid var(--line-2); background: rgba(14,14,18,0.55); color: var(--muted); cursor: pointer; place-items: center; padding: 0; flex: none; transition: color 160ms ease, border-color 160ms ease, background 160ms ease; }
+/* ---- collapsed nav: hamburger top-left, glass dropdown. The inline nav needs ~960px, so tablets get the menu too ---- */
+.nav-toggle { display: none; width: 36px; height: 36px; border-radius: 10px; border: 1px solid var(--line-2); background: rgba(14,14,18,0.55); color: var(--muted); cursor: pointer; place-items: center; padding: 0; flex: none; transition: color 160ms ease, border-color 160ms ease, background 160ms ease; }
 .nav-toggle:hover, .nav-toggle[aria-expanded="true"] { color: #fff; border-color: var(--brand-soft); background: rgba(77,66,252,0.12); }
 .nav-toggle .i-close { display: none; }
 .nav-toggle[aria-expanded="true"] .i-open { display: none; }
 .nav-toggle[aria-expanded="true"] .i-close { display: block; }
-@media (max-width: 760px) {
-  .site-top { padding: 14px 16px 10px; gap: 12px; }
+@media (max-width: 1000px) {
+  .site-top { gap: 10px; }
   .nav-toggle { display: grid; }
   .pd-brand { flex: 1; }
-  .pd-brand .brand-mark { height: 18px; }
-  .pd-brand .wordmark { font-size: 17px; }
-  .site-nav { position: absolute; left: 16px; right: 16px; top: calc(100% + 2px); z-index: 40; flex-direction: column; align-items: stretch; gap: 2px; padding: 8px;
+  .site-nav { position: absolute; left: 36px; top: calc(100% - 4px); width: 300px; margin: 0; z-index: 40; flex-direction: column; align-items: stretch; gap: 2px; padding: 8px;
     border-radius: 18px; background: rgba(20,21,26,0.92); border: 1px solid rgba(255,255,255,0.09);
     box-shadow: inset 0 1px 0 rgba(255,255,255,0.06), 0 30px 90px -30px rgba(77,66,252,0.45), 0 24px 48px -24px rgba(0,0,0,0.7);
     backdrop-filter: blur(22px) saturate(140%); -webkit-backdrop-filter: blur(22px) saturate(140%);
@@ -116,10 +119,21 @@ a.sym:focus-visible { outline: none; box-shadow: var(--ring); border-radius: 6px
   .site-nav.is-open { opacity: 1; transform: none; pointer-events: auto; }
   .site-nav a { font-size: 15px; padding: 11px 12px; border-radius: 10px; }
   .site-nav a.active { background: rgba(77,66,252,0.16); }
-  .hide-sm { display: none; }
-  .site-foot { padding: 24px 20px; }
+  .site-top:has(.site-nav.is-open) { background: var(--bg); }
+}
+@media (max-width: 760px) {
   .grid { grid-template-columns: 1fr; }
   .card { padding: 16px; }
+}
+@media (max-width: 640px) {
+  .site-top { height: 60px; padding: 0 20px; }
+  .pd-brand .brand-mark { height: 18px; }
+  .pd-brand .wordmark { font-size: 17px; }
+  .pd-brand .section { font-size: 13px; }
+  .site-nav { left: 20px; right: 20px; width: auto; }
+  .site-top-right { gap: 8px; }
+  .hide-sm { display: none; }
+  .site-foot { padding: 24px 20px; }
 }
 @media (prefers-reduced-motion: reduce) { .live-dot::before, .feed .new { animation: none; } }
 
@@ -153,4 +167,3 @@ a.sym:focus-visible { outline: none; box-shadow: var(--ring); border-radius: 6px
   background: #141518; border: 1px solid rgba(255,255,255,0.14); font-family: var(--font-mono); font-variant-numeric: tabular-nums; }
 .ld-chip b { font-weight: 600; color: var(--brand-tint); }
 @media (prefers-reduced-motion: reduce) { .ld-bar, .ld-feed > div, .ld-chart, .ld-ring i { animation: none; } }
-@media (max-width: 760px) { .site-top:has(.site-nav.is-open) { background: var(--bg); } }
