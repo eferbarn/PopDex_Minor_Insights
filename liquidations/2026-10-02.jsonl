@@ -27,3 +27,4 @@
 {"recv":1790952860945,"amount":"0.0028","price":"85306","remainAmount":"0","side":"Sell","symbol":"BTCUSDT","symbolId":20000,"ts":"1790952860759","walletId":"0x2AD8704Ca125910628fd5D9D5b67B84Fecd557Bb"}
 {"recv":1790952889725,"amount":"0.013","price":"2692.9","remainAmount":"0","side":"Sell","symbol":"ETHUSDT","symbolId":20001,"ts":"1790952889496","walletId":"0x89b93B397C85Ec0300aD9B04dDb5db13d6F2F812"}
 {"recv":1790952920029,"amount":"0.0005","price":"85111","remainAmount":"0","side":"Sell","symbol":"BTCUSDT","symbolId":20000,"ts":"1790952919771","walletId":"0x17BEEEf0a03512f3C1048E7BfFD8b9cfDF102d31"}
+{"recv":1790956657762,"amount":"4.87","price":"90.882","remainAmount":"0","side":"Buy","symbol":"HYPEUSDT","symbolId":20006,"ts":"1790956657585","walletId":"0x616bA9cC071F2718df9889B6b2D8622e050B8120"}
