@@ -7,3 +7,4 @@
 {"recv":1791039051109,"amount":"1.35","price":"89.978","remainAmount":"0","side":"Buy","symbol":"HYPEUSDT","symbolId":20006,"ts":"1791039050904","walletId":"0x89b93B397C85Ec0300aD9B04dDb5db13d6F2F812"}
 {"recv":1791047380909,"amount":"44","price":"4.747","remainAmount":"0","side":"Buy","symbol":"NEARUSDT","symbolId":20020,"ts":"1791047380648","walletId":"0x88F12fca04478cC0d62921309Fcd194bFFB87e56"}
 {"recv":1791053519124,"amount":"226","price":"0.57314","remainAmount":"0","side":"Sell","symbol":"WLDUSDT","symbolId":20011,"ts":"1791053518855","walletId":"0xBc5C893DeB0c67DD7cADa472918b6888306eb688"}
+{"recv":1791062947507,"amount":"4533","price":"0.10383","remainAmount":"0","side":"Sell","symbol":"MARSCOINUSDT","symbolId":20031,"ts":"1791062947210","walletId":"0xd498F099dA9A6E9AcB88ACf6D5Ded54682Ae0858"}
