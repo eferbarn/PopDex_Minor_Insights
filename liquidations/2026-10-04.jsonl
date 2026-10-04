@@ -10,3 +10,5 @@
 {"recv":1791128286839,"amount":"74413","price":"0.006789","remainAmount":"0","side":"Buy","symbol":"PUMPUSDT","symbolId":20027,"ts":"1791128286612","walletId":"0xd84A3C8E9BEc42eC0D158823B98efA815CFfaF61"}
 {"recv":1791129791011,"amount":"6050","price":"0.23273","remainAmount":"0","side":"Sell","symbol":"ENAUSDT","symbolId":20017,"ts":"1791129790770","walletId":"0x80fFD626B3D779a41d9CE0F6303712f771DA18F3"}
 {"recv":1791143457207,"amount":"339.1","price":"1.20146","remainAmount":"0","side":"Sell","symbol":"SUIUSDT","symbolId":20014,"ts":"1791143456947","walletId":"0x0178274Ec3e22cB684a35d829f5e15F66441e71a"}
+{"recv":1791148258166,"amount":"0.0044","price":"86212","remainAmount":"0","side":"Buy","symbol":"BTCUSDT","symbolId":20000,"ts":"1791148257803","walletId":"0x046D1e15a3672f8C4a7661DcEa362D33fFBCd799"}
+{"recv":1791148258166,"amount":"0.9564","price":"86229","remainAmount":"0","side":"Buy","symbol":"BTCUSDT","symbolId":20000,"ts":"1791148257803","walletId":"0xeb820A2F7EDf7A6E13A31C4b9e3C0F736b2939cc"}
