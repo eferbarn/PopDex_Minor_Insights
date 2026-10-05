@@ -28,3 +28,4 @@
 {"recv":1791231055903,"amount":"0.21","price":"177.06","remainAmount":"0","side":"Buy","symbol":"SPCXUSDT","symbolId":21101,"ts":"1791231055715","walletId":"0xA1735D26B17dC5C57eC35CFb0a372d2Fd1F922a2"}
 {"recv":1791232025126,"amount":"190","price":"0.3581","remainAmount":"0","side":"Buy","symbol":"KAITOUSDT","symbolId":20021,"ts":"1791232024910","walletId":"0xBc5C893DeB0c67DD7cADa472918b6888306eb688"}
 {"recv":1791242367258,"amount":"0.47","price":"120.055","remainAmount":"0","side":"Sell","symbol":"SOLUSDT","symbolId":20002,"ts":"1791242367072","walletId":"0xdde7f42ca35c6c05f6653aa6D0910d55272c4D24"}
+{"recv":1791243321003,"amount":"2.52","price":"1319.8","remainAmount":"0","side":"Sell","symbol":"ZECUSDT","symbolId":20005,"ts":"1791243320746","walletId":"0x9E00D74b0B9ff55F8D074f587aa7681FBeA5f51f"}
