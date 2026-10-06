@@ -14,3 +14,4 @@
 {"s":"DOGEUSDT","usd":26022.99,"block":"64502519","createdAt":"1791273850932","createdBlock":"64502519","execId":"554072427282301119","price":"0.09473","side":"Buy","size":"274707"}
 {"s":"BTCUSDT","usd":81552.02,"block":"64505274","createdAt":"1791274156657","createdBlock":"64505274","execId":"554096092552101927","price":"85772","side":"Sell","size":"0.9508"}
 {"s":"BTCUSDT","usd":93877.27,"block":"64506700","createdAt":"1791274314965","createdBlock":"64506700","execId":"554108341798830131","price":"85764","side":"Sell","size":"1.0946"}
+{"s":"BTCUSDT","usd":27184.67,"block":"64509307","createdAt":"1791274604341","createdBlock":"64509307","execId":"554130735758311455","price":"85729","side":"Buy","size":"0.3171"}
