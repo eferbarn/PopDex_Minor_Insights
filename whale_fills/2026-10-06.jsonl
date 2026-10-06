@@ -8,3 +8,4 @@
 {"s":"SPCXUSDT","usd":33796.06,"block":"64465414","createdAt":"1791269729608","createdBlock":"64465414","execId":"553753697759264807","price":"173.5","side":"Sell","size":"194.79"}
 {"s":"BTCUSDT","usd":41419.04,"block":"64467695","createdAt":"1791269983574","createdBlock":"64467695","execId":"553773291400069171","price":"85277","side":"Sell","size":"0.4857"}
 {"s":"XAUUSDT","usd":26604.85,"block":"64475581","createdAt":"1791270858498","createdBlock":"64475581","execId":"553841031624261666","price":"4138.9","side":"Buy","size":"6.428"}
+{"s":"ETHUSDT","usd":87235.01,"block":"64482580","createdAt":"1791271635615","createdBlock":"64482580","execId":"553901152576471058","price":"2696.6","side":"Sell","size":"32.35"}
