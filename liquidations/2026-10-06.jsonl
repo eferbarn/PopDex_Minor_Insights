@@ -17,3 +17,8 @@
 {"recv":1791298841353,"amount":"0.0283","price":"86970","remainAmount":"0","side":"Buy","symbol":"BTCUSDT","symbolId":20000,"ts":"1791298841125","walletId":"0x1f73395B8FcEF9C0d09E8b821e4465d66cD40F05"}
 {"recv":1791298961219,"amount":"1.44","price":"122.365","remainAmount":"0","side":"Buy","symbol":"SOLUSDT","symbolId":20002,"ts":"1791298961026","walletId":"0xB3F349557b2553072d5eA1dEeD49B55b22303B77"}
 {"recv":1791302296539,"amount":"29","price":"5.041","remainAmount":"0","side":"Sell","symbol":"NEARUSDT","symbolId":20020,"ts":"1791302296351","walletId":"0xf87E9d40Fda53D85187a01daD4Dc12459dcbbB25"}
+{"recv":1791303670700,"amount":"289","price":"0.23463","remainAmount":"0","side":"Sell","symbol":"ENAUSDT","symbolId":20017,"ts":"1791303670498","walletId":"0x046D1e15a3672f8C4a7661DcEa362D33fFBCd799"}
+{"recv":1791303778223,"amount":"0.49","price":"91.93","remainAmount":"0","side":"Buy","symbol":"CLUSDT","symbolId":21001,"ts":"1791303778036","walletId":"0x855fA34be8D305dA20D639207CAdDd77F98bf4F0"}
+{"recv":1791303832597,"amount":"0.76","price":"91.969","remainAmount":"0","side":"Buy","symbol":"CLUSDT","symbolId":21001,"ts":"1791303832411","walletId":"0x7a465E4459D8e7603889428cBF69979058262e12"}
+{"recv":1791303858403,"amount":"1.09","price":"92.075","remainAmount":"0","side":"Buy","symbol":"CLUSDT","symbolId":21001,"ts":"1791303858091","walletId":"0x526911Af218a2B380888E9686149b8D0D2a6E94c"}
+{"recv":1791303859806,"amount":"0.23","price":"92.09","remainAmount":"0","side":"Buy","symbol":"CLUSDT","symbolId":21001,"ts":"1791303859638","walletId":"0x9848e76608Bc2dF6c51C9C5947196B2F950236f5"}
