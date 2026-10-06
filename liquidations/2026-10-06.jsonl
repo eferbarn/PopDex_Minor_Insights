@@ -2,3 +2,4 @@
 {"recv":1791248515151,"amount":"0.0002","price":"86416","remainAmount":"0","side":"Buy","symbol":"BTCUSDT","symbolId":20000,"ts":"1791248514932","walletId":"0x82b8F55150802ad5638586A6F724BA096AB64622"}
 {"recv":1791249558657,"amount":"0.539","price":"775.7","remainAmount":"0","side":"Sell","symbol":"BNBUSDT","symbolId":20016,"ts":"1791249558257","walletId":"0xE67c7D5c5c66Ab092bbaa69c8ea63eD2d6720B37"}
 {"recv":1791257997854,"amount":"121","price":"0.2422","remainAmount":"0","side":"Sell","symbol":"ENAUSDT","symbolId":20017,"ts":"1791257997619","walletId":"0x43D9cD2AA5a217e082bDA1244c38B16C4111Ce4e"}
+{"recv":1791263470480,"amount":"1433","price":"0.2187","remainAmount":"0","side":"Buy","symbol":"XLMUSDT","symbolId":20019,"ts":"1791263470242","walletId":"0x80fFD626B3D779a41d9CE0F6303712f771DA18F3"}
