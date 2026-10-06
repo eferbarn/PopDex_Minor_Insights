@@ -3,3 +3,5 @@
 {"recv":1791249558657,"amount":"0.539","price":"775.7","remainAmount":"0","side":"Sell","symbol":"BNBUSDT","symbolId":20016,"ts":"1791249558257","walletId":"0xE67c7D5c5c66Ab092bbaa69c8ea63eD2d6720B37"}
 {"recv":1791257997854,"amount":"121","price":"0.2422","remainAmount":"0","side":"Sell","symbol":"ENAUSDT","symbolId":20017,"ts":"1791257997619","walletId":"0x43D9cD2AA5a217e082bDA1244c38B16C4111Ce4e"}
 {"recv":1791263470480,"amount":"1433","price":"0.2187","remainAmount":"0","side":"Buy","symbol":"XLMUSDT","symbolId":20019,"ts":"1791263470242","walletId":"0x80fFD626B3D779a41d9CE0F6303712f771DA18F3"}
+{"recv":1791266777641,"amount":"119","price":"0.23851","remainAmount":"0","side":"Sell","symbol":"ENAUSDT","symbolId":20017,"ts":"1791266777426","walletId":"0x68f3F7071b8FF45b19bb9FbcbB208E0994363d84"}
+{"recv":1791266789722,"amount":"0.77","price":"1310.68","remainAmount":"0","side":"Sell","symbol":"ZECUSDT","symbolId":20005,"ts":"1791266789523","walletId":"0xa4f23e9A9EAe680e5ff48eA972a31cc1A787500e"}
