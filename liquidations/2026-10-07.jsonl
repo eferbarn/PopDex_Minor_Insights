@@ -30,3 +30,4 @@
 {"recv":1791338480709,"amount":"0.0659","price":"83325","remainAmount":"0","side":"Sell","symbol":"BTCUSDT","symbolId":20000,"ts":"1791338480336","walletId":"0xcb4d5E7026C3F86348C80D918bA9E511295399f1"}
 {"recv":1791338805957,"amount":"0.0141","price":"68069","remainAmount":"0","side":"Sell","symbol":"JP225USDT","symbolId":21007,"ts":"1791338805723","walletId":"0xF19688ca8b5be7A180550b4012B5c3c74D6cd0bB"}
 {"recv":1791363833211,"amount":"103","price":"0.23315","remainAmount":"0","side":"Sell","symbol":"ENAUSDT","symbolId":20017,"ts":"1791363832960","walletId":"0x046D1e15a3672f8C4a7661DcEa362D33fFBCd799"}
+{"recv":1791364776607,"amount":"0.7842","price":"83429","remainAmount":"0","side":"Sell","symbol":"BTCUSDT","symbolId":20000,"ts":"1791364776336","walletId":"0x8066a3Cad8c5EF0c3Ad6F333b9fDC643252c0057"}
