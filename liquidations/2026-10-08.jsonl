@@ -44,3 +44,4 @@
 {"recv":1791464251805,"amount":"139","price":"1.08553","remainAmount":"0","side":"Sell","symbol":"SUIUSDT","symbolId":20014,"ts":"1791464250189","walletId":"0x96A8cAB2Fc207B1667715aA39242338DfaffafbF"}
 {"recv":1791464535110,"amount":"145.2","price":"1.08231","remainAmount":"0","side":"Sell","symbol":"SUIUSDT","symbolId":20014,"ts":"1791464534346","walletId":"0x0662470D71eA9745B84e7aa779C00163C99bd4Ac"}
 {"recv":1791464677287,"amount":"0.13","price":"111.386","remainAmount":"0","side":"Sell","symbol":"SOLUSDT","symbolId":20002,"ts":"1791464677068","walletId":"0xa987EDf55795B7d70121c59291Cc057e0104849a"}
+{"recv":1791466755387,"amount":"9.92","price":"111.014","remainAmount":"0","side":"Sell","symbol":"SOLUSDT","symbolId":20002,"ts":"1791466755166","walletId":"0x196EE331fdc6F9c622BC27669fe095fc506bE0Ca"}
