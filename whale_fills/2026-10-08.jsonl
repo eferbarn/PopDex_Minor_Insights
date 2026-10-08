@@ -3,3 +3,6 @@
 {"s":"BTCUSDT","usd":33361.2,"block":"65823603","createdAt":"1791420798048","createdBlock":"65823603","execId":"565420452432838825","price":"83403","side":"Buy","size":"0.4"}
 {"s":"BTCUSDT","usd":39269.46,"block":"65852716","createdAt":"1791424036430","createdBlock":"65852716","execId":"565670531198615640","price":"83198","side":"Buy","size":"0.472"}
 {"s":"BTCUSDT","usd":28400.85,"block":"65865586","createdAt":"1791425468417","createdBlock":"65865586","execId":"565781083656815441","price":"82898","side":"Sell","size":"0.3426"}
+{"s":"BTCUSDT","usd":41567.0,"block":"65879148","createdAt":"1791426976870","createdBlock":"65879148","execId":"565897580349751503","price":"83134","side":"Sell","size":"0.5"}
+{"s":"BTCUSDT","usd":35398.81,"block":"65881576","createdAt":"1791427246466","createdBlock":"65881576","execId":"565918436710940759","price":"83213","side":"Buy","size":"0.4254"}
+{"s":"BTCUSDT","usd":29304.88,"block":"65882269","createdAt":"1791427323434","createdBlock":"65882269","execId":"565924389535612985","price":"83158","side":"Buy","size":"0.3524"}
