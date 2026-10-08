@@ -17,3 +17,4 @@
 {"recv":1791433246233,"amount":"2.435","price":"755.6","remainAmount":"0","side":"Sell","symbol":"BNBUSDT","symbolId":20016,"ts":"1791433245900","walletId":"0xb263Bd19c93Ec8168543e8B2f726840322745aBC"}
 {"recv":1791433300549,"amount":"10286","price":"0.005758","remainAmount":"0","side":"Sell","symbol":"PUMPUSDT","symbolId":20027,"ts":"1791433300274","walletId":"0xb0DA0073a19511529Ab62aB9b95970193A6a7f77"}
 {"recv":1791433406392,"amount":"6371","price":"0.21445","remainAmount":"0","side":"Sell","symbol":"ENAUSDT","symbolId":20017,"ts":"1791433406170","walletId":"0x4c4dF27375fbaF0D1ed439b96e2Ebd1b6Fb67fDd"}
+{"recv":1791440800472,"amount":"0.74","price":"114.298","remainAmount":"0","side":"Sell","symbol":"SOLUSDT","symbolId":20002,"ts":"1791440800195","walletId":"0x8cE8c1b05cC29B95Fb488aE6DF3BA132eEA37280"}
