@@ -98,3 +98,4 @@
 {"recv":1791480252942,"amount":"11.98","price":"60.78","remainAmount":"0","side":"Sell","symbol":"LTCUSDT","symbolId":20026,"ts":"1791480252703","walletId":"0x6C1eE37629Bd75c1aC7d26d56F1c6ee9Ad5Ee4b4"}
 {"recv":1791480254384,"amount":"0.0005","price":"80247","remainAmount":"0","side":"Sell","symbol":"BTCUSDT","symbolId":20000,"ts":"1791480254153","walletId":"0x656c7e9FbEA43BcD86b6BB06d00348f944839281"}
 {"recv":1791480396472,"amount":"0.0022","price":"80045","remainAmount":"0","side":"Sell","symbol":"BTCUSDT","symbolId":20000,"ts":"1791480396218","walletId":"0x26c71Dba7b86218dBA9a51803768FfC374f0C9D8"}
+{"recv":1791482725290,"amount":"63","price":"4.33","remainAmount":"0","side":"Sell","symbol":"NEARUSDT","symbolId":20020,"ts":"1791482724964","walletId":"0x33c4D39e60b8128A40e76ca713552b712A2262DB"}
