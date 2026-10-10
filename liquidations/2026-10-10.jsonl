@@ -2,3 +2,4 @@
 {"recv":1791627842472,"amount":"8.15","price":"1208.59","remainAmount":"0","side":"Sell","symbol":"ZECUSDT","symbolId":20005,"ts":"1791627842225","walletId":"0x9E00D74b0B9ff55F8D074f587aa7681FBeA5f51f"}
 {"recv":1791640044979,"amount":"20","price":"5.418","remainAmount":"0","side":"Buy","symbol":"NEARUSDT","symbolId":20020,"ts":"1791640044769","walletId":"0xC1b065bCA9Bf454b84a9633430A662128D650C11"}
 {"recv":1791642227411,"amount":"97","price":"1.452","remainAmount":"0","side":"Sell","symbol":"GRAMUSDT","symbolId":20024,"ts":"1791642227229","walletId":"0xfAB3EEf2C6bf8659f4c55773188EA484a0EaD073"}
+{"recv":1791653725362,"amount":"0.0026","price":"83391","remainAmount":"0","side":"Buy","symbol":"BTCUSDT","symbolId":20000,"ts":"1791653725156","walletId":"0x8080fb336A664153d814af9d389A35934E87466d"}
