@@ -30,3 +30,4 @@
 {"recv":1791824022565,"amount":"103.4","price":"1.06121","remainAmount":"0","side":"Sell","symbol":"SUIUSDT","symbolId":20014,"ts":"1791824022281","walletId":"0x0662470D71eA9745B84e7aa779C00163C99bd4Ac"}
 {"recv":1791824022565,"amount":"320.1","price":"1.06151","remainAmount":"0","side":"Sell","symbol":"SUIUSDT","symbolId":20014,"ts":"1791824022281","walletId":"0xB2D661E12b47653e04D34f38303ba759D7D47a7f"}
 {"recv":1791824253340,"amount":"1893","price":"0.005041","remainAmount":"0","side":"Sell","symbol":"PUMPUSDT","symbolId":20027,"ts":"1791824253075","walletId":"0xE7F33D7FC656226F5F586feC3e97b4fB8FE03dDE"}
+{"recv":1791826193134,"amount":"0.46","price":"82.623","remainAmount":"0","side":"Sell","symbol":"HYPEUSDT","symbolId":20006,"ts":"1791826192958","walletId":"0xaB9D5A606586c9bA45b9917051170a813B30326e"}
