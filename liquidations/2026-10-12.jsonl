@@ -20,3 +20,4 @@
 {"recv":1791811950294,"amount":"24.49","price":"158.43","remainAmount":"0","side":"Sell","symbol":"SKHYUSDT","symbolId":21107,"ts":"1791811950099","walletId":"0xCD411F83B993A0Cf1558b16dbe7c4bE7a047f144"}
 {"recv":1791812208492,"amount":"0.026","price":"1458.4","remainAmount":"0","side":"Sell","symbol":"SNDKUSDT","symbolId":21102,"ts":"1791812208313","walletId":"0x500631408527d2875507D9467C621E50909a5395"}
 {"recv":1791812781664,"amount":"0.174","price":"1444.2","remainAmount":"0","side":"Sell","symbol":"SNDKUSDT","symbolId":21102,"ts":"1791812781340","walletId":"0x29EA3bc51EfC0BdB44F3712cEb4081CD041ba2A2"}
+{"recv":1791815992542,"amount":"0.1","price":"1253.31","remainAmount":"0","side":"Sell","symbol":"ZECUSDT","symbolId":20005,"ts":"1791815992152","walletId":"0xF458363cBd61482e19C3eBF37b31d56B00D52bc6"}
