@@ -7,3 +7,4 @@
 {"recv":1791850020620,"amount":"0.235","price":"2413.3","remainAmount":"0","side":"Sell","symbol":"ETHUSDT","symbolId":20001,"ts":"1791850020282","walletId":"0xA405D4e4022ba4a48584720F3a1DA344Dd55cf6E"}
 {"recv":1791850025371,"amount":"0.1","price":"104.05","remainAmount":"0","side":"Sell","symbol":"SOLUSDT","symbolId":20002,"ts":"1791850025124","walletId":"0x58A40e2398d3Db7D9ACE7ffEBB032d3BeC2b53C1"}
 {"recv":1791850108135,"amount":"0.669","price":"2406","remainAmount":"0","side":"Sell","symbol":"ETHUSDT","symbolId":20001,"ts":"1791850107898","walletId":"0xd8B6F900307407F836D21d62C8db76Ff3a7b8990"}
+{"recv":1791851576004,"amount":"12","price":"4.962","remainAmount":"0","side":"Sell","symbol":"NEARUSDT","symbolId":20020,"ts":"1791851575738","walletId":"0x0baa9eE845430FD918aC9bC079A30637F5E63cAE"}
