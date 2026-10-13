@@ -81,3 +81,14 @@
 {"s":"ETHUSDT","usd":87584.82,"block":"70040584","createdAt":"1791891459773","createdBlock":"70040584","execId":"601644043398545445","price":"2505","side":"Buy","size":"34.964"}
 {"s":"BTCUSDT","usd":36786.98,"block":"70053471","createdAt":"1791892897893","createdBlock":"70053471","execId":"601754741885632587","price":"83285","side":"Buy","size":"0.4417"}
 {"s":"BTCUSDT","usd":47955.19,"block":"70056621","createdAt":"1791893248826","createdBlock":"70056621","execId":"601781800179597620","price":"83270","side":"Buy","size":"0.5759"}
+{"s":"US500USDT","usd":25926.21,"block":"70058226","createdAt":"1791893427308","createdBlock":"70058226","execId":"601795587024617539","price":"7809.1","side":"Buy","size":"3.32"}
+{"s":"US500USDT","usd":31231.6,"block":"70060364","createdAt":"1791893665088","createdBlock":"70060364","execId":"601813952304775229","price":"7807.9","side":"Sell","size":"4"}
+{"s":"US500USDT","usd":31231.2,"block":"70060435","createdAt":"1791893672976","createdBlock":"70060435","execId":"601814562190131237","price":"7807.8","side":"Sell","size":"4"}
+{"s":"US500USDT","usd":31230.4,"block":"70060487","createdAt":"1791893678780","createdBlock":"70060487","execId":"601815008866730012","price":"7807.6","side":"Sell","size":"4"}
+{"s":"BTCUSDT","usd":60145.58,"block":"70060685","createdAt":"1791893700810","createdBlock":"70060685","execId":"601816709673779290","price":"83258","side":"Buy","size":"0.7224"}
+{"s":"US500USDT","usd":31229.6,"block":"70060791","createdAt":"1791893712616","createdBlock":"70060791","execId":"601817620206846122","price":"7807.4","side":"Sell","size":"4"}
+{"s":"US500USDT","usd":30380.94,"block":"70060855","createdAt":"1791893719762","createdBlock":"70060855","execId":"601818169962659959","price":"7807.4","side":"Sell","size":"3.8913"}
+{"s":"US500USDT","usd":31229.2,"block":"70060909","createdAt":"1791893725770","createdBlock":"70060909","execId":"601818633819127906","price":"7807.3","side":"Sell","size":"4"}
+{"s":"TECH100USDT","usd":39236.77,"block":"70062132","createdAt":"1791893862070","createdBlock":"70062132","execId":"601829139309133865","price":"30487","side":"Sell","size":"1.287"}
+{"s":"TECH100USDT","usd":26651.74,"block":"70062235","createdAt":"1791893873531","createdBlock":"70062235","execId":"601830024072396945","price":"30487","side":"Sell","size":"0.8742"}
+{"s":"TECH100USDT","usd":28907.77,"block":"70062235","createdAt":"1791893873531","createdBlock":"70062235","execId":"601830024072396943","price":"30487","side":"Sell","size":"0.9482"}

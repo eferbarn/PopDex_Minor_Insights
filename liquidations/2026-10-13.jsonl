@@ -19,3 +19,4 @@
 {"recv":1791882060160,"amount":"0.0024","price":"83083","remainAmount":"0","side":"Sell","symbol":"BTCUSDT","symbolId":20000,"ts":"1791882059942","walletId":"0x05270C815370F93370893490598b923324A8ca84"}
 {"recv":1791890221667,"amount":"0.24","price":"264.16","remainAmount":"0","side":"Sell","symbol":"TAOUSDT","symbolId":20010,"ts":"1791890221483","walletId":"0x6f473223359aa48B6Ff0600160A77aB6103fFF7E"}
 {"recv":1791890259657,"amount":"6","price":"4.974","remainAmount":"0","side":"Sell","symbol":"NEARUSDT","symbolId":20020,"ts":"1791890259430","walletId":"0x0baa9eE845430FD918aC9bC079A30637F5E63cAE"}
+{"recv":1791893709564,"amount":"378","price":"0.22991","remainAmount":"0","side":"Sell","symbol":"ADAUSDT","symbolId":20013,"ts":"1791893709382","walletId":"0x80fFD626B3D779a41d9CE0F6303712f771DA18F3"}
