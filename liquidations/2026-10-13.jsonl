@@ -17,3 +17,5 @@
 {"recv":1791860942626,"amount":"1576","price":"0.21158","remainAmount":"0","side":"Buy","symbol":"ENAUSDT","symbolId":20017,"ts":"1791860942438","walletId":"0x80fFD626B3D779a41d9CE0F6303712f771DA18F3"}
 {"recv":1791876939432,"amount":"0.0604","price":"84227","remainAmount":"0","side":"Buy","symbol":"BTCUSDT","symbolId":20000,"ts":"1791876939229","walletId":"0x0dF58d7D446867137824975D95b2D3235f5d3955"}
 {"recv":1791882060160,"amount":"0.0024","price":"83083","remainAmount":"0","side":"Sell","symbol":"BTCUSDT","symbolId":20000,"ts":"1791882059942","walletId":"0x05270C815370F93370893490598b923324A8ca84"}
+{"recv":1791890221667,"amount":"0.24","price":"264.16","remainAmount":"0","side":"Sell","symbol":"TAOUSDT","symbolId":20010,"ts":"1791890221483","walletId":"0x6f473223359aa48B6Ff0600160A77aB6103fFF7E"}
+{"recv":1791890259657,"amount":"6","price":"4.974","remainAmount":"0","side":"Sell","symbol":"NEARUSDT","symbolId":20020,"ts":"1791890259430","walletId":"0x0baa9eE845430FD918aC9bC079A30637F5E63cAE"}
