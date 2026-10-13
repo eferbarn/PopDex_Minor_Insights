@@ -20,3 +20,6 @@
 {"recv":1791890221667,"amount":"0.24","price":"264.16","remainAmount":"0","side":"Sell","symbol":"TAOUSDT","symbolId":20010,"ts":"1791890221483","walletId":"0x6f473223359aa48B6Ff0600160A77aB6103fFF7E"}
 {"recv":1791890259657,"amount":"6","price":"4.974","remainAmount":"0","side":"Sell","symbol":"NEARUSDT","symbolId":20020,"ts":"1791890259430","walletId":"0x0baa9eE845430FD918aC9bC079A30637F5E63cAE"}
 {"recv":1791893709564,"amount":"378","price":"0.22991","remainAmount":"0","side":"Sell","symbol":"ADAUSDT","symbolId":20013,"ts":"1791893709382","walletId":"0x80fFD626B3D779a41d9CE0F6303712f771DA18F3"}
+{"recv":1791898266555,"amount":"2.66","price":"154.75","remainAmount":"0","side":"Sell","symbol":"SPCXUSDT","symbolId":21101,"ts":"1791898266257","walletId":"0x4303bF4736ea4a906dEf1f0051bB465681F34DE2"}
+{"recv":1791898266555,"amount":"1.56","price":"154.79","remainAmount":"0","side":"Sell","symbol":"SPCXUSDT","symbolId":21101,"ts":"1791898266257","walletId":"0xe24eb9796cE3266e04A186f2a66BD2d514a9369F"}
+{"recv":1791898296752,"amount":"1.22","price":"154.19","remainAmount":"0","side":"Sell","symbol":"SPCXUSDT","symbolId":21101,"ts":"1791898296470","walletId":"0x32A411B25a6FAcEdFF236450723FeBF2eCc5A8C6"}
