@@ -49,3 +49,4 @@
 {"recv":1792071033520,"amount":"0.1","price":"140.96","remainAmount":"0","side":"Sell","symbol":"SPCXUSDT","symbolId":21101,"ts":"1792071033311","walletId":"0x825d292C9F3a39676C8fd54c3bb5aF1E8D8e8309"}
 {"recv":1792071078918,"amount":"4.43","price":"100.776","remainAmount":"0","side":"Sell","symbol":"SOLUSDT","symbolId":20002,"ts":"1792071078641","walletId":"0x0178274Ec3e22cB684a35d829f5e15F66441e71a"}
 {"recv":1792071092455,"amount":"0.0006","price":"79775","remainAmount":"0","side":"Sell","symbol":"BTCUSDT","symbolId":20000,"ts":"1792071092233","walletId":"0x05cd83FF6885ea53655D9514CE5c3994FEeeC9dE"}
+{"recv":1792071297842,"amount":"0.12","price":"132.66","remainAmount":"0","side":"Sell","symbol":"MSTRUSDT","symbolId":21111,"ts":"1792071297613","walletId":"0x9E177599AB609701193cd45588A9d71631ec015C"}
