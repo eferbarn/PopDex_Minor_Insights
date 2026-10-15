@@ -42,3 +42,10 @@
 {"recv":1792068370046,"amount":"0.14","price":"77.736","remainAmount":"0","side":"Sell","symbol":"HYPEUSDT","symbolId":20006,"ts":"1792068369835","walletId":"0x4A42805676Fc23A352Aa6F5dCCE342503407D96C"}
 {"recv":1792069743416,"amount":"0.0089","price":"80116","remainAmount":"0","side":"Sell","symbol":"BTCUSDT","symbolId":20000,"ts":"1792069743205","walletId":"0x1D6260fd820c1D692f1f762F1c85Da698B2ce24E"}
 {"recv":1792069914110,"amount":"0.0065","price":"80059","remainAmount":"0","side":"Sell","symbol":"BTCUSDT","symbolId":20000,"ts":"1792069913899","walletId":"0x48b576c87e788a762D6f95A456f2A39113b46950"}
+{"recv":1792070791871,"amount":"5.13","price":"209.93","remainAmount":"0","side":"Sell","symbol":"NVDAUSDT","symbolId":21105,"ts":"1792070791636","walletId":"0x8B1fF49D7BDb5D381325859CCd53C92b77a943D2"}
+{"recv":1792070853751,"amount":"0.1623","price":"79958","remainAmount":"0","side":"Sell","symbol":"BTCUSDT","symbolId":20000,"ts":"1792070853579","walletId":"0xbdC845f67684062D5a52b15F3345e09c6C817802"}
+{"recv":1792070897654,"amount":"0.0093","price":"79893","remainAmount":"0","side":"Sell","symbol":"BTCUSDT","symbolId":20000,"ts":"1792070897466","walletId":"0x18C902e2281f9b40adb457c9a5B68716E1769F3D"}
+{"recv":1792071018492,"amount":"1.05","price":"141.55","remainAmount":"0","side":"Sell","symbol":"SPCXUSDT","symbolId":21101,"ts":"1792071018248","walletId":"0xB7977303eb573cd5788a58325D5d0b84e54Ae4b1"}
+{"recv":1792071033520,"amount":"0.1","price":"140.96","remainAmount":"0","side":"Sell","symbol":"SPCXUSDT","symbolId":21101,"ts":"1792071033311","walletId":"0x825d292C9F3a39676C8fd54c3bb5aF1E8D8e8309"}
+{"recv":1792071078918,"amount":"4.43","price":"100.776","remainAmount":"0","side":"Sell","symbol":"SOLUSDT","symbolId":20002,"ts":"1792071078641","walletId":"0x0178274Ec3e22cB684a35d829f5e15F66441e71a"}
+{"recv":1792071092455,"amount":"0.0006","price":"79775","remainAmount":"0","side":"Sell","symbol":"BTCUSDT","symbolId":20000,"ts":"1792071092233","walletId":"0x05cd83FF6885ea53655D9514CE5c3994FEeeC9dE"}
