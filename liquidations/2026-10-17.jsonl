@@ -3,3 +3,4 @@
 {"recv":1792250421504,"amount":"1417","price":"0.48065","remainAmount":"0","side":"Sell","symbol":"WLDUSDT","symbolId":20011,"ts":"1792250421236","walletId":"0x337C2e6021015C64b45ea4B67eB3775CdC28886c"}
 {"recv":1792250859767,"amount":"133","price":"1.832","remainAmount":"0","side":"Sell","symbol":"BGBUSDT","symbolId":20015,"ts":"1792250859567","walletId":"0xdeD15662f6bfCBA5144F3e6D100C5DDb9Ed28C35"}
 {"recv":1792250917265,"amount":"0.45","price":"2402.9","remainAmount":"0","side":"Sell","symbol":"ETHUSDT","symbolId":20001,"ts":"1792250917062","walletId":"0x9940048d0a2e62ccF34157161121E9C0EF2faA37"}
+{"recv":1792252471896,"amount":"3.68","price":"58.19","remainAmount":"0","side":"Sell","symbol":"LTCUSDT","symbolId":20026,"ts":"1792252471720","walletId":"0xb99195F461B1B69E8d3A22cdf8b71273881456eA"}
