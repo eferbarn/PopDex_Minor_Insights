@@ -5,3 +5,4 @@
 {"recv":1792250917265,"amount":"0.45","price":"2402.9","remainAmount":"0","side":"Sell","symbol":"ETHUSDT","symbolId":20001,"ts":"1792250917062","walletId":"0x9940048d0a2e62ccF34157161121E9C0EF2faA37"}
 {"recv":1792252471896,"amount":"3.68","price":"58.19","remainAmount":"0","side":"Sell","symbol":"LTCUSDT","symbolId":20026,"ts":"1792252471720","walletId":"0xb99195F461B1B69E8d3A22cdf8b71273881456eA"}
 {"recv":1792254502668,"amount":"6904","price":"0.004239","remainAmount":"0","side":"Sell","symbol":"PUMPUSDT","symbolId":20027,"ts":"1792254502497","walletId":"0xC1642d84A978020729B11411f762d22C106983e4"}
+{"recv":1792256110623,"amount":"0.2","price":"77.602","remainAmount":"0","side":"Sell","symbol":"HYPEUSDT","symbolId":20006,"ts":"1792256110421","walletId":"0xb4b83e5814F7b70745A7b60620Af5a7Db752F90A"}
