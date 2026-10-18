@@ -8,3 +8,4 @@
 {"recv":1792316458004,"amount":"59.6","price":"155.75","remainAmount":"0","side":"Buy","symbol":"AAVEUSDT","symbolId":20009,"ts":"1792316457838","walletId":"0x055d3640c23A9A02BCC761fA10A2E750A79c0e4E"}
 {"recv":1792330024851,"amount":"0.24","price":"1101.23","remainAmount":"0","side":"Sell","symbol":"ZECUSDT","symbolId":20005,"ts":"1792330024647","walletId":"0x39CC88149d7FE37055f42B1238eb931E7180b266"}
 {"recv":1792330132091,"amount":"412","price":"0.26727","remainAmount":"0","side":"Sell","symbol":"PONSUSDT","symbolId":20028,"ts":"1792330131832","walletId":"0x009c22fF21642Fd2535703387442097321977fB4"}
+{"recv":1792330435839,"amount":"1.09","price":"77.168","remainAmount":"0","side":"Sell","symbol":"HYPEUSDT","symbolId":20006,"ts":"1792330435621","walletId":"0x8cE8c1b05cC29B95Fb488aE6DF3BA132eEA37280"}
