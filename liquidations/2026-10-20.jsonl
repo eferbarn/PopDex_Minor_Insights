@@ -12,3 +12,4 @@
 {"recv":1792485021382,"amount":"0.86","price":"103.06","remainAmount":"0","side":"Buy","symbol":"CLUSDT","symbolId":21001,"ts":"1792485021182","walletId":"0xf18f82429042D3A8F7EDc7975Cd62DE5585a0d73"}
 {"recv":1792487004364,"amount":"0.479","price":"882.08","remainAmount":"0","side":"Sell","symbol":"SKHYNIXUSDT","symbolId":21115,"ts":"1792487004189","walletId":"0x584743497098D00733d5D29FE80e020280427027"}
 {"recv":1792494100739,"amount":"3.56","price":"79.36","remainAmount":"0","side":"Buy","symbol":"HYPEUSDT","symbolId":20006,"ts":"1792494100519","walletId":"0xEBdE960C3f9cBD18b191926C59a9696249a5f9A5"}
+{"recv":1792498779029,"amount":"4984","price":"0.004603","remainAmount":"0","side":"Buy","symbol":"PUMPUSDT","symbolId":20027,"ts":"1792498778834","walletId":"0xb0DA0073a19511529Ab62aB9b95970193A6a7f77"}
