@@ -20,3 +20,4 @@
 {"recv":1792589820991,"amount":"6.1","price":"9.536","remainAmount":"0","side":"Sell","symbol":"AVAXUSDT","symbolId":20029,"ts":"1792589820557","walletId":"0x4CBA55A752760Ea96E2A2c2fd60C07E7782d679c"}
 {"recv":1792591017578,"amount":"0.32","price":"168.94","remainAmount":"0","side":"Buy","symbol":"SPCXUSDT","symbolId":21101,"ts":"1792591017339","walletId":"0x075114a8ef5eAb9B8CA047a34F370c74ce3D0Fa6"}
 {"recv":1792591325663,"amount":"0.81","price":"152.78","remainAmount":"0","side":"Sell","symbol":"AAVEUSDT","symbolId":20009,"ts":"1792591325435","walletId":"0x76850699264aCc6dbD316db04595FA184F3b0481"}
+{"recv":1792592640365,"amount":"0.0039","price":"84373","remainAmount":"0","side":"Buy","symbol":"BTCUSDT","symbolId":20000,"ts":"1792592639989","walletId":"0x85AB468313E26137Ba7EDe4a734551F574158638"}
