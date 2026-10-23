@@ -24,3 +24,11 @@
 {"recv":1792787147686,"amount":"30","price":"1.286","remainAmount":"0","side":"Sell","symbol":"GRAMUSDT","symbolId":20024,"ts":"1792787147528","walletId":"0x8A072b9bde95B6735f07Edb78f7623E9966915C8"}
 {"recv":1792794647374,"amount":"1.29","price":"102.901","remainAmount":"0","side":"Sell","symbol":"SOLUSDT","symbolId":20002,"ts":"1792794647149","walletId":"0x77985f4aae4648Df4B18E83ffdFbF97c6FA24946"}
 {"recv":1792794664717,"amount":"0.205","price":"2376.5","remainAmount":"0","side":"Sell","symbol":"ETHUSDT","symbolId":20001,"ts":"1792794664477","walletId":"0x4e219d75DaBD562DC0498562Ed3B410Cb113242b"}
+{"recv":1792794732496,"amount":"100","price":"4.647","remainAmount":"0","side":"Sell","symbol":"NEARUSDT","symbolId":20020,"ts":"1792794732292","walletId":"0xab0F44b600b032aCb9bb8eEFE90d58a1b983ebB3"}
+{"recv":1792794781066,"amount":"2.154","price":"2374.1","remainAmount":"0","side":"Sell","symbol":"ETHUSDT","symbolId":20001,"ts":"1792794780799","walletId":"0x2997f58561ecF0E30d0Ade4fCd3A49fB0c089547"}
+{"recv":1792794784799,"amount":"2.05","price":"102.604","remainAmount":"0","side":"Sell","symbol":"SOLUSDT","symbolId":20002,"ts":"1792794784597","walletId":"0x4e024677192887C76096FA956920E1C6C7e41903"}
+{"recv":1792794812477,"amount":"346","price":"4.64","remainAmount":"0","side":"Sell","symbol":"NEARUSDT","symbolId":20020,"ts":"1792794812289","walletId":"0xf068fFA82085A05Ad756940827789e31CD90c037"}
+{"recv":1792794818594,"amount":"0.0017","price":"80773","remainAmount":"0","side":"Sell","symbol":"BTCUSDT","symbolId":20000,"ts":"1792794818322","walletId":"0x075114a8ef5eAb9B8CA047a34F370c74ce3D0Fa6"}
+{"recv":1792794819587,"amount":"2.83","price":"102.495","remainAmount":"0","side":"Sell","symbol":"SOLUSDT","symbolId":20002,"ts":"1792794819343","walletId":"0xe6a256b32a88D48F3Ae74c647202c1a679CcEE63"}
+{"recv":1792794954576,"amount":"0.77","price":"1172.34","remainAmount":"0","side":"Sell","symbol":"ZECUSDT","symbolId":20005,"ts":"1792794954377","walletId":"0xB1Df220BEdf720fF8b8954Dd9465F475bAAd82D5"}
+{"recv":1792794966657,"amount":"2940","price":"0.47093","remainAmount":"0","side":"Sell","symbol":"WLDUSDT","symbolId":20011,"ts":"1792794966459","walletId":"0x1B9826b1fe5397c0cB5455Fbb8d7AA2d4e4B282E"}
