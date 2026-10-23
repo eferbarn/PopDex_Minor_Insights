@@ -3,3 +3,4 @@
 {"recv":1792720471788,"amount":"64.54","price":"52.355","remainAmount":"0","side":"Sell","symbol":"XAGUSDT","symbolId":21004,"ts":"1792720471586","walletId":"0x8a72030EAd807c9eEA01fA9477Bf4d555Bbb4d8F"}
 {"recv":1792720592429,"amount":"0.26","price":"103.533","remainAmount":"0","side":"Buy","symbol":"CLUSDT","symbolId":21001,"ts":"1792720592227","walletId":"0x63926e0B5b6d49a9000f359934FB4d546CC7eD8a"}
 {"recv":1792722952358,"amount":"1.251","price":"2423.3","remainAmount":"0","side":"Buy","symbol":"ETHUSDT","symbolId":20001,"ts":"1792722952080","walletId":"0xAAd6624f5494066C96d1d0707106F1ad58fC1B63"}
+{"recv":1792729739882,"amount":"0.52","price":"103.434","remainAmount":"0","side":"Sell","symbol":"SOLUSDT","symbolId":20002,"ts":"1792729739703","walletId":"0x6a3662D73ea4dab281fC130fEceF07C090788119"}
