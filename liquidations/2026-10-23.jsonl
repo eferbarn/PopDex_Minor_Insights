@@ -1,2 +1,4 @@
 {"recv":1792714444056,"amount":"14.42","price":"24.89","remainAmount":"0","side":"Sell","symbol":"SOFTBANKUSDT","symbolId":21116,"ts":"1792714443869","walletId":"0x33c4D39e60b8128A40e76ca713552b712A2262DB"}
 {"recv":1792720016764,"amount":"0.83","price":"59.84","remainAmount":"0","side":"Buy","symbol":"LTCUSDT","symbolId":20026,"ts":"1792720016583","walletId":"0x7a9B0d4B275C64DFD813491811E1F5F8B659e075"}
+{"recv":1792720471788,"amount":"64.54","price":"52.355","remainAmount":"0","side":"Sell","symbol":"XAGUSDT","symbolId":21004,"ts":"1792720471586","walletId":"0x8a72030EAd807c9eEA01fA9477Bf4d555Bbb4d8F"}
+{"recv":1792720592429,"amount":"0.26","price":"103.533","remainAmount":"0","side":"Buy","symbol":"CLUSDT","symbolId":21001,"ts":"1792720592227","walletId":"0x63926e0B5b6d49a9000f359934FB4d546CC7eD8a"}
