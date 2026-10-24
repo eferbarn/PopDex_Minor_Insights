@@ -54,3 +54,5 @@
 {"recv":1792855005616,"amount":"0.151","price":"2279.9","remainAmount":"0","side":"Buy","symbol":"ETHUSDT","symbolId":20001,"ts":"1792855005295","walletId":"0xFfFfFfFFfFFFFfffffFfFfFffffffFFfFFFfFFfc"}
 {"recv":1792855184431,"amount":"48","price":"0.19863","remainAmount":"0","side":"Sell","symbol":"ADAUSDT","symbolId":20013,"ts":"1792855184114","walletId":"0xe332ed744E242eC425C1B465A84956dee66fD6c1"}
 {"recv":1792855549472,"amount":"0.0085","price":"78907","remainAmount":"0","side":"Sell","symbol":"BTCUSDT","symbolId":20000,"ts":"1792855549165","walletId":"0x874312053eF4d3F313a544073b6BF33aD23F8899"}
+{"recv":1792857541925,"amount":"0.08","price":"1157.98","remainAmount":"0","side":"Buy","symbol":"ZECUSDT","symbolId":20005,"ts":"1792857541747","walletId":"0xCedda893D201D1B641fEA96E72D4656896324dbA"}
+{"recv":1792857651761,"amount":"11.64","price":"136.72","remainAmount":"0","side":"Buy","symbol":"AAVEUSDT","symbolId":20009,"ts":"1792857651567","walletId":"0xEBdE960C3f9cBD18b191926C59a9696249a5f9A5"}
