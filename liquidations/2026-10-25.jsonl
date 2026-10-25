@@ -26,3 +26,4 @@
 {"recv":1792932456571,"amount":"103","price":"0.24649","remainAmount":"0","side":"Buy","symbol":"PONSUSDT","symbolId":20028,"ts":"1792932456361","walletId":"0xa4140F56bD7D0e5fAec15E4FE0D8f1304e9cd656"}
 {"recv":1792940417023,"amount":"0.021","price":"2353.3","remainAmount":"0","side":"Buy","symbol":"ETHUSDT","symbolId":20001,"ts":"1792940416831","walletId":"0xDE19C4DE62E2fb5842eeDF59e267e22f82BA1cC5"}
 {"recv":1792940436395,"amount":"14.09","price":"101.826","remainAmount":"0","side":"Buy","symbol":"SOLUSDT","symbolId":20002,"ts":"1792940436179","walletId":"0x0757cf20D3Bfa53Bc5F288229390e09A7eC5D023"}
+{"recv":1792942590311,"amount":"0.722","price":"2356.2","remainAmount":"0","side":"Buy","symbol":"ETHUSDT","symbolId":20001,"ts":"1792942590116","walletId":"0x6FC5582C05662710A124e96C15c3944e3ddc5798"}
