@@ -24,3 +24,4 @@
 {"s":"ETHUSDT","usd":36091.58,"block":"79264407","createdAt":"1792919517661","createdBlock":"79264407","execId":"680876079656730687","price":"2332.1","side":"Sell","size":"15.476"}
 {"s":"ETHUSDT","usd":58516.94,"block":"79265285","createdAt":"1792919615537","createdBlock":"79265285","execId":"680883621619302468","price":"2325.7","side":"Sell","size":"25.161"}
 {"s":"BTCUSDT","usd":55366.29,"block":"79282618","createdAt":"1792921548625","createdBlock":"79282618","execId":"681032510955585650","price":"80241","side":"Sell","size":"0.69"}
+{"s":"BTCUSDT","usd":38984.19,"block":"79305663","createdAt":"1792924123130","createdBlock":"79305663","execId":"681230465998258204","price":"80297","side":"Sell","size":"0.4855"}
