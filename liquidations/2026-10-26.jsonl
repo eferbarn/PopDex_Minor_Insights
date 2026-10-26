@@ -31,3 +31,5 @@
 {"recv":1793031971027,"amount":"15.1","price":"0.90464","remainAmount":"0","side":"Sell","symbol":"SUIUSDT","symbolId":20014,"ts":"1793031970818","walletId":"0xCd8e25d8348A3d1160c1436A83088B3D397A1c57"}
 {"recv":1793032008725,"amount":"22","price":"0.42615","remainAmount":"0","side":"Sell","symbol":"WLDUSDT","symbolId":20011,"ts":"1793032008446","walletId":"0x3319ddF4fbFE77EC3663926687c22De69FDD82fC"}
 {"recv":1793032012988,"amount":"0.04","price":"1223.73","remainAmount":"0","side":"Sell","symbol":"ZECUSDT","symbolId":20005,"ts":"1793032012764","walletId":"0xCedda893D201D1B641fEA96E72D4656896324dbA"}
+{"recv":1793032259619,"amount":"0.112","price":"2304.1","remainAmount":"0","side":"Sell","symbol":"ETHUSDT","symbolId":20001,"ts":"1793032259274","walletId":"0x6FC5582C05662710A124e96C15c3944e3ddc5798"}
+{"recv":1793032342232,"amount":"4739.9","price":"1.2753","remainAmount":"0","side":"Sell","symbol":"XRPUSDT","symbolId":20003,"ts":"1793032342028","walletId":"0x54202CBB39a3d05a218973a59546483b9B486Ea1"}
