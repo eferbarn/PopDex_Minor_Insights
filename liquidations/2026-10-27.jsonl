@@ -1,2 +1,3 @@
 {"recv":1793070127536,"amount":"86464","price":"0.004059","remainAmount":"0","side":"Sell","symbol":"PUMPUSDT","symbolId":20027,"ts":"1793070127321","walletId":"0x3d98316E48518F6ffCD21200E2C2f5a1Df1E4ACE"}
 {"recv":1793079024580,"amount":"0.55","price":"51.295","remainAmount":"0","side":"Sell","symbol":"XAGUSDT","symbolId":21004,"ts":"1793079024379","walletId":"0x8A541A79072D2Be3dE168e72D04c32fBB90787c0"}
+{"recv":1793086868529,"amount":"0.3","price":"1243.35","remainAmount":"0","side":"Buy","symbol":"ZECUSDT","symbolId":20005,"ts":"1793086868335","walletId":"0x46AA8B8f6d15C98dD7D85880afb867dEC6373747"}
