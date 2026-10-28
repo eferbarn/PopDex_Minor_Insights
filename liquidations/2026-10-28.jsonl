@@ -2,3 +2,4 @@
 {"recv":1793151778816,"amount":"1.468","price":"1128.58","remainAmount":"0","side":"Buy","symbol":"SKHYNIXUSDT","symbolId":21115,"ts":"1793151778636","walletId":"0xA183152ddd888b8e347f8D45d2533c80033a0a61"}
 {"recv":1793153813058,"amount":"5.1","price":"11.871","remainAmount":"0","side":"Buy","symbol":"LINKUSDT","symbolId":20023,"ts":"1793153812826","walletId":"0x96Aa9eB0472D61557B8cf21500487AB1e8fCDbb6"}
 {"recv":1793153904318,"amount":"0.46","price":"2372.7","remainAmount":"0","side":"Buy","symbol":"ETHUSDT","symbolId":20001,"ts":"1793153904130","walletId":"0xe1D9876C85520E68cf1f0DafEf9066e81B442003"}
+{"recv":1793167835078,"amount":"174","price":"0.20961","remainAmount":"0","side":"Buy","symbol":"ENAUSDT","symbolId":20017,"ts":"1793167834853","walletId":"0x461aB089B0Ee4307229c8Df46d627ab6A031FD71"}
