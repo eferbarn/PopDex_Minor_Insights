@@ -120,3 +120,5 @@
 {"recv":1793312244311,"amount":"0.65","price":"122.03","remainAmount":"0","side":"Sell","symbol":"AAVEUSDT","symbolId":20009,"ts":"1793312244037","walletId":"0x4E3d7754b469872416E4AfFfB84899DECC5955A9"}
 {"recv":1793312677566,"amount":"0.675","price":"2285.3","remainAmount":"0","side":"Buy","symbol":"ETHUSDT","symbolId":20001,"ts":"1793312677299","walletId":"0xDD473775db0D2C969F9B418F645d25AE8B65678F"}
 {"recv":1793313052075,"amount":"0.88","price":"137.14","remainAmount":"0","side":"Sell","symbol":"SPCXUSDT","symbolId":21101,"ts":"1793313051877","walletId":"0xD6dac8FefC5a0Af8C54104752b2890d02683FeFE"}
+{"recv":1793314297849,"amount":"15.23","price":"272.74","remainAmount":"0","side":"Sell","symbol":"GOOGLUSDT","symbolId":21124,"ts":"1793314297653","walletId":"0x541948b9e1B68C2e46dd7099438a987C4b318367"}
+{"recv":1793314301203,"amount":"1100","price":"0.17602","remainAmount":"0","side":"Sell","symbol":"ENAUSDT","symbolId":20017,"ts":"1793314301025","walletId":"0x638d3f3F8626ce460763C2D2CeF37a93F5FEC8a0"}
