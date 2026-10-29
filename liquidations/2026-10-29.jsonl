@@ -11,3 +11,4 @@
 {"recv":1793238499578,"amount":"0.0065","price":"79924","remainAmount":"0","side":"Sell","symbol":"BTCUSDT","symbolId":20000,"ts":"1793238499220","walletId":"0x0757cf20D3Bfa53Bc5F288229390e09A7eC5D023"}
 {"recv":1793238501807,"amount":"35","price":"4.494","remainAmount":"0","side":"Sell","symbol":"NEARUSDT","symbolId":20020,"ts":"1793238501608","walletId":"0xEBdE960C3f9cBD18b191926C59a9696249a5f9A5"}
 {"recv":1793238544180,"amount":"1442","price":"0.19706","remainAmount":"0","side":"Sell","symbol":"ADAUSDT","symbolId":20013,"ts":"1793238543857","walletId":"0xD83984C5e1AC98F936B7d6E0EbB49B2AC7C951aE"}
+{"recv":1793239109613,"amount":"5.83","price":"128.52","remainAmount":"0","side":"Sell","symbol":"AAVEUSDT","symbolId":20009,"ts":"1793239109453","walletId":"0x76850699264aCc6dbD316db04595FA184F3b0481"}
