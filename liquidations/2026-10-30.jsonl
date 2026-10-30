@@ -104,3 +104,6 @@
 {"recv":1793378890535,"amount":"0.187","price":"2213.3","remainAmount":"0","side":"Sell","symbol":"ETHUSDT","symbolId":20001,"ts":"1793378890279","walletId":"0xAAd6624f5494066C96d1d0707106F1ad58fC1B63"}
 {"recv":1793378895060,"amount":"0.012","price":"2211.6","remainAmount":"0","side":"Sell","symbol":"ETHUSDT","symbolId":20001,"ts":"1793378894784","walletId":"0x57d257926994d81dB21F8103634FE3E37D991B1E"}
 {"recv":1793379090406,"amount":"193.72","price":"143.9","remainAmount":"0","side":"Sell","symbol":"SKHYUSDT","symbolId":21107,"ts":"1793379090228","walletId":"0x90b70aaB075c3811a0b7472fF9DdD7C1980eA33E"}
+{"recv":1793382736653,"amount":"0.063","price":"989.27","remainAmount":"0","side":"Sell","symbol":"SKHYNIXUSDT","symbolId":21115,"ts":"1793382736437","walletId":"0xF35eE03984CB866F361E817A0B4C87Ad3b321142"}
+{"recv":1793382800008,"amount":"0.0086","price":"76803","remainAmount":"0","side":"Sell","symbol":"BTCUSDT","symbolId":20000,"ts":"1793382799837","walletId":"0x098001f952112432e60315Bd8B9af6Fdc5AAB810"}
+{"recv":1793382979867,"amount":"8.74","price":"69.46","remainAmount":"0","side":"Sell","symbol":"CRCLUSDT","symbolId":21108,"ts":"1793382979651","walletId":"0x3D4B04570D61f42577859C3fA7AC839b8948054C"}
