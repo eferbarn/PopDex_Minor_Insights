@@ -91,3 +91,6 @@
 {"recv":1793371021953,"amount":"9.73","price":"70.5","remainAmount":"0","side":"Sell","symbol":"CRCLUSDT","symbolId":21108,"ts":"1793371021756","walletId":"0x70Da1BBd7dCC960a604A8fd118c299Ca01808Ca8"}
 {"recv":1793371027468,"amount":"22.37","price":"81.16","remainAmount":"0","side":"Sell","symbol":"HOODUSDT","symbolId":21126,"ts":"1793371027247","walletId":"0x96D07513fAD530Ca141A78bcC53A479Fc1d72d69"}
 {"recv":1793371200658,"amount":"90","price":"93.201","remainAmount":"0","side":"Buy","symbol":"HYPEUSDT","symbolId":20006,"ts":"1793371200469","walletId":"0xAEA50154eF53C255eaDdbd2F30b5AAE26197F408"}
+{"recv":1793372797489,"amount":"695","price":"0.19541","remainAmount":"0","side":"Buy","symbol":"ENAUSDT","symbolId":20017,"ts":"1793372797255","walletId":"0x4B524e532888447Fc5075753410ac0b6C4795016"}
+{"recv":1793372895416,"amount":"9.35","price":"93.948","remainAmount":"0","side":"Buy","symbol":"HYPEUSDT","symbolId":20006,"ts":"1793372895218","walletId":"0x4C5a17e3B197EF9BE16fDA0fF7ADD214462fBA14"}
+{"recv":1793372981053,"amount":"0.0012","price":"77949","remainAmount":"0","side":"Buy","symbol":"BTCUSDT","symbolId":20000,"ts":"1793372980876","walletId":"0x5b1ec7918D591e1c9313B97643cf05E5a4835229"}
