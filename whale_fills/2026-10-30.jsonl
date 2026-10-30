@@ -93,3 +93,12 @@
 {"s":"ETHUSDT","usd":38903.98,"block":"83045850","createdAt":"1793341928492","createdBlock":"83045850","execId":"713358427690107053","price":"2252.3","side":"Sell","size":"17.273"}
 {"s":"ETHUSDT","usd":64767.76,"block":"83045850","createdAt":"1793341928492","createdBlock":"83045850","execId":"713358427690107045","price":"2252.4","side":"Sell","size":"28.755"}
 {"s":"ETHUSDT","usd":117051.16,"block":"83060501","createdAt":"1793343570684","createdBlock":"83060501","execId":"713484278821814465","price":"2252.5","side":"Sell","size":"51.965"}
+{"s":"ETHUSDT","usd":83118.16,"block":"83090459","createdAt":"1793346926624","createdBlock":"83090459","execId":"713741616082321520","price":"2231.3","side":"Buy","size":"37.251"}
+{"s":"ETHUSDT","usd":85307.06,"block":"83090459","createdAt":"1793346926624","createdBlock":"83090459","execId":"713741616082321518","price":"2231.3","side":"Buy","size":"38.232"}
+{"s":"ETHUSDT","usd":31731.94,"block":"83090528","createdAt":"1793346934387","createdBlock":"83090528","execId":"713742208787808436","price":"2233.7","side":"Buy","size":"14.206"}
+{"s":"ETHUSDT","usd":49509.96,"block":"83090528","createdAt":"1793346934387","createdBlock":"83090528","execId":"713742208787808434","price":"2233.7","side":"Buy","size":"22.165"}
+{"s":"ETHUSDT","usd":39635.23,"block":"83090528","createdAt":"1793346934387","createdBlock":"83090528","execId":"713742208787808432","price":"2233.6","side":"Buy","size":"17.745"}
+{"s":"ETHUSDT","usd":29594.86,"block":"83090640","createdAt":"1793346946932","createdBlock":"83090640","execId":"713743170860482663","price":"2232.9","side":"Buy","size":"13.254"}
+{"s":"ETHUSDT","usd":47107.49,"block":"83090640","createdAt":"1793346946932","createdBlock":"83090640","execId":"713743170860482661","price":"2232.9","side":"Buy","size":"21.097"}
+{"s":"ETHUSDT","usd":56052.49,"block":"83090640","createdAt":"1793346946932","createdBlock":"83090640","execId":"713743170860482659","price":"2232.9","side":"Buy","size":"25.103"}
+{"s":"ETHUSDT","usd":54261.51,"block":"83090640","createdAt":"1793346946932","createdBlock":"83090640","execId":"713743170860482657","price":"2232.8","side":"Buy","size":"24.302"}
