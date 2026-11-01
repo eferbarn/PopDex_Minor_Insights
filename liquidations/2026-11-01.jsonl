@@ -3,3 +3,4 @@
 {"recv":1793498663576,"amount":"0.04","price":"78151","remainAmount":"0","side":"Buy","symbol":"BTCUSDT","symbolId":20000,"ts":"1793498663378","walletId":"0xAEA50154eF53C255eaDdbd2F30b5AAE26197F408"}
 {"recv":1793509322631,"amount":"0.32","price":"141.57","remainAmount":"0","side":"Buy","symbol":"AAVEUSDT","symbolId":20009,"ts":"1793509322455","walletId":"0x68342DD63471bB20FB83D340547472B7101430a0"}
 {"recv":1793522115054,"amount":"0.001","price":"78468","remainAmount":"0","side":"Buy","symbol":"BTCUSDT","symbolId":20000,"ts":"1793522114808","walletId":"0xA7E68a71b05922dB9b30FF858e5755538e7f9136"}
+{"recv":1793534574143,"amount":"2389","price":"0.05537","remainAmount":"0","side":"Sell","symbol":"MARSCOINUSDT","symbolId":20031,"ts":"1793534573924","walletId":"0x88E88824352EA36d8eD9720BA772f0b61AC46EDC"}
