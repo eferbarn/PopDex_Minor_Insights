@@ -11,3 +11,4 @@
 {"recv":1793535474089,"amount":"192570","price":"0.004834","remainAmount":"0","side":"Sell","symbol":"kPEPEUSDT","symbolId":20007,"ts":"1793535473906","walletId":"0x045D6a706f8de7cB2695C4D7a44d4D3D7e0c2d15"}
 {"recv":1793535887939,"amount":"40000","price":"0.004819","remainAmount":"0","side":"Sell","symbol":"kPEPEUSDT","symbolId":20007,"ts":"1793535887765","walletId":"0x5C87E7896619cb2182189A246a3f7A21BF4045D1"}
 {"recv":1793541806867,"amount":"1120","price":"0.05418","remainAmount":"0","side":"Sell","symbol":"MARSCOINUSDT","symbolId":20031,"ts":"1793541806679","walletId":"0x88E88824352EA36d8eD9720BA772f0b61AC46EDC"}
+{"recv":1793549635557,"amount":"716.4","price":"1.6321","remainAmount":"0","side":"Sell","symbol":"TRUMPUSDT","symbolId":20012,"ts":"1793549635360","walletId":"0xf71556ceA87F003A40BA0787148Dd066165f8e1E"}
