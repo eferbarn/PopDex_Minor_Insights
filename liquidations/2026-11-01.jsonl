@@ -13,3 +13,4 @@
 {"recv":1793541806867,"amount":"1120","price":"0.05418","remainAmount":"0","side":"Sell","symbol":"MARSCOINUSDT","symbolId":20031,"ts":"1793541806679","walletId":"0x88E88824352EA36d8eD9720BA772f0b61AC46EDC"}
 {"recv":1793549635557,"amount":"716.4","price":"1.6321","remainAmount":"0","side":"Sell","symbol":"TRUMPUSDT","symbolId":20012,"ts":"1793549635360","walletId":"0xf71556ceA87F003A40BA0787148Dd066165f8e1E"}
 {"recv":1793550707169,"amount":"10","price":"4.275","remainAmount":"0","side":"Sell","symbol":"NEARUSDT","symbolId":20020,"ts":"1793550706978","walletId":"0xafca711bA46A81E9dD115af9B01c7A8eFf930f12"}
+{"recv":1793555320890,"amount":"67","price":"0.18166","remainAmount":"0","side":"Sell","symbol":"ENAUSDT","symbolId":20017,"ts":"1793555320623","walletId":"0x80fFD626B3D779a41d9CE0F6303712f771DA18F3"}
