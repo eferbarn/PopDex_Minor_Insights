@@ -30,3 +30,4 @@
 {"recv":1793571611906,"amount":"2.04","price":"93.033","remainAmount":"0","side":"Sell","symbol":"SOLUSDT","symbolId":20002,"ts":"1793571611654","walletId":"0x8c6FC0537d12f7d6B42670437bE3d25C2a58Ca4B"}
 {"recv":1793571614344,"amount":"455","price":"0.07413","remainAmount":"0","side":"Sell","symbol":"DOGEUSDT","symbolId":20004,"ts":"1793571614126","walletId":"0x4c2ce77e8c8345793791383d6c50da507BAC1eBe"}
 {"recv":1793571648135,"amount":"23459","price":"0.003984","remainAmount":"0","side":"Sell","symbol":"PUMPUSDT","symbolId":20027,"ts":"1793571647952","walletId":"0x0074766d332594e07fD6ca4b49fFad9cCf3757AB"}
+{"recv":1793572369708,"amount":"281","price":"0.05185","remainAmount":"0","side":"Sell","symbol":"MARSCOINUSDT","symbolId":20031,"ts":"1793572369520","walletId":"0x88E88824352EA36d8eD9720BA772f0b61AC46EDC"}
