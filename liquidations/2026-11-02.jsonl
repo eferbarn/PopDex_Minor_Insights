@@ -24,3 +24,4 @@
 {"recv":1793616611681,"amount":"1.45","price":"96.528","remainAmount":"0","side":"Sell","symbol":"CLUSDT","symbolId":21001,"ts":"1793616611498","walletId":"0x98c7E6C381931B9e20d42A1b2F2D5616cF217C0C"}
 {"recv":1793621116413,"amount":"1.33","price":"62.78","remainAmount":"0","side":"Sell","symbol":"INTCUSDT","symbolId":21106,"ts":"1793621116203","walletId":"0x46131a7209339E9C5e9c7B5768a3F51713d3eE50"}
 {"recv":1793621167787,"amount":"0.37","price":"77.6","remainAmount":"0","side":"Sell","symbol":"SOXLUSDT","symbolId":21104,"ts":"1793621167610","walletId":"0xb9532abC3205Cbc40f052d3d1844d1F04eCFE911"}
+{"recv":1793623339666,"amount":"0.0043","price":"77389","remainAmount":"0","side":"Sell","symbol":"BTCUSDT","symbolId":20000,"ts":"1793623339473","walletId":"0x478B36EfF6a66d80Fd131d80fA55979449A1a9f2"}
