@@ -22,3 +22,5 @@
 {"recv":1793607158932,"amount":"11.02","price":"19.46","remainAmount":"0","side":"Sell","symbol":"MINIMAXUSDT","symbolId":21120,"ts":"1793607158754","walletId":"0xAF27C85cC1be794DA2E2C3740a7341B99E69694e"}
 {"recv":1793613908722,"amount":"104.79","price":"93.576","remainAmount":"0","side":"Sell","symbol":"SOLUSDT","symbolId":20002,"ts":"1793613908528","walletId":"0x7813EC06A79821e5F2D71C6e86D39BFE1c66A8bB"}
 {"recv":1793616611681,"amount":"1.45","price":"96.528","remainAmount":"0","side":"Sell","symbol":"CLUSDT","symbolId":21001,"ts":"1793616611498","walletId":"0x98c7E6C381931B9e20d42A1b2F2D5616cF217C0C"}
+{"recv":1793621116413,"amount":"1.33","price":"62.78","remainAmount":"0","side":"Sell","symbol":"INTCUSDT","symbolId":21106,"ts":"1793621116203","walletId":"0x46131a7209339E9C5e9c7B5768a3F51713d3eE50"}
+{"recv":1793621167787,"amount":"0.37","price":"77.6","remainAmount":"0","side":"Sell","symbol":"SOXLUSDT","symbolId":21104,"ts":"1793621167610","walletId":"0xb9532abC3205Cbc40f052d3d1844d1F04eCFE911"}
