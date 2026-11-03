@@ -1,2 +1,4 @@
 {"recv":1793671012327,"amount":"192","price":"0.16814","remainAmount":"0","side":"Sell","symbol":"ENAUSDT","symbolId":20017,"ts":"1793671012131","walletId":"0xd1cF92b62fbac7A305AF6A0470f1dFF640Cf95E8"}
 {"recv":1793674377933,"amount":"219","price":"0.16641","remainAmount":"0","side":"Sell","symbol":"ENAUSDT","symbolId":20017,"ts":"1793674377723","walletId":"0xD42Ca905d635A6e694eE62D1032743e363A217C1"}
+{"recv":1793674863763,"amount":"0.77","price":"2239.7","remainAmount":"0","side":"Sell","symbol":"ETHUSDT","symbolId":20001,"ts":"1793674863461","walletId":"0x7813EC06A79821e5F2D71C6e86D39BFE1c66A8bB"}
+{"recv":1793675073569,"amount":"0.1112","price":"76298","remainAmount":"0","side":"Sell","symbol":"BTCUSDT","symbolId":20000,"ts":"1793675073376","walletId":"0xB882D3d15523b3518F7F83BCA0A89157B9378816"}
