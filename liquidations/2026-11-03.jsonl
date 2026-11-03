@@ -14,3 +14,5 @@
 {"recv":1793696877066,"amount":"1.04","price":"85.141","remainAmount":"0","side":"Buy","symbol":"HYPEUSDT","symbolId":20006,"ts":"1793696876822","walletId":"0xa55828e78cDC2C576a39acC17398E03Bd5adDF07"}
 {"recv":1793698852155,"amount":"0.03","price":"1157.42","remainAmount":"0","side":"Buy","symbol":"ZECUSDT","symbolId":20005,"ts":"1793698851948","walletId":"0x92f20751a520472170102faD1686215700A5a8d3"}
 {"recv":1793704052987,"amount":"0.0094","price":"77483","remainAmount":"0","side":"Buy","symbol":"BTCUSDT","symbolId":20000,"ts":"1793704052777","walletId":"0x478B36EfF6a66d80Fd131d80fA55979449A1a9f2"}
+{"recv":1793708156291,"amount":"259.79","price":"93.161","remainAmount":"0","side":"Buy","symbol":"SOLUSDT","symbolId":20002,"ts":"1793708156101","walletId":"0x9effa081AceA6324717AFc177C8E632d2d7b9F20"}
+{"recv":1793708168418,"amount":"14.12","price":"93.333","remainAmount":"0","side":"Buy","symbol":"SOLUSDT","symbolId":20002,"ts":"1793708168125","walletId":"0x81808F3533BBC893723B7deC2DdE7448Bc3DeBa0"}
