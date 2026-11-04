@@ -163,3 +163,4 @@
 {"recv":1793807183235,"amount":"6","price":"989.3","remainAmount":"0","side":"Sell","symbol":"SKHYNIXUSDT","symbolId":21115,"ts":"1793807182971","walletId":"0x1893e8a8c560424c65f4E457762cC412FfF5a1Cc"}
 {"recv":1793807871050,"amount":"8.34","price":"89.041","remainAmount":"0","side":"Sell","symbol":"CLUSDT","symbolId":21001,"ts":"1793807870831","walletId":"0x35a2b9409c9848474d858fCaaa4cBBd4c1127224"}
 {"recv":1793808386273,"amount":"2.79","price":"60.62","remainAmount":"0","side":"Sell","symbol":"SOXLUSDT","symbolId":21104,"ts":"1793808386078","walletId":"0x4929648789c682927332854b17f36554aD02aBDA"}
+{"recv":1793809872288,"amount":"6","price":"88.916","remainAmount":"0","side":"Sell","symbol":"CLUSDT","symbolId":21001,"ts":"1793809872076","walletId":"0xacBA7906621Fa43CC3270f5dF198A4b921038349"}
