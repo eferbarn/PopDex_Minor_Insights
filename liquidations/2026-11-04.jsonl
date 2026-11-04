@@ -85,3 +85,6 @@
 {"recv":1793794375438,"amount":"177.7","price":"10.992","remainAmount":"0","side":"Sell","symbol":"LINKUSDT","symbolId":20023,"ts":"1793794375150","walletId":"0xCaA64f3A3010224C25550458a044329EB07f324E"}
 {"recv":1793794407412,"amount":"530","price":"3.967","remainAmount":"0","side":"Sell","symbol":"NEARUSDT","symbolId":20020,"ts":"1793794407222","walletId":"0xEBdE960C3f9cBD18b191926C59a9696249a5f9A5"}
 {"recv":1793794419136,"amount":"77","price":"3.963","remainAmount":"0","side":"Sell","symbol":"NEARUSDT","symbolId":20020,"ts":"1793794418951","walletId":"0x12De63d95D3c446A980Ab1B17021953dEb23Fa96"}
+{"recv":1793796596761,"amount":"42.9","price":"1.3835","remainAmount":"0","side":"Sell","symbol":"TRUMPUSDT","symbolId":20012,"ts":"1793796596591","walletId":"0xcF8fd4BF7D37C54a7a478E2c8528986F26C328cA"}
+{"recv":1793796649355,"amount":"75.08","price":"127.03","remainAmount":"0","side":"Sell","symbol":"SPCXUSDT","symbolId":21101,"ts":"1793796649143","walletId":"0x8472083d35cB20f0dB741657b30EF7f4498840e2"}
+{"recv":1793796839357,"amount":"20","price":"92.185","remainAmount":"0","side":"Sell","symbol":"SOLUSDT","symbolId":20002,"ts":"1793796839174","walletId":"0x33E8b85aebb0F2Cb2C7cfea3ecE47b4bA432aA41"}
