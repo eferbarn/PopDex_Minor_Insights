@@ -6,3 +6,5 @@
 {"recv":1793751640255,"amount":"45810.1","price":"1.5069","remainAmount":"0","side":"Sell","symbol":"TRUMPUSDT","symbolId":20012,"ts":"1793751639812","walletId":"0x2A4f1DA02eeb1E9f480436891925a27B1868BfdF"}
 {"recv":1793751845031,"amount":"5489","price":"0.1578","remainAmount":"0","side":"Sell","symbol":"XLMUSDT","symbolId":20019,"ts":"1793751844696","walletId":"0x0c2C789111A689d89FaF59161C5e170975D22d96"}
 {"recv":1793751890002,"amount":"1.09","price":"71.04","remainAmount":"0","side":"Sell","symbol":"SOXLUSDT","symbolId":21104,"ts":"1793751889801","walletId":"0x5dcfef932a97675dBfBd027C940503c654b1fAF4"}
+{"recv":1793752416956,"amount":"2.31","price":"91.432","remainAmount":"0","side":"Sell","symbol":"SOLUSDT","symbolId":20002,"ts":"1793752416773","walletId":"0x4E996AF7011BD761B2dA96b6b567F0A9c64B1873"}
+{"recv":1793752481618,"amount":"138","price":"0.16743","remainAmount":"0","side":"Sell","symbol":"ENAUSDT","symbolId":20017,"ts":"1793752481326","walletId":"0x638d3f3F8626ce460763C2D2CeF37a93F5FEC8a0"}
