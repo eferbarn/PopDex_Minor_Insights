@@ -78,3 +78,4 @@
 {"recv":1793787894664,"amount":"0.969","price":"238.21","remainAmount":"0","side":"Buy","symbol":"TAOUSDT","symbolId":20010,"ts":"1793787894453","walletId":"0x41f47360D12bA537aA4Bd8983cAC92eb77D62b7D"}
 {"recv":1793787906184,"amount":"0.0012","price":"78911","remainAmount":"0","side":"Buy","symbol":"BTCUSDT","symbolId":20000,"ts":"1793787905912","walletId":"0xa03B01142652aaD2bD45D9FBb38893429Ecc84a4"}
 {"recv":1793788168174,"amount":"204.8","price":"1.3021","remainAmount":"0","side":"Buy","symbol":"XRPUSDT","symbolId":20003,"ts":"1793788168002","walletId":"0x8dA47eA3702BD215b4EF2C1a1DFe64Daf5a43686"}
+{"recv":1793790511942,"amount":"0.28","price":"133.39","remainAmount":"0","side":"Buy","symbol":"AAVEUSDT","symbolId":20009,"ts":"1793790501490","walletId":"0xeD494229fc268fD9f3A57D36bdF85124d99fb09f"}
