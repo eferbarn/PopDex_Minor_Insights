@@ -64,3 +64,6 @@
 {"recv":1793767750710,"amount":"0.03","price":"1220.68","remainAmount":"0","side":"Buy","symbol":"ZECUSDT","symbolId":20005,"ts":"1793767750508","walletId":"0x0baa9eE845430FD918aC9bC079A30637F5E63cAE"}
 {"recv":1793768200932,"amount":"0.0021","price":"77867","remainAmount":"0","side":"Buy","symbol":"BTCUSDT","symbolId":20000,"ts":"1793768200719","walletId":"0x101c613cC68165AE1d568D38438987789e52Cf12"}
 {"recv":1793770557559,"amount":"3.7468","price":"78140","remainAmount":"1.2618","side":"Buy","symbol":"BTCUSDT","symbolId":20000,"ts":"1793770557202","walletId":"0xfacC4B4DA738f9AFc634c3BeB7c51fd49DBe5Bb5"}
+{"recv":1793770940021,"amount":"0.27","price":"1261.05","remainAmount":"0","side":"Buy","symbol":"ZECUSDT","symbolId":20005,"ts":"1793770939782","walletId":"0x20be6f184aCE2e88C56aeeA242d5df4633B477DA"}
+{"recv":1793771088694,"amount":"5387","price":"1.186","remainAmount":"0","side":"Buy","symbol":"GRAMUSDT","symbolId":20024,"ts":"1793771088511","walletId":"0x98C43e5e5883C26045f9DE8AEAb8008db43787AB"}
+{"recv":1793771229566,"amount":"0.0724","price":"78191","remainAmount":"0","side":"Buy","symbol":"BTCUSDT","symbolId":20000,"ts":"1793771229358","walletId":"0x1506f255f4AB38D22e65ADCeAeeD7cd92e84deC2"}
