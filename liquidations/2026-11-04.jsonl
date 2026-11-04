@@ -75,3 +75,6 @@
 {"recv":1793781393539,"amount":"0.0002","price":"78800","remainAmount":"0","side":"Buy","symbol":"BTCUSDT","symbolId":20000,"ts":"1793781393351","walletId":"0x0baa9eE845430FD918aC9bC079A30637F5E63cAE"}
 {"recv":1793787213184,"amount":"3.49","price":"1318.58","remainAmount":"0","side":"Buy","symbol":"ZECUSDT","symbolId":20005,"ts":"1793787213000","walletId":"0x754b29CBb6e1eaeB5EeDd953ade761ac24D9121F"}
 {"recv":1793787216154,"amount":"0.53","price":"1324.18","remainAmount":"0","side":"Buy","symbol":"ZECUSDT","symbolId":20005,"ts":"1793787215957","walletId":"0x1676c4D77a30F1d9E7fAf0D54459bfcC207A14A1"}
+{"recv":1793787894664,"amount":"0.969","price":"238.21","remainAmount":"0","side":"Buy","symbol":"TAOUSDT","symbolId":20010,"ts":"1793787894453","walletId":"0x41f47360D12bA537aA4Bd8983cAC92eb77D62b7D"}
+{"recv":1793787906184,"amount":"0.0012","price":"78911","remainAmount":"0","side":"Buy","symbol":"BTCUSDT","symbolId":20000,"ts":"1793787905912","walletId":"0xa03B01142652aaD2bD45D9FBb38893429Ecc84a4"}
+{"recv":1793788168174,"amount":"204.8","price":"1.3021","remainAmount":"0","side":"Buy","symbol":"XRPUSDT","symbolId":20003,"ts":"1793788168002","walletId":"0x8dA47eA3702BD215b4EF2C1a1DFe64Daf5a43686"}
