@@ -80,3 +80,8 @@
 {"recv":1793788168174,"amount":"204.8","price":"1.3021","remainAmount":"0","side":"Buy","symbol":"XRPUSDT","symbolId":20003,"ts":"1793788168002","walletId":"0x8dA47eA3702BD215b4EF2C1a1DFe64Daf5a43686"}
 {"recv":1793790511942,"amount":"0.28","price":"133.39","remainAmount":"0","side":"Buy","symbol":"AAVEUSDT","symbolId":20009,"ts":"1793790501490","walletId":"0xeD494229fc268fD9f3A57D36bdF85124d99fb09f"}
 {"recv":1793794051977,"amount":"188","price":"4.007","remainAmount":"0","side":"Sell","symbol":"NEARUSDT","symbolId":20020,"ts":"1793794051795","walletId":"0x12De63d95D3c446A980Ab1B17021953dEb23Fa96"}
+{"recv":1793794164326,"amount":"0.06","price":"1079.2","remainAmount":"0","side":"Sell","symbol":"SNDKUSDT","symbolId":21102,"ts":"1793794160696","walletId":"0xf2E133051F66614e534406cC77f888251719a285"}
+{"recv":1793794287575,"amount":"2024","price":"3.99","remainAmount":"0","side":"Sell","symbol":"NEARUSDT","symbolId":20020,"ts":"1793794287399","walletId":"0x9effa081AceA6324717AFc177C8E632d2d7b9F20"}
+{"recv":1793794375438,"amount":"177.7","price":"10.992","remainAmount":"0","side":"Sell","symbol":"LINKUSDT","symbolId":20023,"ts":"1793794375150","walletId":"0xCaA64f3A3010224C25550458a044329EB07f324E"}
+{"recv":1793794407412,"amount":"530","price":"3.967","remainAmount":"0","side":"Sell","symbol":"NEARUSDT","symbolId":20020,"ts":"1793794407222","walletId":"0xEBdE960C3f9cBD18b191926C59a9696249a5f9A5"}
+{"recv":1793794419136,"amount":"77","price":"3.963","remainAmount":"0","side":"Sell","symbol":"NEARUSDT","symbolId":20020,"ts":"1793794418951","walletId":"0x12De63d95D3c446A980Ab1B17021953dEb23Fa96"}
