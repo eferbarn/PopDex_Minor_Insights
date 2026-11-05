@@ -36,3 +36,6 @@
 {"recv":1793882375101,"amount":"0.0023","price":"79446","remainAmount":"0","side":"Sell","symbol":"BTCUSDT","symbolId":20000,"ts":"1793882374889","walletId":"0x747143Eb9EEf4028fcAA6AE388cbc8FaE3181d5b"}
 {"recv":1793882375101,"amount":"0.0187","price":"79448","remainAmount":"0","side":"Sell","symbol":"BTCUSDT","symbolId":20000,"ts":"1793882374889","walletId":"0x53fB5f2212437693d6957a603840d253162CA84F"}
 {"recv":1793882382639,"amount":"0.0005","price":"79428","remainAmount":"0","side":"Sell","symbol":"BTCUSDT","symbolId":20000,"ts":"1793882382432","walletId":"0x7FC9a2158A70f4aef9cc5211C350cb9532ca2721"}
+{"recv":1793882399867,"amount":"1000","price":"0.89944","remainAmount":"0","side":"Sell","symbol":"SUIUSDT","symbolId":20014,"ts":"1793882397476","walletId":"0x33E8b85aebb0F2Cb2C7cfea3ecE47b4bA432aA41"}
+{"recv":1793882436738,"amount":"116","price":"0.3858","remainAmount":"0","side":"Sell","symbol":"ONDOUSDT","symbolId":20018,"ts":"1793882436548","walletId":"0x9161736CC269633D349EDcB41FA58E242E325feb"}
+{"recv":1793882484545,"amount":"148","price":"0.07495","remainAmount":"0","side":"Sell","symbol":"DOGEUSDT","symbolId":20004,"ts":"1793882484305","walletId":"0x92f20751a520472170102faD1686215700A5a8d3"}
