@@ -17,3 +17,4 @@
 {"recv":1793845267707,"amount":"0.43","price":"66.22","remainAmount":"0","side":"Buy","symbol":"SOXLUSDT","symbolId":21104,"ts":"1793845267527","walletId":"0xD96EA580e65E3e2Dcc18a68DAEced58F3C8833F6"}
 {"recv":1793850028707,"amount":"0.36","price":"97.381","remainAmount":"0","side":"Buy","symbol":"SOLUSDT","symbolId":20002,"ts":"1793850028516","walletId":"0x8e763C14aCFa0ccF00dCF8144A58515bD5779845"}
 {"recv":1793850554167,"amount":"51.48","price":"60.42","remainAmount":"0","side":"Sell","symbol":"SOXLUSDT","symbolId":21104,"ts":"1793850553987","walletId":"0xa19974eC6D1e771958419De3C351445b5f261fb8"}
+{"recv":1793851460767,"amount":"139","price":"1.148","remainAmount":"0","side":"Sell","symbol":"GRAMUSDT","symbolId":20024,"ts":"1793851460567","walletId":"0xaa7Ac4DD060420901aDC05BdFab7e6Fc79f4d3eB"}
