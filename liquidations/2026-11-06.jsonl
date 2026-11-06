@@ -42,3 +42,4 @@
 {"recv":1793976055333,"amount":"20.25","price":"91.604","remainAmount":"0","side":"Buy","symbol":"SOLUSDT","symbolId":"20002","ts":"1793976055136","walletId":"0x1a6a8220823B7560054E1B1F7A7f666366e32B7d"}
 {"recv":1793976058142,"amount":"4720","price":"0.20301","remainAmount":"0","side":"Buy","symbol":"PONSUSDT","symbolId":"20028","ts":"1793976057961","walletId":"0xA8E4c8469BB9c95aE0781aF294ac0D80C3573ab2"}
 {"recv":1793976106309,"amount":"13189.7","price":"1.2902","remainAmount":"0","side":"Buy","symbol":"TRUMPUSDT","symbolId":"20012","ts":"1793976106129","walletId":"0x776D98f07402C4d81B64C21f53BAc577a1a69698"}
+{"recv":1793976939366,"amount":"1","price":"2216.7","remainAmount":"0","side":"Sell","symbol":"ETHUSDT","symbolId":"20001","ts":"1793976939167","walletId":"0xAa54b3cCc7A1b565907b1CD55c38Eb48091Dd01F"}
