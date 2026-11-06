@@ -1,2 +1,3 @@
 {"recv":1793925127545,"amount":"20","price":"3.768","remainAmount":"0","side":"Buy","symbol":"NEARUSDT","symbolId":"20020","ts":"1793925127361","walletId":"0x9E00D74b0B9ff55F8D074f587aa7681FBeA5f51f"}
 {"recv":1793925287724,"amount":"0.2","price":"78.656","remainAmount":"0","side":"Buy","symbol":"HYPEUSDT","symbolId":"20006","ts":"1793925287533","walletId":"0x1eC89aCa8c7f272f17cC274Ce7EE49b37D9EFB05"}
+{"recv":1793935890660,"amount":"1.99","price":"89.511","remainAmount":"0","side":"Sell","symbol":"SOLUSDT","symbolId":"20002","ts":"1793935890479","walletId":"0x7edeE77E9a936b26d57f3Faf40A2452287114A07"}
