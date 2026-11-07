@@ -26,3 +26,4 @@
 {"recv":1794084764177,"amount":"0.96","price":"88.504","remainAmount":"0","side":"Sell","symbol":"SOLUSDT","symbolId":"20002","ts":"1794084763994","walletId":"0xD1779f3861E0A38Eb1d7913097c8D65A9f3C5d92"}
 {"recv":1794084764177,"amount":"3.07","price":"88.494","remainAmount":"0","side":"Sell","symbol":"SOLUSDT","symbolId":"20002","ts":"1794084763994","walletId":"0x4E996AF7011BD761B2dA96b6b567F0A9c64B1873"}
 {"recv":1794085650881,"amount":"4379","price":"0.17096","remainAmount":"0","side":"Sell","symbol":"PONSUSDT","symbolId":"20028","ts":"1794085650701","walletId":"0xe669DcB328027A1BF9B4C9073B58c432A5974717"}
+{"recv":1794087075588,"amount":"0.0096","price":"75260","remainAmount":"0","side":"Sell","symbol":"BTCUSDT","symbolId":"20000","ts":"1794087075408","walletId":"0xBB796e5d8c2f5DB3e8740CE9ADbb1C47DaC0095C"}
