@@ -20,3 +20,8 @@
 {"recv":1794066496635,"amount":"0.0102","price":"75329","remainAmount":"0","side":"Sell","symbol":"BTCUSDT","symbolId":"20000","ts":"1794066496456","walletId":"0x3D3A7B96fe164d59228D34714555D28290b759ee"}
 {"recv":1794066505636,"amount":"0.0161","price":"75283","remainAmount":"0","side":"Sell","symbol":"BTCUSDT","symbolId":"20000","ts":"1794066505459","walletId":"0x54202CBB39a3d05a218973a59546483b9B486Ea1"}
 {"recv":1794067224820,"amount":"4248","price":"0.00351","remainAmount":"0","side":"Sell","symbol":"PUMPUSDT","symbolId":"20027","ts":"1794067224649","walletId":"0x6299ed010BAd714d040B31d932C92482b7F508A4"}
+{"recv":1794084454455,"amount":"7.15","price":"88.746","remainAmount":"0","side":"Sell","symbol":"SOLUSDT","symbolId":"20002","ts":"1794084454279","walletId":"0xC6120E5515C6060174da969ddC9d2dc9fB2B84dd"}
+{"recv":1794084684690,"amount":"740","price":"0.17512","remainAmount":"0","side":"Sell","symbol":"PONSUSDT","symbolId":"20028","ts":"1794084684522","walletId":"0xA8E4c8469BB9c95aE0781aF294ac0D80C3573ab2"}
+{"recv":1794084740722,"amount":"0.12","price":"1234.5","remainAmount":"0","side":"Sell","symbol":"ZECUSDT","symbolId":"20005","ts":"1794084740533","walletId":"0x7436337276F4D2E4d40F1F85388CA60fB3182063"}
+{"recv":1794084764177,"amount":"0.96","price":"88.504","remainAmount":"0","side":"Sell","symbol":"SOLUSDT","symbolId":"20002","ts":"1794084763994","walletId":"0xD1779f3861E0A38Eb1d7913097c8D65A9f3C5d92"}
+{"recv":1794084764177,"amount":"3.07","price":"88.494","remainAmount":"0","side":"Sell","symbol":"SOLUSDT","symbolId":"20002","ts":"1794084763994","walletId":"0x4E996AF7011BD761B2dA96b6b567F0A9c64B1873"}
