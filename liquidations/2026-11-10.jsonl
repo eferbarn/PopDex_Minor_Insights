@@ -92,3 +92,4 @@
 {"recv":1794321370308,"amount":"4176","price":"3.719","remainAmount":"2665","side":"Buy","symbol":"NEARUSDT","symbolId":"20020","ts":"1794321370105","walletId":"0xf568Dc8dc4130244cb59ea2d7b4D07F657b53c97"}
 {"recv":1794321377012,"amount":"305113","price":"0.005483","remainAmount":"0","side":"Buy","symbol":"kPEPEUSDT","symbolId":"20007","ts":"1794321376806","walletId":"0x39CC88149d7FE37055f42B1238eb931E7180b266"}
 {"recv":1794321739570,"amount":"1279.87","price":"163.72","remainAmount":"1142.79","side":"Sell","symbol":"NVDAUSDT","symbolId":"21105","ts":"1794321739378","walletId":"0xf58aCdC969b08639Ef752D4e3056d046BB869e8b"}
+{"recv":1794321762274,"amount":"86.41","price":"165.98","remainAmount":"0","side":"Sell","symbol":"NVDAUSDT","symbolId":"21105","ts":"1794321762096","walletId":"0x2A4f1DA02eeb1E9f480436891925a27B1868BfdF"}
