@@ -26,3 +26,4 @@
 {"recv":1794486547954,"amount":"0.27","price":"81.737","remainAmount":"0","side":"Sell","symbol":"SOLUSDT","symbolId":"20002","ts":"1794486547780","walletId":"0xDf7760100B3ac3c4D46A1a1527C304897186Dda0"}
 {"recv":1794486548065,"amount":"12","price":"111.19","remainAmount":"0","side":"Sell","symbol":"AAVEUSDT","symbolId":"20009","ts":"1794486547891","walletId":"0x0E4D16d4BAAF371b563E1135E6d52384B477F5b8"}
 {"recv":1794486695750,"amount":"172","price":"1.269","remainAmount":"0","side":"Buy","symbol":"GRAMUSDT","symbolId":"20024","ts":"1794486695578","walletId":"0x0f993dbaCDD1106e956587C5daf4F8e2F0599a8d"}
+{"recv":1794487699241,"amount":"5","price":"891","remainAmount":"0","side":"Sell","symbol":"SNDKUSDT","symbolId":"21102","ts":"1794487699063","walletId":"0x6368444661507CF4eDe283c633fFcb487CE1A122"}
