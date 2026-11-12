@@ -130,3 +130,4 @@
 {"recv":1794512422642,"amount":"0.0032","price":"71175","remainAmount":"0","side":"Sell","symbol":"BTCUSDT","symbolId":"20000","ts":"1794512421898","walletId":"0x54202CBB39a3d05a218973a59546483b9B486Ea1"}
 {"recv":1794514288706,"amount":"0.18","price":"90.859","remainAmount":"0","side":"Buy","symbol":"CLUSDT","symbolId":"21001","ts":"1794514288155","walletId":"0xC18471DA29C1879c4E54a15479a2889975f448D8"}
 {"recv":1794515347729,"amount":"850","price":"1.111","remainAmount":"0","side":"Sell","symbol":"GRAMUSDT","symbolId":"20024","ts":"1794515347320","walletId":"0xe4188784F95b76F0457Ed2feE67673470879722b"}
+{"recv":1794517571177,"amount":"0.0344","price":"71115","remainAmount":"0","side":"Sell","symbol":"BTCUSDT","symbolId":"20000","ts":"1794517570591","walletId":"0x46E910Af4C3B83E49b1EfD7A49Eeaa2299C73aA7"}
