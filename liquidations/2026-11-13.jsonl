@@ -163,3 +163,4 @@
 {"recv":1794577092767,"amount":"0.842","price":"222.65","remainAmount":"0","side":"Buy","symbol":"TAOUSDT","symbolId":"20010","ts":"1794577092583","walletId":"0xF6eB73e3F10636cf3f50DaF93C6fcB6f31CE2387"}
 {"recv":1794577096900,"amount":"0.069","price":"70374","remainAmount":"0","side":"Buy","symbol":"BTCUSDT","symbolId":"20000","ts":"1794577096717","walletId":"0x2dd0d965d626Bc0C97f8889a46788C882c4Da1E3"}
 {"recv":1794577107674,"amount":"0.21","price":"1000.8","remainAmount":"0","side":"Buy","symbol":"ZECUSDT","symbolId":"20005","ts":"1794577107477","walletId":"0xe3AFBa7fB770b2Ba747BCB945Eb5CFBDAB431050"}
+{"recv":1794577875689,"amount":"0.47","price":"62.28","remainAmount":"0","side":"Sell","symbol":"SOXLUSDT","symbolId":"21104","ts":"1794577875500","walletId":"0xe7169b3AFE71aeB35eCc0A390407A190dCC0EDC9"}
