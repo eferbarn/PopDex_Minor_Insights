@@ -174,3 +174,5 @@
 {"recv":1794581390590,"amount":"20","price":"135.32","remainAmount":"0","side":"Sell","symbol":"SPCXUSDT","symbolId":"21101","ts":"1794581390405","walletId":"0xB73412505284fc4CA8fDfAE4a5D99e3fB18f84E7"}
 {"recv":1794581437876,"amount":"33.024","price":"1939.2","remainAmount":"50.277","side":"Sell","symbol":"ETHUSDT","symbolId":"20001","ts":"1794581437677","walletId":"0x4544914D468938d709c3D57cb09fdd9c4c4B07af"}
 {"recv":1794581762261,"amount":"0.56","price":"56.1","remainAmount":"0","side":"Sell","symbol":"SOXLUSDT","symbolId":"21104","ts":"1794581762062","walletId":"0xb9532abC3205Cbc40f052d3d1844d1F04eCFE911"}
+{"recv":1794582155394,"amount":"531","price":"0.14322","remainAmount":"0","side":"Sell","symbol":"PONSUSDT","symbolId":"20028","ts":"1794582155179","walletId":"0x35a23eF090dD4ee0Bc500eD087c5d27D69dE5019"}
+{"recv":1794582568082,"amount":"50.277","price":"1932.9","remainAmount":"0","side":"Sell","symbol":"ETHUSDT","symbolId":"20001","ts":"1794582567901","walletId":"0x4544914D468938d709c3D57cb09fdd9c4c4B07af"}
