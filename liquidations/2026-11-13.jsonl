@@ -187,3 +187,10 @@
 {"recv":1794583576071,"amount":"0.0316","price":"68313","remainAmount":"0","side":"Sell","symbol":"BTCUSDT","symbolId":"20000","ts":"1794583575882","walletId":"0x21A02d86A23D1670153A98880CA2B2B79b6aC9d1"}
 {"recv":1794583577585,"amount":"0.0064","price":"68287","remainAmount":"0","side":"Sell","symbol":"BTCUSDT","symbolId":"20000","ts":"1794583577371","walletId":"0x1128F91B493fA3848774709BBBBc5EA9afcFb27C"}
 {"recv":1794583600183,"amount":"0.0004","price":"68276","remainAmount":"0","side":"Sell","symbol":"BTCUSDT","symbolId":"20000","ts":"1794583599992","walletId":"0x766E3FCE29df2950578615cAF1e2b0B964f7dD18"}
+{"recv":1794583853862,"amount":"3","price":"79.084","remainAmount":"0","side":"Sell","symbol":"SOLUSDT","symbolId":"20002","ts":"1794583853627","walletId":"0xAbfE0718b773b5165Ae4FcD0AE552486F73Ed44A"}
+{"recv":1794583863151,"amount":"0.0952","price":"68092","remainAmount":"0","side":"Sell","symbol":"BTCUSDT","symbolId":"20000","ts":"1794583862954","walletId":"0x54202CBB39a3d05a218973a59546483b9B486Ea1"}
+{"recv":1794584165321,"amount":"1.34","price":"78.816","remainAmount":"0","side":"Sell","symbol":"SOLUSDT","symbolId":"20002","ts":"1794584165120","walletId":"0x4E996AF7011BD761B2dA96b6b567F0A9c64B1873"}
+{"recv":1794584176207,"amount":"0.06","price":"154.8","remainAmount":"0","side":"Sell","symbol":"NVDAUSDT","symbolId":"21105","ts":"1794584176009","walletId":"0xe472e5696536e57B0e0A77d322f80fdbC1A3e336"}
+{"recv":1794584201240,"amount":"54.19","price":"133.12","remainAmount":"0","side":"Sell","symbol":"SPCXUSDT","symbolId":"21101","ts":"1794584201036","walletId":"0x6368444661507CF4eDe283c633fFcb487CE1A122"}
+{"recv":1794584201595,"amount":"0.0006","price":"67940","remainAmount":"0","side":"Sell","symbol":"BTCUSDT","symbolId":"20000","ts":"1794584201385","walletId":"0x31645F4839929a69effacbdF02f4BC1551181144"}
+{"recv":1794584394955,"amount":"0.0339","price":"67894","remainAmount":"0","side":"Sell","symbol":"BTCUSDT","symbolId":"20000","ts":"1794584394738","walletId":"0xAD389D5EC4f7d7BFE1Ec9Bc6595820D835dE4707"}
