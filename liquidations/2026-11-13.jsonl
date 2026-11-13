@@ -27,3 +27,6 @@
 {"recv":1794536069777,"amount":"0.0014","price":"70275","remainAmount":"0","side":"Sell","symbol":"BTCUSDT","symbolId":"20000","ts":"1794536069218","walletId":"0xcae1776fc92207ad387d9922b72a3679a6bF24E2"}
 {"recv":1794536071269,"amount":"0.0004","price":"70270","remainAmount":"0","side":"Sell","symbol":"BTCUSDT","symbolId":"20000","ts":"1794536070712","walletId":"0xF83987376b836bd16B94d2FBa27a5b32aD5E2787"}
 {"recv":1794536074277,"amount":"0.3578","price":"70198","remainAmount":"1.3897","side":"Sell","symbol":"BTCUSDT","symbolId":"20000","ts":"1794536073793","walletId":"0x440f0f6054ecB97113FD561f8fac49CAA9DE79cd"}
+{"recv":1794536248062,"amount":"0.0185","price":"70212","remainAmount":"0","side":"Sell","symbol":"BTCUSDT","symbolId":"20000","ts":"1794536247552","walletId":"0x63Ab1B8EC3A49Deb5FCE3E0f2fdB682928753Ec2"}
+{"recv":1794536331231,"amount":"0.0153","price":"70142","remainAmount":"0","side":"Sell","symbol":"BTCUSDT","symbolId":"20000","ts":"1794536330636","walletId":"0xC1474EF33235DF53462f4aCEAA97Fa277a328321"}
+{"recv":1794536332691,"amount":"4.42","price":"80.181","remainAmount":"0","side":"Sell","symbol":"SOLUSDT","symbolId":"20002","ts":"1794536332116","walletId":"0x7edeE77E9a936b26d57f3Faf40A2452287114A07"}
