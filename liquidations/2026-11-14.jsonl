@@ -152,3 +152,9 @@
 {"recv":1794672777656,"amount":"564","price":"0.1184","remainAmount":"0","side":"Sell","symbol":"ENAUSDT","symbolId":"20017","ts":"1794672777461","walletId":"0x9d4945fb5Aa0F5314C50D5b41864C29accb04bFb"}
 {"recv":1794672785002,"amount":"1.22","price":"17.1","remainAmount":"0","side":"Sell","symbol":"MINIMAXUSDT","symbolId":"21120","ts":"1794672784809","walletId":"0x796122282b05f4EA58aB89A3D4b08BAC442851b9"}
 {"recv":1794672785002,"amount":"0.13","price":"730.91","remainAmount":"0","side":"Sell","symbol":"MUUSDT","symbolId":"21103","ts":"1794672784809","walletId":"0x796122282b05f4EA58aB89A3D4b08BAC442851b9"}
+{"recv":1794673430168,"amount":"737.51","price":"65.564","remainAmount":"0","side":"Sell","symbol":"HYPEUSDT","symbolId":"20006","ts":"1794673429972","walletId":"0x43F6AC527fb3636ee4e2F1272268102d2c89C7C6"}
+{"recv":1794673730620,"amount":"107.15","price":"72.33","remainAmount":"0","side":"Sell","symbol":"SOLUSDT","symbolId":"20002","ts":"1794673730427","walletId":"0x7813EC06A79821e5F2D71C6e86D39BFE1c66A8bB"}
+{"recv":1794673752186,"amount":"0.21","price":"852.34","remainAmount":"0","side":"Sell","symbol":"ZECUSDT","symbolId":"20005","ts":"1794673751986","walletId":"0xFD70F624491Af7d0Def460C7054b1B9d4a1E2be0"}
+{"recv":1794673797150,"amount":"448.71","price":"72.096","remainAmount":"0","side":"Sell","symbol":"SOLUSDT","symbolId":"20002","ts":"1794673796961","walletId":"0xCC2693d4491abffdDe22cd195D9E281436608076"}
+{"recv":1794673797496,"amount":"1.39","price":"65.181","remainAmount":"0","side":"Sell","symbol":"HYPEUSDT","symbolId":"20006","ts":"1794673797299","walletId":"0x8ae251b60260b19C4a66Fc8f196BF8dB1dbc551c"}
+{"recv":1794673818287,"amount":"15","price":"130.71","remainAmount":"0","side":"Sell","symbol":"SPCXUSDT","symbolId":"21101","ts":"1794673818099","walletId":"0xB73412505284fc4CA8fDfAE4a5D99e3fB18f84E7"}
