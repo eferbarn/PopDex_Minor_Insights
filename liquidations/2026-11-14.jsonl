@@ -223,3 +223,9 @@
 {"recv":1794689690771,"amount":"0.0014","price":"64350","remainAmount":"0","side":"Sell","symbol":"BTCUSDT","symbolId":"20000","ts":"1794689690569","walletId":"0x923593F9A9F226aFe44e6D77d6f7769F4Aa8A758"}
 {"recv":1794689753495,"amount":"0.079","price":"3685.4","remainAmount":"0","side":"Sell","symbol":"XAUUSDT","symbolId":"21003","ts":"1794689753273","walletId":"0x6F0BD634145eC6Cd85c2e66Bdf4386bdBD0aC48C"}
 {"recv":1794689753495,"amount":"0.125","price":"3679.1","remainAmount":"0","side":"Sell","symbol":"XAUUSDT","symbolId":"21003","ts":"1794689753273","walletId":"0xd847f8B75307a022B997695870090a05B484539E"}
+{"recv":1794690210096,"amount":"0.082","price":"3674.7","remainAmount":"0","side":"Sell","symbol":"XAUUSDT","symbolId":"21003","ts":"1794690209898","walletId":"0x56B112dDd6067851986847BDF46DBe6c9C264A98"}
+{"recv":1794690210096,"amount":"0.049","price":"3675.5","remainAmount":"0","side":"Sell","symbol":"XAUUSDT","symbolId":"21003","ts":"1794690209898","walletId":"0x695deF706adB15366B97d616549CC97B90572490"}
+{"recv":1794690210096,"amount":"0.752","price":"3675.1","remainAmount":"0","side":"Sell","symbol":"XAUUSDT","symbolId":"21003","ts":"1794690209898","walletId":"0x0b412a2De5BA57e3D722Ce5452842f4C376786a2"}
+{"recv":1794690210096,"amount":"1.6","price":"45.486","remainAmount":"0","side":"Sell","symbol":"XAGUSDT","symbolId":"21004","ts":"1794690209898","walletId":"0x56B112dDd6067851986847BDF46DBe6c9C264A98"}
+{"recv":1794690360010,"amount":"0.2309","price":"64280","remainAmount":"0","side":"Sell","symbol":"BTCUSDT","symbolId":"20000","ts":"1794690359789","walletId":"0xe5AFC9DF9f1b9FDA8c9e16d37a016fF1A9572372"}
+{"recv":1794690360010,"amount":"0.0746","price":"64279","remainAmount":"0","side":"Sell","symbol":"BTCUSDT","symbolId":"20000","ts":"1794690359789","walletId":"0xA368e0c2D326b39dc8599A90172366fa28C39854"}
