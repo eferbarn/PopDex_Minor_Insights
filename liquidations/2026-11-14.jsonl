@@ -265,3 +265,4 @@
 {"recv":1794694232875,"amount":"1056.4","price":"0.8893","remainAmount":"0","side":"Sell","symbol":"XRPUSDT","symbolId":"20003","ts":"1794694232626","walletId":"0x349468CDEf5b93bB4657a6346fF9273d6E04DB8f"}
 {"recv":1794694234154,"amount":"4","price":"43.09","remainAmount":"0","side":"Sell","symbol":"LTCUSDT","symbolId":"20026","ts":"1794694233906","walletId":"0x3c4797828279c77871781a9593A7B86c779a4e47"}
 {"recv":1794694241612,"amount":"0.0128","price":"63108","remainAmount":"0","side":"Sell","symbol":"BTCUSDT","symbolId":"20000","ts":"1794694241384","walletId":"0x25501048Bb02E65299a7C82a573e4286037846Df"}
+{"recv":1794694702393,"amount":"769.2","price":"0.69667","remainAmount":"0","side":"Buy","symbol":"SUIUSDT","symbolId":"20014","ts":"1794694702202","walletId":"0x580B78BA5D3Ee004750bFFfa939A302810fdBA7e"}
