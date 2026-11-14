@@ -63,3 +63,4 @@
 {"recv":1794640813962,"amount":"102.1","price":"0.9734","remainAmount":"0","side":"Sell","symbol":"XRPUSDT","symbolId":"20003","ts":"1794640813792","walletId":"0x80fFD626B3D779a41d9CE0F6303712f771DA18F3"}
 {"recv":1794640848170,"amount":"4796","price":"0.1257","remainAmount":"0","side":"Sell","symbol":"ENAUSDT","symbolId":"20017","ts":"1794640847972","walletId":"0x9d4945fb5Aa0F5314C50D5b41864C29accb04bFb"}
 {"recv":1794642924510,"amount":"763714","price":"0.004322","remainAmount":"0","side":"Buy","symbol":"kPEPEUSDT","symbolId":"20007","ts":"1794642924331","walletId":"0x045D6a706f8de7cB2695C4D7a44d4D3D7e0c2d15"}
+{"recv":1794658253953,"amount":"17371","price":"0.004378","remainAmount":"0","side":"Buy","symbol":"kPEPEUSDT","symbolId":"20007","ts":"1794658253780","walletId":"0x11d5b784E02dCA998094DcB537d85391Fea989D4"}
