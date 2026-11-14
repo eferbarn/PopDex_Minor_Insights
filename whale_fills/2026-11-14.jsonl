@@ -310,3 +310,4 @@
 {"s":"TECH100USDT","usd":28479.12,"block":"94890735","createdAt":"1794674798103","execId":"815105215089869165","price":"27725","side":"Sell","size":"1.0272"}
 {"s":"TECH100USDT","usd":26469.06,"block":"94890735","createdAt":"1794674798103","execId":"815105215089869163","price":"27725","side":"Sell","size":"0.9547"}
 {"s":"ETHUSDT","usd":35235.91,"block":"94896242","createdAt":"1794675424857","execId":"815152519859667012","price":"1825.6","side":"Buy","size":"19.301"}
+{"s":"ETHUSDT","usd":29901.77,"block":"94901293","createdAt":"1794675998793","execId":"815195907619291263","price":"1818.4","side":"Buy","size":"16.444"}
