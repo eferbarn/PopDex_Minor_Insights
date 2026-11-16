@@ -53,3 +53,5 @@
 {"recv":1794832230278,"amount":"764","price":"0.2904","remainAmount":"0","side":"Sell","symbol":"ONDOUSDT","symbolId":"20018","ts":"1794832230094","walletId":"0xF43A7A6b70fEa8BA1Dc7fa1168b944FF6F0aC627"}
 {"recv":1794833440042,"amount":"1.86","price":"64.52","remainAmount":"0","side":"Sell","symbol":"HYPEUSDT","symbolId":"20006","ts":"1794833439868","walletId":"0x98c7E6C381931B9e20d42A1b2F2D5616cF217C0C"}
 {"recv":1794834627579,"amount":"4581","price":"0.0499","remainAmount":"0","side":"Sell","symbol":"CASHCATUSDT","symbolId":"20030","ts":"1794834627401","walletId":"0xF9b79C53bA2b85410A1dBA223757448A15b0dF09"}
+{"recv":1794835368927,"amount":"9.97","price":"847.23","remainAmount":"0","side":"Sell","symbol":"ZECUSDT","symbolId":"20005","ts":"1794835368720","walletId":"0x77cb5DE77Ddd2f23E1564144a2ac9Dfd6155732d"}
+{"recv":1794835368927,"amount":"18.46","price":"844.89","remainAmount":"22.95","side":"Sell","symbol":"ZECUSDT","symbolId":"20005","ts":"1794835368720","walletId":"0x43F6AC527fb3636ee4e2F1272268102d2c89C7C6"}
