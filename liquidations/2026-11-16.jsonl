@@ -56,3 +56,5 @@
 {"recv":1794835368927,"amount":"9.97","price":"847.23","remainAmount":"0","side":"Sell","symbol":"ZECUSDT","symbolId":"20005","ts":"1794835368720","walletId":"0x77cb5DE77Ddd2f23E1564144a2ac9Dfd6155732d"}
 {"recv":1794835368927,"amount":"18.46","price":"844.89","remainAmount":"22.95","side":"Sell","symbol":"ZECUSDT","symbolId":"20005","ts":"1794835368720","walletId":"0x43F6AC527fb3636ee4e2F1272268102d2c89C7C6"}
 {"recv":1794836037415,"amount":"0.0156","price":"64644","remainAmount":"0","side":"Buy","symbol":"BTCUSDT","symbolId":"20000","ts":"1794836037209","walletId":"0x4A40f3B6dDAbcFc01f39d92703b633C799Cf41ec"}
+{"recv":1794838553576,"amount":"0.414","price":"64782","remainAmount":"0","side":"Buy","symbol":"BTCUSDT","symbolId":"20000","ts":"1794838553398","walletId":"0x440f0f6054ecB97113FD561f8fac49CAA9DE79cd"}
+{"recv":1794838555096,"amount":"4.2332","price":"64931","remainAmount":"1.5185","side":"Buy","symbol":"BTCUSDT","symbolId":"20000","ts":"1794838554885","walletId":"0x50F5763259d2555d3Cc648950E54e5A99F7b6605"}
