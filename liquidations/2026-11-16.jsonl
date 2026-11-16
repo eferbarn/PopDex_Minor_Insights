@@ -52,3 +52,4 @@
 {"recv":1794832197515,"amount":"6.5","price":"151.28","remainAmount":"0","side":"Sell","symbol":"NVDAUSDT","symbolId":"21105","ts":"1794832197316","walletId":"0x9Ea9deb77385E8cA29A4F60883a3b92B4160368C"}
 {"recv":1794832230278,"amount":"764","price":"0.2904","remainAmount":"0","side":"Sell","symbol":"ONDOUSDT","symbolId":"20018","ts":"1794832230094","walletId":"0xF43A7A6b70fEa8BA1Dc7fa1168b944FF6F0aC627"}
 {"recv":1794833440042,"amount":"1.86","price":"64.52","remainAmount":"0","side":"Sell","symbol":"HYPEUSDT","symbolId":"20006","ts":"1794833439868","walletId":"0x98c7E6C381931B9e20d42A1b2F2D5616cF217C0C"}
+{"recv":1794834627579,"amount":"4581","price":"0.0499","remainAmount":"0","side":"Sell","symbol":"CASHCATUSDT","symbolId":"20030","ts":"1794834627401","walletId":"0xF9b79C53bA2b85410A1dBA223757448A15b0dF09"}
