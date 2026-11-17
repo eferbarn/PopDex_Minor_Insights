@@ -59,3 +59,6 @@
 {"recv":1794926158193,"amount":"0.0063","price":"65458","remainAmount":"0","side":"Buy","symbol":"BTCUSDT","symbolId":"20000","ts":"1794926157960","walletId":"0xCfc3Fd75883138D0Ef8952617230E2C703cF1fd0"}
 {"recv":1794926159707,"amount":"0.0068","price":"65498","remainAmount":"0","side":"Buy","symbol":"BTCUSDT","symbolId":"20000","ts":"1794926159471","walletId":"0xc9dCE88DD48f11A82aE849d8Ef3AC1083007d0bF"}
 {"recv":1794926222295,"amount":"3.72","price":"52.44","remainAmount":"0","side":"Sell","symbol":"INTCUSDT","symbolId":"21106","ts":"1794926222049","walletId":"0x178f5a01645f3FB7e226e42f99E26dc7909C9876"}
+{"recv":1794927938668,"amount":"1.75","price":"73.034","remainAmount":"0","side":"Sell","symbol":"SOLUSDT","symbolId":"20002","ts":"1794927938476","walletId":"0xcF66E3AF78cC34B1547eCa6189D29fa506481381"}
+{"recv":1794927982212,"amount":"0.129","price":"794.14","remainAmount":"0","side":"Sell","symbol":"SKHYNIXUSDT","symbolId":"21115","ts":"1794927982017","walletId":"0x296B9b53AD0ff295640f486dCe9BBdE47cac42e5"}
+{"recv":1794928044748,"amount":"0.0124","price":"64294","remainAmount":"0","side":"Sell","symbol":"BTCUSDT","symbolId":"20000","ts":"1794928044517","walletId":"0x2596762eFB14c4808C5791922FbABE4453489268"}
