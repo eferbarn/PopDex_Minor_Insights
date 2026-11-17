@@ -134,3 +134,11 @@
 {"recv":1794947164709,"amount":"0.008","price":"1810.5","remainAmount":"0","side":"Buy","symbol":"ETHUSDT","symbolId":"20001","ts":"1794947164522","walletId":"0xd20F2f5Ae589C9D0cF0d5DD9db6bB4240764d822"}
 {"recv":1794947821291,"amount":"0.57","price":"73.565","remainAmount":"0","side":"Buy","symbol":"SOLUSDT","symbolId":"20002","ts":"1794947821099","walletId":"0xc0F28d3953c90E26dc05d5045BD4D55C6E28EfF4"}
 {"recv":1794949511251,"amount":"0.0237","price":"64385","remainAmount":"0","side":"Buy","symbol":"BTCUSDT","symbolId":"20000","ts":"1794949511023","walletId":"0x46E910Af4C3B83E49b1EfD7A49Eeaa2299C73aA7"}
+{"recv":1794950404104,"amount":"4.97","price":"162.27","remainAmount":"0","side":"Buy","symbol":"NVDAUSDT","symbolId":"21105","ts":"1794950403903","walletId":"0x0c5020C2A3b3e7c02DBc212cA5c79e4AA94248cA"}
+{"recv":1794950414787,"amount":"5.461","price":"833.5","remainAmount":"0","side":"Buy","symbol":"SNDKUSDT","symbolId":"21102","ts":"1794950414551","walletId":"0x5ca1DF6A197A9f554E1CEB2C7B64Fe5DeBAcc181"}
+{"recv":1794950417713,"amount":"0.0158","price":"64495","remainAmount":"0","side":"Buy","symbol":"BTCUSDT","symbolId":"20000","ts":"1794950417510","walletId":"0xA2E32C9D6f299c25A281cb62ec55d66B48398C0F"}
+{"recv":1794950426822,"amount":"0.0623","price":"64541","remainAmount":"0","side":"Buy","symbol":"BTCUSDT","symbolId":"20000","ts":"1794950426607","walletId":"0xc12DECE4e7f674b7b4aEa3903ACd2059Da750cEe"}
+{"recv":1794950429882,"amount":"0.15","price":"164.71","remainAmount":"0","side":"Buy","symbol":"NVDAUSDT","symbolId":"21105","ts":"1794950429630","walletId":"0x6d0b6641A91f2366FFF07AF2000D116cf24881D9"}
+{"recv":1794950431377,"amount":"0.0201","price":"64545","remainAmount":"0","side":"Buy","symbol":"BTCUSDT","symbolId":"20000","ts":"1794950431136","walletId":"0x363d561Be4110b79dAAe2598578D7D0BE373b793"}
+{"recv":1794950432857,"amount":"0.0014","price":"64564","remainAmount":"0","side":"Buy","symbol":"BTCUSDT","symbolId":"20000","ts":"1794950432646","walletId":"0xDB7cFBE25c97108922728EF207251C0766df9808"}
+{"recv":1794950435830,"amount":"0.47","price":"165.38","remainAmount":"0","side":"Buy","symbol":"NVDAUSDT","symbolId":"21105","ts":"1794950435643","walletId":"0x1b75F38b619b5d8E2B945fE1DcE0cd4607aaADAb"}
