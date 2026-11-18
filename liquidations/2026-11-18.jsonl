@@ -22,3 +22,6 @@
 {"recv":1794998150833,"amount":"0.0013","price":"63916","remainAmount":"0","side":"Sell","symbol":"BTCUSDT","symbolId":"20000","ts":"1794998150617","walletId":"0x7F80602f0e6A35FAD6e03C709b4AB684373EE158"}
 {"recv":1795000001379,"amount":"458","price":"1.021","remainAmount":"0","side":"Sell","symbol":"GRAMUSDT","symbolId":"20024","ts":"1795000001186","walletId":"0x0757cf20D3Bfa53Bc5F288229390e09A7eC5D023"}
 {"recv":1795000124149,"amount":"11948.3","price":"0.9815","remainAmount":"0","side":"Sell","symbol":"XRPUSDT","symbolId":"20003","ts":"1795000123960","walletId":"0xD7f44bc9ce4391f5A84F7872E6b000416ba014F3"}
+{"recv":1795000185493,"amount":"304","price":"0.10988","remainAmount":"0","side":"Sell","symbol":"ENAUSDT","symbolId":"20017","ts":"1795000184716","walletId":"0x532ae512E5ADbBDdd30D22F4F24eDF1A6AC87139"}
+{"recv":1795000351280,"amount":"0.0015","price":"63862","remainAmount":"0","side":"Sell","symbol":"BTCUSDT","symbolId":"20000","ts":"1795000351082","walletId":"0x656c7e9FbEA43BcD86b6BB06d00348f944839281"}
+{"recv":1795000354335,"amount":"0.0118","price":"63850","remainAmount":"0","side":"Sell","symbol":"BTCUSDT","symbolId":"20000","ts":"1795000354054","walletId":"0x923CD36115817D59c51f33e0b5832d7b70ef2530"}
