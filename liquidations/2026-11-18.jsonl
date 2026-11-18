@@ -160,3 +160,4 @@
 {"recv":1795042201925,"amount":"212","price":"0.2835","remainAmount":"0","side":"Sell","symbol":"ONDOUSDT","symbolId":"20018","ts":"1795042201727","walletId":"0xF43A7A6b70fEa8BA1Dc7fa1168b944FF6F0aC627"}
 {"recv":1795042202584,"amount":"0.0016","price":"61833","remainAmount":"0","side":"Sell","symbol":"BTCUSDT","symbolId":"20000","ts":"1795042202408","walletId":"0x677e46e2601D8206C0406CE7CFA1fdD5f7E68eb1"}
 {"recv":1795042203412,"amount":"0.64","price":"72.034","remainAmount":"0","side":"Sell","symbol":"SOLUSDT","symbolId":"20002","ts":"1795042203202","walletId":"0xCF35c8Ad7E3a51c7E71783d50d33AC1dAA416da9"}
+{"recv":1795042642841,"amount":"0.0256","price":"61818","remainAmount":"0","side":"Sell","symbol":"BTCUSDT","symbolId":"20000","ts":"1795042642664","walletId":"0xD79f3289E61bD86724B44e97B6aD73CeF7B857fe"}
