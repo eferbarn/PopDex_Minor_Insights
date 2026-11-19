@@ -66,3 +66,10 @@
 {"recv":1795107205734,"amount":"0.014","price":"1756.5","remainAmount":"0","side":"Sell","symbol":"ETHUSDT","symbolId":"20001","ts":"1795107205491","walletId":"0x6f473223359aa48B6Ff0600160A77aB6103fFF7E"}
 {"recv":1795107207202,"amount":"895","price":"0.132","remainAmount":"0","side":"Sell","symbol":"XLMUSDT","symbolId":"20019","ts":"1795107206988","walletId":"0xEEB0938110209AB7C780B524541176C3DB0a89d9"}
 {"recv":1795107222338,"amount":"0.0266","price":"7045.6","remainAmount":"0","side":"Sell","symbol":"US500USDT","symbolId":"21005","ts":"1795107222137","walletId":"0xdc8Fe003fF1f15b0C8726C8305BFe2239B8B30B4"}
+{"recv":1795107739447,"amount":"0.54","price":"145.19","remainAmount":"0","side":"Sell","symbol":"NVDAUSDT","symbolId":"21105","ts":"1795107739245","walletId":"0x68fAb2a39f7a66da27B62f0A7D5f761DA7D079ff"}
+{"recv":1795107769680,"amount":"0.11","price":"145.17","remainAmount":"0","side":"Sell","symbol":"NVDAUSDT","symbolId":"21105","ts":"1795107769495","walletId":"0xf93Dc17aBc2c8Eec18B40a8b7875D6FBda02789c"}
+{"recv":1795107780293,"amount":"1","price":"1755","remainAmount":"0","side":"Sell","symbol":"ETHUSDT","symbolId":"20001","ts":"1795107780076","walletId":"0xAbfE0718b773b5165Ae4FcD0AE552486F73Ed44A"}
+{"recv":1795107804673,"amount":"0.002","price":"62303","remainAmount":"0","side":"Sell","symbol":"BTCUSDT","symbolId":"20000","ts":"1795107804466","walletId":"0x33acf8d5f10F20b66343763Edc3237486635c23A"}
+{"recv":1795107806163,"amount":"0.5143","price":"62262","remainAmount":"0","side":"Sell","symbol":"BTCUSDT","symbolId":"20000","ts":"1795107805961","walletId":"0x9654493B4E7a7ddd6F4892CAf7F36338294CeE24"}
+{"recv":1795107818537,"amount":"0.53","price":"895.13","remainAmount":"0","side":"Sell","symbol":"ZECUSDT","symbolId":"20005","ts":"1795107818340","walletId":"0x6E2c266a5fd854373ede37CDcb1bF3Eb06900B07"}
+{"recv":1795107821320,"amount":"0.0007","price":"62248","remainAmount":"0","side":"Sell","symbol":"BTCUSDT","symbolId":"20000","ts":"1795107821092","walletId":"0x49924520581Cdb4164e303a70bEE08eC2f2d97f5"}
