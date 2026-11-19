@@ -19,3 +19,5 @@
 {"recv":1795060932438,"amount":"0.0003","price":"63692","remainAmount":"0","side":"Buy","symbol":"BTCUSDT","symbolId":"20000","ts":"1795060932254","walletId":"0xbC99700525B16b05E059318AFf991707dd281F25"}
 {"recv":1795061003543,"amount":"688","price":"0.0362","remainAmount":"0","side":"Buy","symbol":"MARSCOINUSDT","symbolId":"20031","ts":"1795061003368","walletId":"0xD766A81EF4b6bb6dF287709818c8C5e7984b6aE9"}
 {"recv":1795061055255,"amount":"0.0499","price":"63733","remainAmount":"0","side":"Buy","symbol":"BTCUSDT","symbolId":"20000","ts":"1795061055057","walletId":"0x045D6a706f8de7cB2695C4D7a44d4D3D7e0c2d15"}
+{"recv":1795071611340,"amount":"8.25","price":"55.27","remainAmount":"0","side":"Buy","symbol":"SOXLUSDT","symbolId":"21104","ts":"1795071611150","walletId":"0xCAadb48dFf90c3720B3E46D330E146856642A6d4"}
+{"recv":1795071673029,"amount":"104","price":"3.47","remainAmount":"0","side":"Buy","symbol":"NEARUSDT","symbolId":"20020","ts":"1795071672816","walletId":"0x74D9aAa96500f0Ce931e2ba61E92427Ae594dbd4"}
