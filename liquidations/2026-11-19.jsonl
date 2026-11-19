@@ -73,3 +73,10 @@
 {"recv":1795107806163,"amount":"0.5143","price":"62262","remainAmount":"0","side":"Sell","symbol":"BTCUSDT","symbolId":"20000","ts":"1795107805961","walletId":"0x9654493B4E7a7ddd6F4892CAf7F36338294CeE24"}
 {"recv":1795107818537,"amount":"0.53","price":"895.13","remainAmount":"0","side":"Sell","symbol":"ZECUSDT","symbolId":"20005","ts":"1795107818340","walletId":"0x6E2c266a5fd854373ede37CDcb1bF3Eb06900B07"}
 {"recv":1795107821320,"amount":"0.0007","price":"62248","remainAmount":"0","side":"Sell","symbol":"BTCUSDT","symbolId":"20000","ts":"1795107821092","walletId":"0x49924520581Cdb4164e303a70bEE08eC2f2d97f5"}
+{"recv":1795107854052,"amount":"0.26","price":"44.75","remainAmount":"0","side":"Sell","symbol":"SOXLUSDT","symbolId":"21104","ts":"1795107853852","walletId":"0x3aAa78e50De18e77Dd342C7F2C64f6C59A79719F"}
+{"recv":1795107910377,"amount":"11.94","price":"144.28","remainAmount":"0","side":"Sell","symbol":"NVDAUSDT","symbolId":"21105","ts":"1795107910178","walletId":"0x9054f06e65C4cFE933407De872f011d3e7Cd0365"}
+{"recv":1795107946760,"amount":"0.0004","price":"62096","remainAmount":"0","side":"Sell","symbol":"BTCUSDT","symbolId":"20000","ts":"1795107946534","walletId":"0xC8877c8F9808681115E5F660C798342817Fd3b29"}
+{"recv":1795107948236,"amount":"0.0428","price":"62090","remainAmount":"0","side":"Sell","symbol":"BTCUSDT","symbolId":"20000","ts":"1795107948022","walletId":"0xFD8C1691482eab3EbA02F4FAB2e8B13F647eFfC1"}
+{"recv":1795107948236,"amount":"0.0008","price":"62092","remainAmount":"0","side":"Sell","symbol":"BTCUSDT","symbolId":"20000","ts":"1795107948022","walletId":"0x8898E1A2a6E7f4428B63bE02e3162a3006E67e1e"}
+{"recv":1795107951615,"amount":"0.31","price":"143.78","remainAmount":"0","side":"Sell","symbol":"NVDAUSDT","symbolId":"21105","ts":"1795107951373","walletId":"0xBAA5cc7f3E5642793b8D13C0Cda9A7659edBee2a"}
+{"recv":1795107952726,"amount":"734","price":"0.0574","remainAmount":"0","side":"Sell","symbol":"DOGEUSDT","symbolId":"20004","ts":"1795107952539","walletId":"0x6344510B956f716e9643091F2120DDAc5361C96c"}
