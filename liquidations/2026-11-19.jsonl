@@ -10,3 +10,4 @@
 {"recv":1795057813619,"amount":"3.11","price":"72.642","remainAmount":"0","side":"Sell","symbol":"SOLUSDT","symbolId":"20002","ts":"1795057813456","walletId":"0x7813EC06A79821e5F2D71C6e86D39BFE1c66A8bB"}
 {"recv":1795057958535,"amount":"12.04","price":"43.271","remainAmount":"0","side":"Sell","symbol":"XAGUSDT","symbolId":"21004","ts":"1795057958365","walletId":"0x75D6e00D5EF7f85321CA3FefF927A0448f402cEf"}
 {"recv":1795058900086,"amount":"0.0055","price":"63174","remainAmount":"0","side":"Buy","symbol":"BTCUSDT","symbolId":"20000","ts":"1795058899888","walletId":"0x2596762eFB14c4808C5791922FbABE4453489268"}
+{"recv":1795059966477,"amount":"21706","price":"0.002723","remainAmount":"0","side":"Buy","symbol":"PUMPUSDT","symbolId":"20027","ts":"1795059966304","walletId":"0x4D23eE504Aa7E44993f76a40470615D85357452e"}
