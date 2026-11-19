@@ -112,3 +112,5 @@
 {"recv":1795121709651,"amount":"21.29","price":"142.37","remainAmount":"0","side":"Sell","symbol":"NVDAUSDT","symbolId":"21105","ts":"1795121709442","walletId":"0xB1F7AF502138386E3fC5C38667c664E0777BF724"}
 {"recv":1795121827262,"amount":"0.0002","price":"61858","remainAmount":"0","side":"Sell","symbol":"BTCUSDT","symbolId":"20000","ts":"1795121827019","walletId":"0xFdBdD3b1DBBDB54848d0fb3A6BAC5888E271Df1C"}
 {"recv":1795122079861,"amount":"3.92","price":"43.66","remainAmount":"0","side":"Sell","symbol":"SOXLUSDT","symbolId":"21104","ts":"1795122079671","walletId":"0x52ED141EAedfE3eD1461cba42cFd130C63D81251"}
+{"recv":1795122964567,"amount":"0.09","price":"874.33","remainAmount":"0","side":"Sell","symbol":"ZECUSDT","symbolId":"20005","ts":"1795122964371","walletId":"0x6E2c266a5fd854373ede37CDcb1bF3Eb06900B07"}
+{"recv":1795122977438,"amount":"759","price":"0.0403","remainAmount":"0","side":"Sell","symbol":"CASHCATUSDT","symbolId":"20030","ts":"1795122977140","walletId":"0x860a84B0C262b139cEE4acD52dd4C0668c501f00"}
