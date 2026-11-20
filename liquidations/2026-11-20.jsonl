@@ -55,3 +55,7 @@
 {"recv":1795167094168,"amount":"422.03","price":"39.44","remainAmount":"0","side":"Sell","symbol":"SOXLUSDT","symbolId":"21104","ts":"1795167093973","walletId":"0x8C88B70223442E9ac305da07BFD162b5bdE2bdAf"}
 {"recv":1795167094523,"amount":"0.14","price":"138.6","remainAmount":"0","side":"Sell","symbol":"NVDAUSDT","symbolId":"21105","ts":"1795167094321","walletId":"0x923593F9A9F226aFe44e6D77d6f7769F4Aa8A758"}
 {"recv":1795167097533,"amount":"12.84","price":"138.54","remainAmount":"0","side":"Sell","symbol":"NVDAUSDT","symbolId":"21105","ts":"1795167097325","walletId":"0xe04955ec71b68ca59655FC9035def2C930A7527a"}
+{"recv":1795167569396,"amount":"4.11","price":"138.23","remainAmount":"0","side":"Sell","symbol":"NVDAUSDT","symbolId":"21105","ts":"1795167569205","walletId":"0xAAA35E3fEcA911a68458eeAB744492a93Ed416b1"}
+{"recv":1795167572492,"amount":"0.35","price":"138.15","remainAmount":"0","side":"Sell","symbol":"NVDAUSDT","symbolId":"21105","ts":"1795167572302","walletId":"0x4AA1f4900656E05A8C5983c977E09034D4c259D9"}
+{"recv":1795167598174,"amount":"4477","price":"0.05635","remainAmount":"0","side":"Sell","symbol":"DOGEUSDT","symbolId":"20004","ts":"1795167597987","walletId":"0xC1F07518156b6dfe947D64C181536b8fAaeA4B8a"}
+{"recv":1795167629997,"amount":"0.04","price":"834.73","remainAmount":"0","side":"Sell","symbol":"ZECUSDT","symbolId":"20005","ts":"1795167629711","walletId":"0x03C70b48516d0fd9c8829DD0068a8fcfc1610758"}
