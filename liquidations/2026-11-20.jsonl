@@ -88,3 +88,4 @@
 {"recv":1795176464432,"amount":"0.012","price":"1721","remainAmount":"0","side":"Sell","symbol":"ETHUSDT","symbolId":"20001","ts":"1795176464197","walletId":"0x76850699264aCc6dbD316db04595FA184F3b0481"}
 {"recv":1795176466023,"amount":"1.51","price":"615.79","remainAmount":"0","side":"Sell","symbol":"QQQUSDT","symbolId":"21121","ts":"1795176465822","walletId":"0x8C1375657599080FAD17754003E404bB7b66Fc46"}
 {"recv":1795176483300,"amount":"28","price":"127.59","remainAmount":"0","side":"Sell","symbol":"SPCXUSDT","symbolId":"21101","ts":"1795176483067","walletId":"0x6368444661507CF4eDe283c633fFcb487CE1A122"}
+{"recv":1795179614130,"amount":"10232","price":"0.003496","remainAmount":"0","side":"Sell","symbol":"kPEPEUSDT","symbolId":"20007","ts":"1795179613919","walletId":"0x46131a7209339E9C5e9c7B5768a3F51713d3eE50"}
