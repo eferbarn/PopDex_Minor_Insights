@@ -114,3 +114,5 @@
 {"recv":1795234072956,"amount":"10.984","price":"505.7","remainAmount":"0","side":"Sell","symbol":"BNBUSDT","symbolId":"20016","ts":"1795234072756","walletId":"0xFC2D159282033Cc18cd0d555b71F461561dBD2C6"}
 {"recv":1795234084952,"amount":"0.114","price":"1533.8","remainAmount":"0","side":"Sell","symbol":"ETHUSDT","symbolId":"20001","ts":"1795234084745","walletId":"0x1F63916BFc5862FdC6D8149288a3C78288465E7C"}
 {"recv":1795234139035,"amount":"0.09","price":"707.68","remainAmount":"0","side":"Buy","symbol":"ZECUSDT","symbolId":"20005","ts":"1795234138841","walletId":"0x4eF1B8aBd82368e0ebD74B71b75d2F85c10bF605"}
+{"recv":1795234290317,"amount":"1.09","price":"714.73","remainAmount":"0","side":"Buy","symbol":"ZECUSDT","symbolId":"20005","ts":"1795234290134","walletId":"0xe3AFBa7fB770b2Ba747BCB945Eb5CFBDAB431050"}
+{"recv":1795234575124,"amount":"20","price":"1.4749","remainAmount":"0","side":"Sell","symbol":"BGBUSDT","symbolId":"20015","ts":"1795234574930","walletId":"0xEDf152A659bDbc8131a1Bb63630803Be8FD7F8DD"}
