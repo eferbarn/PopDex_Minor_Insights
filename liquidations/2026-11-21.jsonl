@@ -189,3 +189,5 @@
 {"recv":1795243702003,"amount":"0.056","price":"1652.8","remainAmount":"0","side":"Buy","symbol":"ETHUSDT","symbolId":"20001","ts":"1795243701775","walletId":"0x4150a3d9cFE9e1d457ee12B8b68704B032BecC80"}
 {"recv":1795243856297,"amount":"18.842","price":"1661","remainAmount":"59.185","side":"Buy","symbol":"ETHUSDT","symbolId":"20001","ts":"1795243856078","walletId":"0x440f0f6054ecB97113FD561f8fac49CAA9DE79cd"}
 {"recv":1795243856297,"amount":"59.185","price":"1662.2","remainAmount":"0","side":"Buy","symbol":"ETHUSDT","symbolId":"20001","ts":"1795243856078","walletId":"0x440f0f6054ecB97113FD561f8fac49CAA9DE79cd"}
+{"recv":1795244272146,"amount":"0.0065","price":"58215","remainAmount":"0","side":"Buy","symbol":"BTCUSDT","symbolId":"20000","ts":"1795244271948","walletId":"0x80a57f6cc611d4C5d5ecc86FCf6B56c494558B08"}
+{"recv":1795244329607,"amount":"0.0017","price":"58289","remainAmount":"0","side":"Buy","symbol":"BTCUSDT","symbolId":"20000","ts":"1795244329439","walletId":"0xfbABCF8B67D1D3a0d1b7B59A47f67Ae840823CD3"}
