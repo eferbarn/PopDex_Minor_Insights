@@ -27,3 +27,10 @@
 {"recv":1795324382712,"amount":"0.0004","price":"58797","remainAmount":"0","side":"Sell","symbol":"BTCUSDT","symbolId":"20000","ts":"1795324382511","walletId":"0xA417FF68bE8D5e97755A5017b495dE2E07cb5493"}
 {"recv":1795324692820,"amount":"0.0027","price":"58630","remainAmount":"0","side":"Sell","symbol":"BTCUSDT","symbolId":"20000","ts":"1795324692619","walletId":"0xa99bDbAf813c398Ba50eFF6dfA579a35Cc1c7766"}
 {"recv":1795324695928,"amount":"0.057","price":"1646.7","remainAmount":"0","side":"Sell","symbol":"ETHUSDT","symbolId":"20001","ts":"1795324695725","walletId":"0x7da8827A487B3639a726e9FfefCa4779353d293C"}
+{"recv":1795326639756,"amount":"0.12","price":"792.25","remainAmount":"0","side":"Buy","symbol":"ZECUSDT","symbolId":"20005","ts":"1795326639535","walletId":"0x8Db1A465767DCAF85B8501DE5B44DFF322841D12"}
+{"recv":1795326639756,"amount":"0","price":"793.96","remainAmount":"0.02","side":"Buy","symbol":"ZECUSDT","symbolId":"20005","ts":"1795326639535","walletId":"0x7A7931B48F7977C032EF06E39AF1478dA9E27282"}
+{"recv":1795326639756,"amount":"0.02","price":"793.96","remainAmount":"0","side":"Buy","symbol":"ZECUSDT","symbolId":"20005","ts":"1795326639535","walletId":"0x7A7931B48F7977C032EF06E39AF1478dA9E27282"}
+{"recv":1795326639756,"amount":"0.12","price":"792.25","remainAmount":"0","side":"Sell","symbol":"ZECUSDT","symbolId":"20005","ts":"1795326639535","walletId":"0xfFfFFffFffffFFffFffFFFFFFfFFFfFfFFfFfFfD"}
+{"recv":1795326639756,"amount":"0.02","price":"793.96","remainAmount":"0","side":"Sell","symbol":"ZECUSDT","symbolId":"20005","ts":"1795326639535","walletId":"0xfFfFFffFffffFFffFffFFFFFFfFFFfFfFFfFfFfD"}
+{"recv":1795326641237,"amount":"8.23","price":"798.87","remainAmount":"0","side":"Buy","symbol":"ZECUSDT","symbolId":"20005","ts":"1795326641034","walletId":"0x14A8ED5182c4c50f95ACfeE85f0534363fA55608"}
+{"recv":1795326641237,"amount":"0.91","price":"797.33","remainAmount":"0","side":"Buy","symbol":"ZECUSDT","symbolId":"20005","ts":"1795326641034","walletId":"0x3cF414035807A8E519a1BD773cB0a0a78C182f10"}
