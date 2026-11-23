@@ -179,3 +179,6 @@
 {"recv":1795445796002,"amount":"258102","price":"0.00376","remainAmount":"0","side":"Buy","symbol":"kPEPEUSDT","symbolId":"20007","ts":"1795445791492","walletId":"0x045D6a706f8de7cB2695C4D7a44d4D3D7e0c2d15"}
 {"recv":1795446142723,"amount":"0.0159","price":"63410","remainAmount":"0","side":"Buy","symbol":"BTCUSDT","symbolId":"20000","ts":"1795446142511","walletId":"0xA3392166264dAF284082d31b977976d9b7165aB5"}
 {"recv":1795446342464,"amount":"0.855","price":"63528","remainAmount":"0","side":"Buy","symbol":"BTCUSDT","symbolId":"20000","ts":"1795446342132","walletId":"0xf58aCdC969b08639Ef752D4e3056d046BB869e8b"}
+{"recv":1795447281704,"amount":"0.43","price":"175.5","remainAmount":"0","side":"Buy","symbol":"NVDAUSDT","symbolId":"21105","ts":"1795447281496","walletId":"0xdfaCE0bFef6Ec11f4F0e669A9dBfE4bF21Fcb907"}
+{"recv":1795447517680,"amount":"0.07","price":"175.88","remainAmount":"0","side":"Buy","symbol":"NVDAUSDT","symbolId":"21105","ts":"1795447517458","walletId":"0xbDB81205889A241e659f6BFD5665e3723b3522c4"}
+{"recv":1795447579766,"amount":"0.2234","price":"63886","remainAmount":"0","side":"Buy","symbol":"BTCUSDT","symbolId":"20000","ts":"1795447579551","walletId":"0xf58aCdC969b08639Ef752D4e3056d046BB869e8b"}
