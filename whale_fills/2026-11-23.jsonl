@@ -372,3 +372,13 @@
 {"s":"ETHUSDT","usd":34181.18,"block":"101687974","createdAt":"1795448792818","execId":"873493053506060878","price":"1767.2","side":"Sell","size":"19.342"}
 {"s":"ETHUSDT","usd":29227.72,"block":"101687974","createdAt":"1795448792818","execId":"873493053506060876","price":"1767.2","side":"Sell","size":"16.539"}
 {"s":"BTCUSDT","usd":56729.79,"block":"101687979","createdAt":"1795448793389","execId":"873493096455734549","price":"62671","side":"Sell","size":"0.9052"}
+{"s":"ETHUSDT","usd":35047.85,"block":"101691075","createdAt":"1795449149830","execId":"873519690893230730","price":"1772.6","side":"Buy","size":"19.772"}
+{"s":"ETHUSDT","usd":46312.72,"block":"101691075","createdAt":"1795449149830","execId":"873519690893230728","price":"1772.6","side":"Buy","size":"26.127"}
+{"s":"ETHUSDT","usd":32541.26,"block":"101691075","createdAt":"1795449149830","execId":"873519690893230716","price":"1772.4","side":"Buy","size":"18.36"}
+{"s":"ETHUSDT","usd":45367.48,"block":"101692614","createdAt":"1795449326758","execId":"873532910802567570","price":"1770.3","side":"Sell","size":"25.627"}
+{"s":"BTCUSDT","usd":74911.17,"block":"101692654","createdAt":"1795449331370","execId":"873533254399951710","price":"62787","side":"Sell","size":"1.1931"}
+{"s":"ETHUSDT","usd":26645.32,"block":"101693167","createdAt":"1795449390459","execId":"873537661036396804","price":"1767.4","side":"Sell","size":"15.076"}
+{"s":"ETHUSDT","usd":45764.11,"block":"101693167","createdAt":"1795449390459","execId":"873537661036396792","price":"1767.5","side":"Sell","size":"25.892"}
+{"s":"ETHUSDT","usd":31618.81,"block":"101693167","createdAt":"1795449390459","execId":"873537661036396790","price":"1767.5","side":"Sell","size":"17.889"}
+{"s":"ETHUSDT","usd":34114.52,"block":"101693167","createdAt":"1795449390459","execId":"873537661036396788","price":"1767.5","side":"Sell","size":"19.301"}
+{"s":"ETHUSDT","usd":42777.56,"block":"101693386","createdAt":"1795449415658","execId":"873539542232072718","price":"1766.5","side":"Sell","size":"24.216"}
