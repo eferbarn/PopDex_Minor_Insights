@@ -55,3 +55,12 @@
 {"recv":1795438452280,"amount":"1.09","price":"85.36","remainAmount":"0","side":"Sell","symbol":"ANTUSDT","symbolId":"21147","ts":"1795438452090","walletId":"0x9094168f8F224811d67e1135dc11f3357c41ba55"}
 {"recv":1795438561310,"amount":"0.47","price":"84.97","remainAmount":"0","side":"Sell","symbol":"ANTUSDT","symbolId":"21147","ts":"1795438561082","walletId":"0x49924520581Cdb4164e303a70bEE08eC2f2d97f5"}
 {"recv":1795438562803,"amount":"1.2","price":"84.95","remainAmount":"0","side":"Sell","symbol":"ANTUSDT","symbolId":"21147","ts":"1795438562572","walletId":"0x4b1E34988a7FaF8115d45057981619868a487BBf"}
+{"recv":1795441710751,"amount":"0.42","price":"78.995","remainAmount":"0","side":"Sell","symbol":"CLUSDT","symbolId":"21001","ts":"1795441710567","walletId":"0x8b1b6D38f7702b966116940363832b1bFC91199E"}
+{"recv":1795442146744,"amount":"0","price":"142.82","remainAmount":"2.39","side":"Buy","symbol":"NVDAUSDT","symbolId":"21105","ts":"1795442146501","walletId":"0x5D923781df0E4a113b729A2916A3A6DF4a92D5ef"}
+{"recv":1795442146744,"amount":"2.39","price":"142.82","remainAmount":"0","side":"Buy","symbol":"NVDAUSDT","symbolId":"21105","ts":"1795442146501","walletId":"0x5D923781df0E4a113b729A2916A3A6DF4a92D5ef"}
+{"recv":1795442146744,"amount":"2.39","price":"142.82","remainAmount":"0","side":"Sell","symbol":"NVDAUSDT","symbolId":"21105","ts":"1795442146501","walletId":"0xFffFFfffFFFFFFFFFffFfFFfffffFFffFFFfFfF7"}
+{"recv":1795442148301,"amount":"0","price":"144.26","remainAmount":"0.31","side":"Buy","symbol":"NVDAUSDT","symbolId":"21105","ts":"1795442148039","walletId":"0xf068fFA82085A05Ad756940827789e31CD90c037"}
+{"recv":1795442148301,"amount":"0.31","price":"144.26","remainAmount":"0","side":"Buy","symbol":"NVDAUSDT","symbolId":"21105","ts":"1795442148039","walletId":"0xf068fFA82085A05Ad756940827789e31CD90c037"}
+{"recv":1795442148301,"amount":"0.31","price":"144.26","remainAmount":"0","side":"Sell","symbol":"NVDAUSDT","symbolId":"21105","ts":"1795442148039","walletId":"0xFffFFfffFFFFFFFFFffFfFFfffffFFffFFFfFfF7"}
+{"recv":1795442154318,"amount":"0.023","price":"1739.5","remainAmount":"0","side":"Buy","symbol":"ETHUSDT","symbolId":"20001","ts":"1795442154045","walletId":"0x49dC4C554f03786Dfbc15b44eD494Ba615e1cA0b"}
+{"recv":1795442158885,"amount":"0.16","price":"73.368","remainAmount":"0","side":"Buy","symbol":"SOLUSDT","symbolId":"20002","ts":"1795442158651","walletId":"0x08d4e5586346F39A1DA85712b7C6Fd391fe56dE2"}
