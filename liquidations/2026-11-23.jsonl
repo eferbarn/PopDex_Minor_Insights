@@ -1,2 +1,3 @@
 {"recv":1795394018014,"amount":"0.002","price":"61644","remainAmount":"0","side":"Buy","symbol":"BTCUSDT","symbolId":"20000","ts":"1795394017820","walletId":"0xAEA50154eF53C255eaDdbd2F30b5AAE26197F408"}
 {"recv":1795395481926,"amount":"0.3","price":"88.1","remainAmount":"0","side":"Buy","symbol":"SNDKUSDT","symbolId":"21102","ts":"1795395481727","walletId":"0x607aB28cD8D2b4f016382F5cCc4eF423Ea2ede7A"}
+{"recv":1795396046346,"amount":"0.17","price":"95.35","remainAmount":"0","side":"Buy","symbol":"ANTUSDT","symbolId":"21147","ts":"1795396046157","walletId":"0xb34c41cf6e08957d5e41BA262065DfB369f1d3E1"}
