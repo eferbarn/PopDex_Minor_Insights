@@ -2,3 +2,4 @@
 {"recv":1795395481926,"amount":"0.3","price":"88.1","remainAmount":"0","side":"Buy","symbol":"SNDKUSDT","symbolId":"21102","ts":"1795395481727","walletId":"0x607aB28cD8D2b4f016382F5cCc4eF423Ea2ede7A"}
 {"recv":1795396046346,"amount":"0.17","price":"95.35","remainAmount":"0","side":"Buy","symbol":"ANTUSDT","symbolId":"21147","ts":"1795396046157","walletId":"0xb34c41cf6e08957d5e41BA262065DfB369f1d3E1"}
 {"recv":1795399720278,"amount":"0.0023","price":"60504","remainAmount":"0","side":"Sell","symbol":"BTCUSDT","symbolId":"20000","ts":"1795399720095","walletId":"0x098001f952112432e60315Bd8B9af6Fdc5AAB810"}
+{"recv":1795401038026,"amount":"1.58","price":"61.163","remainAmount":"0","side":"Sell","symbol":"HYPEUSDT","symbolId":"20006","ts":"1795401037812","walletId":"0xA5dC1302A92Ea51f170F1E5809dffF303457431b"}
