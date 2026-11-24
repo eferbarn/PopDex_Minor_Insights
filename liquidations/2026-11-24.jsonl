@@ -92,3 +92,4 @@
 {"recv":1795517590551,"amount":"0.0151","price":"59137","remainAmount":"0","side":"Sell","symbol":"BTCUSDT","symbolId":"20000","ts":"1795517590322","walletId":"0xbC99700525B16b05E059318AFf991707dd281F25"}
 {"recv":1795517592155,"amount":"30000","price":"0.05466","remainAmount":"0","side":"Sell","symbol":"DOGEUSDT","symbolId":"20004","ts":"1795517591936","walletId":"0x4EE415a563Dca103D280F9E02f7f6E6ee7b5403D"}
 {"recv":1795518670566,"amount":"8.61","price":"80.03","remainAmount":"0","side":"Sell","symbol":"ANTUSDT","symbolId":"21147","ts":"1795518670355","walletId":"0xEaDd03a66Bbcf48A565a88e804b86fD9EE68072E"}
+{"recv":1795518973916,"amount":"3296","price":"0.09701","remainAmount":"0","side":"Sell","symbol":"ENAUSDT","symbolId":"20017","ts":"1795518973708","walletId":"0xf9CB0Db3DeBDf6438205dc20dacBCd00eEd37478"}
