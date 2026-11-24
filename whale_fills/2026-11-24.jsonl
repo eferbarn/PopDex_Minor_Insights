@@ -60,3 +60,13 @@
 {"s":"BTCUSDT","usd":89637.34,"block":"102053051","createdAt":"1795490459277","execId":"876629041057104315","price":"59910","side":"Sell","size":"1.4962"}
 {"s":"ETHUSDT","usd":47993.33,"block":"102053288","createdAt":"1795490486341","execId":"876631076871602516","price":"1685.1","side":"Buy","size":"28.481"}
 {"s":"ETHUSDT","usd":43630.61,"block":"102053288","createdAt":"1795490486341","execId":"876631076871602514","price":"1685.1","side":"Buy","size":"25.892"}
+{"s":"ETHUSDT","usd":38756.57,"block":"102053586","createdAt":"1795490520332","execId":"876633636672110831","price":"1682.8","side":"Sell","size":"23.031"}
+{"s":"ETHUSDT","usd":41926.96,"block":"102053586","createdAt":"1795490520332","execId":"876633636672110829","price":"1682.8","side":"Sell","size":"24.915"}
+{"s":"ETHUSDT","usd":69015.49,"block":"102053811","createdAt":"1795490546078","execId":"876635569407394394","price":"1681.5","side":"Sell","size":"41.044"}
+{"s":"ETHUSDT","usd":27889.55,"block":"102056386","createdAt":"1795490839713","execId":"876657688488968424","price":"1686.8","side":"Buy","size":"16.534"}
+{"s":"ETHUSDT","usd":119066.21,"block":"102057476","createdAt":"1795490963921","execId":"876667051517673677","price":"1692.7","side":"Buy","size":"70.341"}
+{"s":"ETHUSDT","usd":86661.08,"block":"102057476","createdAt":"1795490963921","execId":"876667051517673669","price":"1692.5","side":"Buy","size":"51.203"}
+{"s":"ETHUSDT","usd":42222.88,"block":"102057476","createdAt":"1795490963921","execId":"876667051517673661","price":"1692.3","side":"Buy","size":"24.95"}
+{"s":"ETHUSDT","usd":36646.76,"block":"102057476","createdAt":"1795490963921","execId":"876667051517673659","price":"1692.3","side":"Buy","size":"21.655"}
+{"s":"ETHUSDT","usd":58942.81,"block":"102057476","createdAt":"1795490963921","execId":"876667051517673657","price":"1692.3","side":"Buy","size":"34.83"}
+{"s":"ETHUSDT","usd":116863.19,"block":"102057476","createdAt":"1795490963921","execId":"876667051517673647","price":"1692.1","side":"Buy","size":"69.064"}
