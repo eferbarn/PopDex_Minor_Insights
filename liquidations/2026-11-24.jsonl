@@ -133,3 +133,4 @@
 {"recv":1795531144689,"amount":"24.33","price":"149.55","remainAmount":"0","side":"Sell","symbol":"NVDAUSDT","symbolId":"21105","ts":"1795531144473","walletId":"0x6368444661507CF4eDe283c633fFcb487CE1A122"}
 {"recv":1795531146614,"amount":"9.8","price":"33.23","remainAmount":"0","side":"Sell","symbol":"SOXLUSDT","symbolId":"21104","ts":"1795531146423","walletId":"0x8Fe928F8EAEC7011886d43108d80Ef99bA875f2c"}
 {"recv":1795531441496,"amount":"0.415","price":"860.1","remainAmount":"0","side":"Buy","symbol":"SKHYNIXUSDT","symbolId":"21115","ts":"1795531441239","walletId":"0xa19974eC6D1e771958419De3C351445b5f261fb8"}
+{"recv":1795531904226,"amount":"0.64","price":"84.44","remainAmount":"0","side":"Buy","symbol":"ANTUSDT","symbolId":"21147","ts":"1795531903999","walletId":"0x04f6C42990D494d8cD4901f4AfB5fe0a72B4269C"}
