@@ -74,3 +74,5 @@
 {"recv":1795511522076,"amount":"401","price":"0.02725","remainAmount":"0","side":"Sell","symbol":"MARSCOINUSDT","symbolId":"20031","ts":"1795511521880","walletId":"0xA6fc50111dB44c1e24B14Dc07FaDFe005B353479"}
 {"recv":1795514648312,"amount":"0.09","price":"152.51","remainAmount":"0","side":"Sell","symbol":"NVDAUSDT","symbolId":"21105","ts":"1795514648102","walletId":"0x89092d8F9E8cB7FC08E514fE413B5e7d34A6Ca5c"}
 {"recv":1795514658946,"amount":"0.12","price":"152.45","remainAmount":"0","side":"Sell","symbol":"NVDAUSDT","symbolId":"21105","ts":"1795514658734","walletId":"0xB4518f2Cd502BC22f301a2876409Bccd21695069"}
+{"recv":1795514719365,"amount":"1.48","price":"152.03","remainAmount":"0","side":"Sell","symbol":"NVDAUSDT","symbolId":"21105","ts":"1795514719152","walletId":"0xB1bE3DC5B3fBE3201E00Fb6e26380ae5E204d230"}
+{"recv":1795514719365,"amount":"45","price":"152.08","remainAmount":"0","side":"Sell","symbol":"NVDAUSDT","symbolId":"21105","ts":"1795514719152","walletId":"0x6368444661507CF4eDe283c633fFcb487CE1A122"}
