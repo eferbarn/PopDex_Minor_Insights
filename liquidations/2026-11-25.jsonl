@@ -12,3 +12,10 @@
 {"recv":1795570340998,"amount":"496","price":"0.0958","remainAmount":"0","side":"Sell","symbol":"ENAUSDT","symbolId":"20017","ts":"1795570340775","walletId":"0xA61b4a9635ef9B80Bae55548840E2Ff6d09c83D5"}
 {"recv":1795570366702,"amount":"0.1734","price":"59009","remainAmount":"0","side":"Sell","symbol":"BTCUSDT","symbolId":"20000","ts":"1795570361796","walletId":"0xCCE21Fab54866e74586B9F50387F79351825FdF6"}
 {"recv":1795570441257,"amount":"502","price":"0.09563","remainAmount":"0","side":"Sell","symbol":"ENAUSDT","symbolId":"20017","ts":"1795570441067","walletId":"0xf9CB0Db3DeBDf6438205dc20dacBCd00eEd37478"}
+{"recv":1795571283733,"amount":"0.9","price":"30.8","remainAmount":"0","side":"Sell","symbol":"SOXLUSDT","symbolId":"21104","ts":"1795571283541","walletId":"0xe7169b3AFE71aeB35eCc0A390407A190dCC0EDC9"}
+{"recv":1795571330156,"amount":"0.0092","price":"58986","remainAmount":"0","side":"Sell","symbol":"BTCUSDT","symbolId":"20000","ts":"1795571329941","walletId":"0xaD5DBD9a843801164732353f8555A90db13dC0cd"}
+{"recv":1795571517706,"amount":"0.0007","price":"58942","remainAmount":"0","side":"Sell","symbol":"BTCUSDT","symbolId":"20000","ts":"1795571517489","walletId":"0xeaE72Ce1c624da74d2bA66796Acb7bB6805b62E4"}
+{"recv":1795571519316,"amount":"19380","price":"0.00339","remainAmount":"0","side":"Sell","symbol":"kPEPEUSDT","symbolId":"20007","ts":"1795571519100","walletId":"0x06deaF88D688bd3eDCa0537B20feA771904DB152"}
+{"recv":1795571538902,"amount":"0.0015","price":"58861","remainAmount":"0","side":"Sell","symbol":"BTCUSDT","symbolId":"20000","ts":"1795571538701","walletId":"0xbfb21a4275ca20FE10a0c83f91484F0117bFeb93"}
+{"recv":1795571538902,"amount":"0.0017","price":"58845","remainAmount":"0","side":"Sell","symbol":"BTCUSDT","symbolId":"20000","ts":"1795571538701","walletId":"0xf770968E7A91607b41403A452925D4d9802Cf497"}
+{"recv":1795571558592,"amount":"0.0008","price":"58832","remainAmount":"0","side":"Sell","symbol":"BTCUSDT","symbolId":"20000","ts":"1795571558377","walletId":"0xC9560EefCf16146B53823520E7C5b8992e07C371"}
