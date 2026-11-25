@@ -78,3 +78,4 @@
 {"recv":1795607932623,"amount":"8.77","price":"38.421","remainAmount":"0","side":"Sell","symbol":"XAGUSDT","symbolId":"21004","ts":"1795607932409","walletId":"0x369691d74756b331fFFfD6C538deB2143046e226"}
 {"recv":1795607932623,"amount":"0.45","price":"3399.9","remainAmount":"0","side":"Sell","symbol":"XAUUSDT","symbolId":"21003","ts":"1795607932409","walletId":"0x369691d74756b331fFFfD6C538deB2143046e226"}
 {"recv":1795608420429,"amount":"36.4","price":"26.86","remainAmount":"0","side":"Sell","symbol":"SOXLUSDT","symbolId":"21104","ts":"1795608420237","walletId":"0xF52aD0a3311B680AB5DfFDF899c25071B3F0c854"}
+{"recv":1795610412171,"amount":"813513","price":"0.003344","remainAmount":"2901124","side":"Sell","symbol":"kPEPEUSDT","symbolId":"20007","ts":"1795610411967","walletId":"0xc20292949F339b8988AD647189Fb4B7dBDECCa5e"}
