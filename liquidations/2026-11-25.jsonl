@@ -56,3 +56,10 @@
 {"recv":1795598442955,"amount":"0.42","price":"717.68","remainAmount":"0","side":"Sell","symbol":"ZECUSDT","symbolId":"20005","ts":"1795598442750","walletId":"0x4DeF9658F21a7514dF3DB78fe67C3a551BeA242B"}
 {"recv":1795598942496,"amount":"1.237","price":"1631.8","remainAmount":"0","side":"Sell","symbol":"ETHUSDT","symbolId":"20001","ts":"1795598942262","walletId":"0xe3A59974BF66713860a23048f7cD739A246f273B"}
 {"recv":1795599006422,"amount":"0.605","price":"733.98","remainAmount":"0","side":"Sell","symbol":"SKHYNIXUSDT","symbolId":"21115","ts":"1795599006214","walletId":"0x65e15cC9FFb7f121905a90DB308e714Ee0F020Be"}
+{"recv":1795599644442,"amount":"0.12","price":"142.67","remainAmount":"0","side":"Sell","symbol":"NVDAUSDT","symbolId":"21105","ts":"1795599644117","walletId":"0x4984B6A5566a2dF7c7337C1F55747e75a4f4B12f"}
+{"recv":1795599647298,"amount":"12.05","price":"142.56","remainAmount":"0","side":"Sell","symbol":"NVDAUSDT","symbolId":"21105","ts":"1795599647099","walletId":"0xd3D2ADc90139Fe8b4DfC0606620377067d7D58A5"}
+{"recv":1795599650405,"amount":"0.085","price":"1630.2","remainAmount":"0","side":"Sell","symbol":"ETHUSDT","symbolId":"20001","ts":"1795599650200","walletId":"0x098001f952112432e60315Bd8B9af6Fdc5AAB810"}
+{"recv":1795599662656,"amount":"0.71","price":"103.15","remainAmount":"0","side":"Sell","symbol":"SKHYUSDT","symbolId":"21107","ts":"1795599662459","walletId":"0xd8126235126bAf8d78BAc41171fF70f0377C4330"}
+{"recv":1795599808416,"amount":"0.4","price":"57.302","remainAmount":"0","side":"Sell","symbol":"HYPEUSDT","symbolId":"20006","ts":"1795599808220","walletId":"0xCf5Bf070a82C47FA8304b3968Ea68fAA151dC405"}
+{"recv":1795600030964,"amount":"11.59","price":"27.14","remainAmount":"0","side":"Sell","symbol":"SOXLUSDT","symbolId":"21104","ts":"1795600030765","walletId":"0x4fa7FA17aC30B2E090C813cAb9bC8F58B661eBcB"}
+{"recv":1795600094198,"amount":"0.0027","price":"58568","remainAmount":"0","side":"Sell","symbol":"BTCUSDT","symbolId":"20000","ts":"1795600093996","walletId":"0x2d95FB18eeb6551BE4cf97628a4AeD679d17bC8F"}
