@@ -243,3 +243,4 @@
 {"recv":1795634247991,"amount":"7.344","price":"60629","remainAmount":"8.1467","side":"Buy","symbol":"BTCUSDT","symbolId":"20000","ts":"1795634247789","walletId":"0xA8Fee8754D6490157633a535D501e49713465570"}
 {"recv":1795634527311,"amount":"0.0014","price":"60522","remainAmount":"0","side":"Buy","symbol":"BTCUSDT","symbolId":"20000","ts":"1795634527084","walletId":"0xA8026FE64Fe1fF5ac93F24f4749f2711Ca6A8EcF"}
 {"recv":1795634539504,"amount":"0.0002","price":"60568","remainAmount":"0","side":"Buy","symbol":"BTCUSDT","symbolId":"20000","ts":"1795634539282","walletId":"0xB4909293B57a7cEd4Abd045D0dA103FDe54Ee1c3"}
+{"recv":1795635446920,"amount":"87.4","price":"6.682","remainAmount":"0","side":"Buy","symbol":"AVAXUSDT","symbolId":"20029","ts":"1795635446691","walletId":"0xc62e010d64E2099519c7E7e4f18a3e22fcAEaD3E"}
