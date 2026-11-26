@@ -57,3 +57,14 @@
 {"s":"BTCUSDT","usd":74477.73,"block":"103682095","createdAt":"1795676342161","execId":"890622422464594180","price":"60551","side":"Buy","size":"1.23"}
 {"s":"BTCUSDT","usd":92643.03,"block":"103682095","createdAt":"1795676342161","execId":"890622422464594178","price":"60551","side":"Buy","size":"1.53"}
 {"s":"BTCUSDT","usd":54638.2,"block":"103702777","createdAt":"1795678693790","execId":"890800079491825867","price":"60635","side":"Buy","size":"0.9011"}
+{"s":"ETHUSDT","usd":38176.03,"block":"103707850","createdAt":"1795679270099","execId":"890843656230011056","price":"1691.9","side":"Sell","size":"22.564"}
+{"s":"ETHUSDT","usd":39426.35,"block":"103707850","createdAt":"1795679270099","execId":"890843656230011054","price":"1691.9","side":"Sell","size":"23.303"}
+{"s":"ETHUSDT","usd":92673.82,"block":"103707850","createdAt":"1795679270099","execId":"890843656230011050","price":"1691.9","side":"Sell","size":"54.775"}
+{"s":"ETHUSDT","usd":76541.0,"block":"103707850","createdAt":"1795679270099","execId":"890843656230011048","price":"1692","side":"Sell","size":"45.237"}
+{"s":"ETHUSDT","usd":26340.47,"block":"103707973","createdAt":"1795679284065","execId":"890844712791966006","price":"1689.9","side":"Sell","size":"15.587"}
+{"s":"ETHUSDT","usd":26641.16,"block":"103707973","createdAt":"1795679284065","execId":"890844712791966004","price":"1690","side":"Sell","size":"15.764"}
+{"s":"ETHUSDT","usd":32628.83,"block":"103707973","createdAt":"1795679284065","execId":"890844712791966002","price":"1690","side":"Sell","size":"19.307"}
+{"s":"ETHUSDT","usd":36519.21,"block":"103707973","createdAt":"1795679284065","execId":"890844712791966000","price":"1690","side":"Sell","size":"21.609"}
+{"s":"ETHUSDT","usd":26642.74,"block":"103707973","createdAt":"1795679284065","execId":"890844712791965998","price":"1690.1","side":"Sell","size":"15.764"}
+{"s":"ETHUSDT","usd":32331.61,"block":"103707973","createdAt":"1795679284065","execId":"890844712791965996","price":"1690.1","side":"Sell","size":"19.13"}
+{"s":"ETHUSDT","usd":31432.48,"block":"103707973","createdAt":"1795679284065","execId":"890844712791965994","price":"1690.1","side":"Sell","size":"18.598"}
