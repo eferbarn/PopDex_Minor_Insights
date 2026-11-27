@@ -51,3 +51,10 @@
 {"recv":1795760549652,"amount":"39.524","price":"1730.4","remainAmount":"0","side":"Sell","symbol":"ETHUSDT","symbolId":"20001","ts":"1795760549469","walletId":"0xc31Bbda5DE47876382b998E5d2b5a662D12a5b42"}
 {"recv":1795760561791,"amount":"0.014","price":"1728.5","remainAmount":"0","side":"Sell","symbol":"ETHUSDT","symbolId":"20001","ts":"1795760561596","walletId":"0xa19974eC6D1e771958419De3C351445b5f261fb8"}
 {"recv":1795762507151,"amount":"42795","price":"0.003662","remainAmount":"0","side":"Buy","symbol":"kPEPEUSDT","symbolId":"20007","ts":"1795762506968","walletId":"0x707f5A44E314DAAd2c205Fcd16e3D263e2500C88"}
+{"recv":1795767458898,"amount":"0.0062","price":"62329","remainAmount":"0","side":"Buy","symbol":"BTCUSDT","symbolId":"20000","ts":"1795767458674","walletId":"0xF436c37aC1EFA28F241098016fD1f79FD7e05538"}
+{"recv":1795767458898,"amount":"0.0315","price":"62324","remainAmount":"0","side":"Buy","symbol":"BTCUSDT","symbolId":"20000","ts":"1795767458674","walletId":"0x1cAA8F11E1Dd665CA94554fB2BB7f6b21ccddC4a"}
+{"recv":1795767458898,"amount":"0.0116","price":"62334","remainAmount":"0","side":"Buy","symbol":"BTCUSDT","symbolId":"20000","ts":"1795767458674","walletId":"0xabf1B2eC03D7DAa5042f1E82Cd9b646C2Ba06F9b"}
+{"recv":1795767549277,"amount":"1","price":"73.866","remainAmount":"0","side":"Buy","symbol":"SOLUSDT","symbolId":"20002","ts":"1795767549084","walletId":"0xFb139214824f5E76c2aCFfEA61f4a6E0fd01b793"}
+{"recv":1795767558119,"amount":"0.0022","price":"62400","remainAmount":"0","side":"Buy","symbol":"BTCUSDT","symbolId":"20000","ts":"1795767557917","walletId":"0x747143Eb9EEf4028fcAA6AE388cbc8FaE3181d5b"}
+{"recv":1795767564259,"amount":"0.0104","price":"62416","remainAmount":"0","side":"Buy","symbol":"BTCUSDT","symbolId":"20000","ts":"1795767564074","walletId":"0x00B76f4cc1c8Fd657CbE75b34403e8E1381dEA49"}
+{"recv":1795767564259,"amount":"0.0031","price":"62415","remainAmount":"0","side":"Buy","symbol":"BTCUSDT","symbolId":"20000","ts":"1795767564074","walletId":"0x37B54392fF5C2Ac623fd44C5eE73129D23e217DE"}
