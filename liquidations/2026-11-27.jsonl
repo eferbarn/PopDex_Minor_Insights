@@ -154,3 +154,4 @@
 {"recv":1795794134856,"amount":"2045","price":"0.043","remainAmount":"0","side":"Sell","symbol":"CASHCATUSDT","symbolId":"20030","ts":"1795794134647","walletId":"0xB7c7f34e472B45892bb5db70aee7b8A31D600e9b"}
 {"recv":1795794504703,"amount":"6","price":"399.1","remainAmount":"0","side":"Sell","symbol":"XMRUSDT","symbolId":"20033","ts":"1795794504516","walletId":"0x44ec429709be194c46C9E4564537daEa4A6B200A"}
 {"recv":1795794504703,"amount":"0.077","price":"398.9","remainAmount":"0","side":"Sell","symbol":"XMRUSDT","symbolId":"20033","ts":"1795794504516","walletId":"0xAD160005E1f8485f0C537C5A4bcf783F69A8E584"}
+{"recv":1795795639286,"amount":"3.534","price":"397.7","remainAmount":"0","side":"Sell","symbol":"XMRUSDT","symbolId":"20033","ts":"1795795639106","walletId":"0x4fa7FA17aC30B2E090C813cAb9bC8F58B661eBcB"}
