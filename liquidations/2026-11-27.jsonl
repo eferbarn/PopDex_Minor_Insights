@@ -60,3 +60,4 @@
 {"recv":1795767564259,"amount":"0.0031","price":"62415","remainAmount":"0","side":"Buy","symbol":"BTCUSDT","symbolId":"20000","ts":"1795767564074","walletId":"0x37B54392fF5C2Ac623fd44C5eE73129D23e217DE"}
 {"recv":1795767611357,"amount":"23.14","price":"37.71","remainAmount":"0","side":"Buy","symbol":"SOXLUSDT","symbolId":"21104","ts":"1795767611103","walletId":"0xcb96C9129a34B75454d606cF0F314f2C755Af58A"}
 {"recv":1795769974125,"amount":"0.018","price":"858.39","remainAmount":"0","side":"Buy","symbol":"SKHYNIXUSDT","symbolId":"21115","ts":"1795769973951","walletId":"0x6aDA23B74F7967FC9469b32531EE06F6c3BCb4a6"}
+{"recv":1795773668001,"amount":"0.0002","price":"61342","remainAmount":"0","side":"Sell","symbol":"BTCUSDT","symbolId":"20000","ts":"1795773667815","walletId":"0x31F3a8eAbA45bb6e2Ec003DB035431524F1b9d67"}
