@@ -2,3 +2,4 @@
 {"recv":1795739110197,"amount":"10.24","price":"63.332","remainAmount":"0","side":"Buy","symbol":"HYPEUSDT","symbolId":"20006","ts":"1795739110021","walletId":"0xf568Dc8dc4130244cb59ea2d7b4D07F657b53c97"}
 {"recv":1795740293552,"amount":"0.2","price":"705.11","remainAmount":"0","side":"Buy","symbol":"ZECUSDT","symbolId":"20005","ts":"1795740293370","walletId":"0xeb4B27E8164311A66bB23b6Aa1FC5D7c00534C87"}
 {"recv":1795741238835,"amount":"0.7","price":"711.65","remainAmount":"0","side":"Buy","symbol":"ZECUSDT","symbolId":"20005","ts":"1795741238657","walletId":"0xD24fFF9faB291433Cd3AAa69A1758702421AaA1c"}
+{"recv":1795743067994,"amount":"0.66","price":"157.73","remainAmount":"0","side":"Buy","symbol":"NVDAUSDT","symbolId":"21105","ts":"1795743067804","walletId":"0xF79ffEC5E1202DfBC29Ed37dD0Adab32dB85E2fd"}
