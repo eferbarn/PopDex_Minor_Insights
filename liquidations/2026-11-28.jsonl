@@ -14,3 +14,4 @@
 {"recv":1795844792851,"amount":"7001","price":"0.01797","remainAmount":"0","side":"Buy","symbol":"WLFIUSDT","symbolId":"20043","ts":"1795844792627","walletId":"0xcB989aFfD4b669b52ec16090dA2D7B1f4167efFc"}
 {"recv":1795845087871,"amount":"2661","price":"0.01933","remainAmount":"0","side":"Buy","symbol":"WLFIUSDT","symbolId":"20043","ts":"1795845087691","walletId":"0xb4e0100eD756a35Af5A6AD5ad6E15816A54B4B18"}
 {"recv":1795846814998,"amount":"640","price":"0.01916","remainAmount":"0","side":"Buy","symbol":"WLFIUSDT","symbolId":"20043","ts":"1795846814813","walletId":"0xb4e0100eD756a35Af5A6AD5ad6E15816A54B4B18"}
+{"recv":1795848132461,"amount":"57913","price":"0.01754","remainAmount":"0","side":"Sell","symbol":"WLFIUSDT","symbolId":"20043","ts":"1795848132285","walletId":"0x3CDa0Ce4C19466Eaf3E48F69985EAfeb9E5A5641"}
